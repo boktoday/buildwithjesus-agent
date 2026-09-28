@@ -404,6 +404,35 @@ Ask for:
   weekends.
 - The voice (already picked in Piper step).
 
+### Morning Prayer schedule (optional)
+
+For a student following Jesus, offer the **Morning Prayer** — a
+short personal prayer (audio + text) delivered in the morning.
+
+Ask for:
+
+- Whether they would like it at all (it is optional; they can add
+  or drop it any time by asking).
+- Delivery time and timezone (default 6 am). If their Morning
+  Minute is also at 6, offer to stagger the two: prayer at 6:00
+  and minute at 6:15, or the other way round.
+- Whether it should run every day or only school days or only
+  weekends.
+
+### Night Passage schedule (optional)
+
+Offer the **Night Passage** — a Bible passage read aloud (audio +
+text) in the evening: a better thing to end the day on than the
+scroll.
+
+Ask for:
+
+- Whether they would like it at all (optional; can be added or
+  dropped any time).
+- Delivery time and timezone (default 8:30 pm).
+- Whether it should run every day or only school nights or only
+  weekends.
+
 ### Eight Essentials delivery order
 
 Ask the student (or their parent if the student is younger) how they
@@ -635,6 +664,87 @@ cronjob(
 The actual Morning Minute skill (`skills/hermes/morning-minute/`)
 contains the full contract — read it before generating.
 
+### Morning Prayer (optional, 6 am)
+
+Default schedule: `0 6 * * *`. If the Morning Minute keeps the
+6 am slot, stagger the two (for example prayer `0 6`, minute
+`15 6`).
+
+The prayer cron prompt must say:
+
+- Use the `morning-prayer` skill for the full contract.
+- Gather the student's goals, recent check-ins and what they are
+  reading; choose a verse from the profile's Bible files, quoted
+  exactly with the translation named (never from memory).
+- Write everything in the student's `language` memory key.
+- Run Piper TTS, convert to OGG, deliver as audio + text.
+- Don't write memories or ask for credentials in the cron prompt.
+- Archive to
+  `~/.hermes/profiles/buildwithjesus-agent/morning-prayer-archive.md`.
+
+Example:
+
+```python
+cronjob(
+    action="create",
+    schedule="0 6 * * *",
+    name="Morning Prayer",
+    prompt="""You are running the student's Morning Prayer for today.
+        Use the morning-prayer skill. The student's language is read
+        from the language memory key — write everything in it. The
+        voice is <voice path>. The delivery channel is
+        <telegram/whatsapp>. Choose a verse from the profile's Bible
+        files (never from memory), quote it exactly with the
+        translation named, write the prayer, run Piper TTS, convert
+        to OGG, and deliver as audio + text. Do not write memories
+        or ask for credentials. Deliver only the final response with
+        the audio and the prayer text.""",
+    enabled_toolsets=["file", "terminal", "tts"],
+)
+```
+
+### Night Passage (optional, 8:30 pm)
+
+Default schedule: `30 20 * * *`. Keep at least half an hour between
+it and the Planning Session (9 pm default).
+
+The passage cron prompt must say:
+
+- Use the `night-passage` skill for the full contract.
+- Continue the student's own reading if they have one (the
+  `reading` / `night_passage_position` memory keys); otherwise
+  keep a steady walk through one Gospel.
+- Choose a passage that speaks to the week — peace, courage,
+  comfort. Never heavy or frightening passages at night.
+- Quote exactly from the profile's Bible files with the
+  translation named (never from memory).
+- Run Piper TTS, convert to OGG, deliver as audio + text.
+- Archive to
+  `~/.hermes/profiles/buildwithjesus-agent/night-passage-archive.md`.
+
+Example:
+
+```python
+cronjob(
+    action="create",
+    schedule="30 20 * * *",
+    name="Night Passage",
+    prompt="""You are running the student's Night Passage for tonight.
+        Use the night-passage skill. The student's language is read
+        from the language memory key — write everything in it. The
+        voice is <voice path>. The delivery channel is
+        <telegram/whatsapp>. Continue their current reading from the
+        archive; pick a passage that speaks to their week — peace
+        and light only, never heavy passages at night; quote it
+        exactly from the profile's Bible files with the translation
+        named (never from memory); run Piper TTS, convert to OGG,
+        and deliver as audio + text. Do not write memories or ask
+        for credentials. Deliver only the final response with the
+        audio and the text.""",
+    enabled_toolsets=["file", "terminal", "tts"],
+)
+```
+
 ### Afternoon Check-In (the afternoon reflection)
 
 Default schedule: `0 17 * * *` (every day at 5 pm, student
@@ -750,6 +860,9 @@ again.
 - [ ] Existing jobs were listed before any recurring job was
       created.
 - [ ] Morning Minute and Afternoon Check-In jobs were created
+- [ ] If chosen, the Morning Prayer and Night Passage jobs were
+      created with the agreed schedules (Morning Prayer staggered
+      from the Morning Minute when both hold the 6 am hour).
       only when individually approved, with self-contained
       prompts.
 - [ ] Post-change config, skill, toolset, and cron state were read

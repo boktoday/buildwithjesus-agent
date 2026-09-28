@@ -202,6 +202,8 @@ The agent must load the matching skill *before* doing the work:
   Jina, channel, guide files)
 - **`morning-minute`** / **`afternoon-checkin`** — the cron
   contracts
+- **`morning-prayer`** / **`night-passage`** — the optional
+  audio rhythms (6 am prayer, 8:30 pm Bible passage)
 - **`eight-essentials-curriculum`** — teaching from the guide
 - **`essential-deep-dives`** — the three deeper formats (summary
   voice-note, HTML lesson, spoken-word poem)

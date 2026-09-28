@@ -45,6 +45,11 @@ Agent exists to make that daily rhythm stick:
 - The guide is also published in **ten languages** — read online, or
   downloaded as an offline pack for use without internet. See
   `essentials/guide-editions.md`.
+- Two **optional rhythms** a student can switch on: a **Morning
+  Prayer** at 6 am (text + audio, shaped by their goals, their week
+  and what they are reading) and a **Night Passage** at 8:30 pm — a
+  Bible passage read aloud, chosen to speak to their week. Both quote
+  every verse from the profile's own Bible files (`bible/`).
 
 The agent does not lecture. It draws the wisdom out of the student
 with questions, holds the rhythm gently, and restarts them when they
@@ -546,7 +551,13 @@ The student doesn't interact with the agent through a terminal every
 day. The Telegram or WhatsApp chat **is** the daily surface:
 
 - **Morning Minute** arrives as a voice bubble + text plan.
+- **Morning Prayer** (optional) arrives at 6 am as a voice bubble
+  + text — a short prayer shaped by the student's week and what they
+  are reading. See `skills/profile/morning-prayer/`.
 - **Afternoon Check-In** arrives as text.
+- **Night Passage** (optional) arrives at 8:30 pm as a voice bubble
+  + text: a Bible passage chosen to speak to the week, a better end
+  to the day than the scroll. See `skills/profile/night-passage/`.
 - **Planning Session** arrives before bed as text — the agent
   drafts tomorrow's plan (school tasks, homework deadlines, the
   week's essential, one real-world thing), the student edits it,
@@ -731,6 +742,8 @@ buildwithjesus-agent/
 │       ├── afternoon-checkin/           ← afternoon reflection
 │       ├── eight-essentials-curriculum/   ← teaches from the guide
 │       ├── essential-deep-dives/          ← summary, lesson, poem formats
+│       ├── morning-prayer/                ← optional 6 am prayer (audio + text)
+│       ├── night-passage/                 ← optional 8:30 pm Bible reading (audio + text)
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │
 ├── plugins/hermes-token-router/           ← optional tool-narrowing plugin
