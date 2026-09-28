@@ -97,6 +97,40 @@ key — no re-onboarding required.
 
 ---
 
+## The Bible in this profile
+
+Three public-domain Bible translations ship in `bible/`, for the agent
+to ground every Scripture quote in:
+
+| File | Translation | Notes |
+|---|---|---|
+| `bible/KJV.pdf` | King James Version (1769) | Public domain in the US (Crown rights apply in the UK). |
+| `bible/WEB.pdf` | World English Bible | Public domain. Modern plain English — the agent's default for explaining. |
+| `bible/ASV.pdf` | American Standard Version (1901) | Public domain. Formal, and more literal. |
+
+These are the profile's Scripture store: the grounded source the agent
+retrieves from rather than recalls past — its own slice of the
+knowledge base. SOUL.md carries the rule the agent follows strictly:
+**every quote is copied from these files, exactly as written, with the
+translation named, and never from model memory.** `read_file` extracts
+the text from the PDFs, so the agent opens the verse and quotes it,
+and pages through the file for longer passages.
+
+A quick check:
+
+```bash
+ls bible/*.pdf        # expect KJV.pdf  WEB.pdf  ASV.pdf
+```
+
+To swap in another translation, drop a text-layer PDF into `bible/`
+and update the list in SOUL.md. One word of care: most modern
+translations (NIV, ESV, NLT, NASB, CSB and so on) are copyrighted —
+fine for a student's own personal use, but they cannot be
+redistributed in this repo or shipped with the product. Keep the
+shipped set to public-domain editions.
+
+---
+
 ## How it works
 
 ### The daily loop
@@ -654,6 +688,11 @@ buildwithjesus-agent/
 ├── .env.example                           ← every variable, with comments
 ├── .gitignore
 ├── LICENSE                                ← MIT
+├── bible/                                 ← the Scripture store: KJV, WEB, ASV (PDF)
+│   ├── KJV.pdf
+│   ├── WEB.pdf
+│   ├── ASV.pdf
+│   └── README.md
 │
 ├── essentials/                            ← the Eight Essentials source content
 │   ├── 00-introduction/lessons/
