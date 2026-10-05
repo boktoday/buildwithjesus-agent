@@ -3,7 +3,7 @@
 The **Build with Jesus Agent** is a personalised AI assistant built on
 [Hermes Agent](https://hermes-agent.nousresearch.com/docs) for
 young people learning to put the **Eight Essentials** into daily
-practice. It is a gentle mentor that runs a daily rhythm of audio
+it is a gentle mentor that runs a daily rhythm of audio
 plans, reflection check-ins, and small actions, taught from the
 Eight Essentials guide that ships with the repo.
 
@@ -50,11 +50,6 @@ Agent exists to make that daily rhythm stick:
   and what they are reading) and a **Night Passage** at 8:30 pm — a
   Bible passage read aloud, chosen to speak to their week. Both quote
   every verse from the profile's own Bible files (`bible/`).
-- A **build thread**: one real thing the student is making for
-  their church or community at a time — what it is, who it is
-  for, and the next small step, carried through the Morning
-  Minute, the Check-In and the Planning Session. See
-  `skills/profile/build-coach/` and `skills/profile/handover/`.
 
 The agent does not lecture. It draws the wisdom out of the student
 with questions, holds the rhythm gently, and restarts them when they
@@ -180,8 +175,6 @@ UTC is automatic.
 | Check-In cron fires | Reads the most recent Morning Minute, drafts a short reflection, delivers as text |
 | Planning Session cron fires | Drafts tomorrow's plan (school tasks, deadlines, weekly essential, one real-world thing), the student edits it, saves locally |
 | Student asks for a deeper dive | Uses the `eight-essentials-curriculum` skill — reads the guide, teaches from it |
-| Student starts, continues or stalls a build | Uses the `build-coach` skill — captures it, keeps one next step moving, unsticks it |
-| Student finishes a build | Runs the `handover` skill — finish check, give it away, mark the moment |
 
 ### What runs in the background
 
@@ -408,7 +401,8 @@ You need:
   the [install guide](https://hermes-agent.nousresearch.com/docs).
 - **Python 3.10 through 3.13** (not the Windows Windows Store shim —
   a real install). `python --version`.
-- **Piper TTS.** A working install. See Step 2 below.
+- **Piper TTS.** A working install (`pip install piper-tts` is the
+  quickest route; more in `INSTALL.md`, Step 4). See Step 2 below.
 - **ffmpeg** for WAV → OGG conversion. `ffmpeg -version`.
 - **A model provider key.** The profile defaults to
   `openrouter + deepseek-v4-flash`. One key unlocks a large catalogue
@@ -435,6 +429,19 @@ hermes chat
 > `buildwithjesus`. Update commands that reference the profile path
 > accordingly.
 
+Then prepare the profile's Python dependencies once (the local-first
+memory provider declares its own packages):
+
+```bash
+hermes pm repair
+```
+
+The first chat may warn "mnemosyne declares Python dependencies ...
+not installed" — expected before this repair runs.
+
+> **Windows:** profiles live at `%LOCALAPPDATA%\hermes\profiles`
+> (`C:\Users\<you>\AppData\Local\hermes\profiles`), not `~/.hermes`.
+
 To pull updates later:
 
 ```bash
@@ -460,6 +467,8 @@ never asks for keys or tokens in chat.
 
 Here is what it covers, in order:
 
+| Step | What happens | Where you add things |
+|---|---|---|
 | Step | What happens | Where you add things |
 |---|---|---|
 | 1. Identity | Names (yours, the student's, the agent's), reply style, and the language for the guide, lessons and messages | Stored in the profile memory |
@@ -745,10 +754,8 @@ buildwithjesus-agent/
 │   │   └── skill-auditor/
 │   └── profile/                       ← the profile's own skills
 │       ├── afternoon-checkin/           ← afternoon reflection
-│       ├── build-coach/                  ← walks the student's build
 │       ├── eight-essentials-curriculum/   ← teaches from the guide
 │       ├── essential-deep-dives/          ← summary, lesson, poem formats
-│       ├── handover/                     ← finish well, give it away
 │       ├── morning-prayer/                ← optional 6 am prayer (audio + text)
 │       ├── night-passage/                 ← optional 8:30 pm Bible reading (audio + text)
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
@@ -866,7 +873,7 @@ Minute cron contract.
 The Token Router is an optional Hermes plugin that **narrows the tool
 surface** shown to the agent — not to the student. When enabled, the
 agent sees fewer tools by default, which can reduce token usage and
-keep the agent focused on the Eight Essentials work.
+keep the agent focused on theEight Essentials work.
 
 It does **not** hide features from the student. The student can still
 ask anything; the router only affects what the agent chooses from

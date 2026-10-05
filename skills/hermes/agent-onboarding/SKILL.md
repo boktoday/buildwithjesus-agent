@@ -140,7 +140,8 @@ Before proposing changes, inspect only the active profile:
    installed skill inventory with `skills_list()`.
 6. Confirm Piper is installed: try the test-synthesis command from
    `setup-walkthrough` Skill Step 1. If it fails, note that and
-   pause for Piper install.
+   pause for Piper install (routes in `setup-walkthrough`:
+   `pip install piper-tts`, or the release binary).
 7. Confirm the guide MD files are loaded: list
    `essentials/*/lessons/`. If any folder has only `README.md`,
    note which essential needs its chapter dropped in.
@@ -587,6 +588,9 @@ Apply only the approved items, in this order:
 7. Guide MD files in `essentials/<NN-name>/lessons/` (user drops
    them in; agent lists the folder to confirm).
 8. Memory choice with `hermes config set` or `hermes memory setup`.
+   For the recommended Mnemosyne setup, if a "missing Python
+   dependencies" warning appears in the session, the one-time fix
+   is `hermes pm repair`, then a restart.
 9. Approved skill or integration setup, pausing at all credential
    and permission gates.
 10. Toolset selection through `hermes tools` if a persistent
@@ -852,7 +856,8 @@ again.
 - [ ] No credentials, private account contents, vault paths, or
       personal identifiers entered the public package.
 - [ ] Memory choice was explicitly selected and verified with
-      `hermes memory status`.
+      `hermes memory status` (Mnemosyne Python dependencies repaired
+      with `hermes pm repair` if the warning appeared).
 - [ ] Notes or other integrations were distinguished from their
       Hermes skills and configured only after approval.
 - [ ] Toolset changes used `hermes tools` or a documented one-off

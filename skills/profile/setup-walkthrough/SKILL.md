@@ -56,37 +56,45 @@ needs it installed locally. No cloud TTS — Piper runs offline.
   python --version
   ```
 
-- The Piper binary. Three options:
+- The Piper binary. Pick whichever route fits the machine, then note
+  the full path — the orientation stores it in profile memory:
 
-  - **Native binary (Linux):** shipped with this profile at
-    `/data/.hermes/bin/piper/piper`. Verify it exists and runs:
+  - **Python package (any OS):** `pip install piper-tts`, then
+    `piper --version` to confirm it is on PATH. The simplest route on
+    Linux, macOS and Windows alike. (If the package will not resolve
+    inside the Hermes venv, use the pre-built binary instead.)
 
-    ```bash
-    /data/.hermes/bin/piper/piper --version
-    ```
+  - **Pre-built binary:** download the release for the platform from
+    `github.com/rhasspy/piper/releases`, unzip it to a stable folder
+    (for example `C:\Users\<you>\piper` on Windows, `/opt/piper` on
+    Linux, `~/Library/Piper` on macOS), and run `<folder>/piper
+    --version` to confirm. If the machine was set up with the OpenHuman
+    bundle, a binary may already sit under
+    `<home>/.openhuman/bin/piper/piper/` on Windows — check there
+    first.
 
-  - **Native binary (macOS):** typically at
-    `/opt/homebrew/bin/piper` (Homebrew) or `~/Library/Piper/piper`.
-    Verify with `piper --version`.
+### Prepare the profile's Python dependencies
 
-  - **Native binary (Windows):** pre-built `piper.exe` shipped with
-    OpenHuman at
-    `C:/Users/insig/.openhuman/bin/piper/piper/piper.exe`.
-    Verify it exists and runs:
+The local-first memory provider (Mnemosyne) declares its own Python
+packages. If a chat session reports "mnemosyne declares Python
+dependencies ... not installed", the one-time fix is:
 
-    ```bash
-    "/c/Users/insig/.openhuman/bin/piper/piper/piper.exe" --help
-    ```
+```bash
+hermes pm repair
+```
 
-  - **Python package (Linux/macOS):** `pip install piper-tts`.
-    Note: in the Hermes venv, the Python package may not be available.
-    Use the native binary if it exists on your system.
+Then restart the chat. Discovery never installs dependencies by
+itself — this repair is the documented path.
 
 ### Voice model download
 
 The student picks a voice at onboarding. The agent fetches the
 matching voice model from Hugging Face. The orientation walks
 through this.
+
+**Both files of the voice are required**: the `.onnx` voice AND its
+matching `.onnx.json`. A missing `.onnx.json` is the most common cause
+of a Piper failure.
 
 Common picks:
 

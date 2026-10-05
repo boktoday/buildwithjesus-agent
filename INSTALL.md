@@ -16,7 +16,7 @@ for both the installer and the agent.
 | Hermes Agent | `hermes --version` | https://hermes-agent.nousresearch.com/docs |
 | Python 3.10–3.13 | `python --version` | https://www.python.org/downloads/ |
 | ffmpeg | `ffmpeg -version` | https://ffmpeg.org/download.html |
-| Piper TTS | See Step 4 | Installed locally (no account) |
+| Piper TTS | See Step 4 | Installed locally (no account) — `pip install piper-tts` is the quickest route |
 | Model provider key | — | https://openrouter.ai/ (default) or https://orcarouter.ai/ |
 | Jina AI free key | — | https://jina.ai/ — free tier, no credit card |
 | here.now key | — | https://here.now/ — the student's multimedia space: HTML pages, images, audio, video |
@@ -35,6 +35,24 @@ hermes chat
 > **Note:** the profile directory is named `buildwithjesus-agent`, not
 > `buildwithjesus`. Update commands that reference the profile path
 > accordingly.
+>
+> **Windows:** Hermes profiles live under
+> `%LOCALAPPDATA%\hermes\profiles` (for example
+> `C:\Users\<you>\AppData\Local\hermes\profiles`). A
+> `~/.hermes/profiles` path in Git Bash points somewhere else — use the
+> real location.
+
+### Step 1b: Prepare the profile's Python dependencies
+
+```bash
+hermes pm repair
+```
+
+The profile's local-first memory (Mnemosyne) declares its own Python
+packages (`mnemosyne-hermes`, `mnemosyne-memory`). The first chat may
+print "mnemosyne declares Python dependencies ... not installed" — that
+is expected before this repair runs. Run it once after cloning; without
+it the agent still chats, but the memory tools stay unavailable.
 
 ### Step 2: First chat → accept the orientation
 
@@ -45,7 +63,8 @@ On the first chat the agent opens with:
 > minute working the way you want."
 
 Say **yes** (or "help me set up my profile" any time later). This
-runs the onboarding skill. **The whole orientation is consent-gated**
+runs the onboarding skill. If the first session shows the Mnemosyne
+dependency warning, run Step 1b first, then continue. **The whole orientation is consent-gated**
 — the agent asks one small group of questions at a time and shows a
 full "Proposed setup" summary before applying anything.
 
@@ -79,10 +98,24 @@ verifies.
 
 ### Step 4: The four setup pieces
 
-**Piper TTS** — needs the binary + a voice model. Pick from: Joe (US
-male), Amy (US female), Alan (UK male), Jenny Dioco (UK female),
-Natasha (AU female). The agent downloads the matching `.onnx` from
-Hugging Face and runs a test synthesis.
+**Piper TTS** — needs the binary + a voice model, and **both files**
+of the voice: the `.onnx` **and** its `.onnx.json` (a missing `.json`
+is the most common cause of a Piper failure).
+
+The quickest install route on any OS is the Python package:
+
+```bash
+pip install piper-tts      # then confirm: piper --version
+```
+
+Or take the pre-built binary for the platform from the Piper releases
+(`github.com/rhasspy/piper/releases`), unzip it to a stable folder, and
+note the full path — the orientation stores it in profile memory.
+
+Pick from: Joe (US male), Amy (US female), Alan (UK male),
+Jenny Dioco (UK female), Natasha (AU female). The agent downloads the
+matching `.onnx` + `.onnx.json` from Hugging Face and runs a test
+synthesis.
 
 **Jina AI** — free key from jina.ai, added to `.env` as
 `JINA_API_KEY=...`. Verified with a real search.
