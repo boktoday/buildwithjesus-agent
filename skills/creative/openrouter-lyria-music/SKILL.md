@@ -116,6 +116,7 @@ match the requested length (e.g. ~178s for a "3-minute" request).
 - **Don't pipe curl to python3 without approval** — the security scanner flags it. Write the extraction to a file and run it, or use a heredoc.
 - **Streamed SSE lines starting with `:`** are keepalive comments — skip them before JSON.parse.
 - **Response `usage.completion_tokens_details.audio_tokens > 0`** proves audio was generated even if the wrapper dropped it — if you see this and no audio field, you used the wrong content format.
+- **Naming a real artist or band trips Gemini's filter** (`403 PROHIBITED_CONTENT`, no audio, no charge): describe the sound instead — era, instruments, mood, vocal character — never "a <artist> feel".
 - **Costs are real**: $0.08/song, $0.04/clip. Say what it'll cost before generating; confirm with the user if they haven't already approved spend.
 - OpenRouter routes Lyria through Google AI Studio only — no fallback routing for this model.
 
