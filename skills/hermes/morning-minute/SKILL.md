@@ -22,6 +22,7 @@ metadata:
     - afternoon-checkin
     - eight-essentials-curriculum
     - setup-walkthrough
+    - build-coach
 ---
 # Morning Minute
 
@@ -157,7 +158,8 @@ fields later by chatting.
 
 ## Step 2 — Compose the plan text (~120 to ~200 words)
 
-The plan has three parts. Read each aloud as you draft it, because
+The plan has three parts, plus an optional build line. Read each
+aloud as you draft it, because
 Piper will read it aloud too.
 
 ### Part A — Callback (5 to 15 seconds spoken)
@@ -193,6 +195,14 @@ attribution to religious texts. Attribution to a thinker is fine.
 End with a steady, warm line: *"That's your minute. Have a good
 day."* Or whatever the student chose at onboarding. Don't moralise.
 Don't instruct. Just close.
+
+### Part D — The build thread (only if a build is active)
+
+Read the `current_build` memory key. If a build is active, add one
+short line naming it and today's next step: *"The noticeboard frame
+for the hall — today, sand the perch."* One line only. The build
+rides alongside the essential; it never replaces it. If no build is
+active, omit this part.
 
 ## Step 3 — Pre-clean the text for TTS
 

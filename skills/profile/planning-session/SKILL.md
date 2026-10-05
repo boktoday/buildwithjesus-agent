@@ -19,6 +19,7 @@ metadata:
     - morning-minute
     - afternoon-checkin
     - agent-onboarding
+    - build-coach
 ---
 # Planning Session
 
@@ -65,6 +66,8 @@ Draft tomorrow's plan with exactly four lanes:
 5. **This week's essential** — from memory or the most recent
    Morning Minute archive.
 6. **Memory** — read recent check-ins and plans for continuity.
+7. **The build** — the `current_build` memory key, when a build
+   is active.
 
 ## Output contract (text only)
 
@@ -111,7 +114,10 @@ Compose the plan in the student's voice, from:
 
 - what the student has told the agent (school, deadlines, plans);
 - the current essential and its one small action;
-- one real-world thing from memory or from the check-in.
+- one real-world thing from memory or from the check-in;
+- the build's next step, when `current_build` shows an active
+  build — name the build and the step as a fifth short line, so
+  tomorrow opens with it.
 
 Keep each lane one short line. If you do not have enough to fill a
 lane, say so plainly and let the student fill it.

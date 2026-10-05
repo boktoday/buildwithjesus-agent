@@ -19,6 +19,7 @@ metadata:
     - morning-minute
     - eight-essentials-curriculum
     - agent-onboarding
+    - build-coach
 ---
 # Afternoon Check-In
 
@@ -47,7 +48,8 @@ The check-in has three jobs:
 3. **Delivery channel** — `telegram` or `whatsapp`.
 4. **Today's essential and action** — what the Morning Minute
    told the student to do.
-5. **Memory** — read any recent check-ins to maintain continuity.
+5. **Memory** — read any recent check-ins, and the `current_build`
+   key, to maintain continuity.
 
 ## Output contract (text only)
 
@@ -100,6 +102,10 @@ Ask how the day's action went. Hold it lightly. Most days it
 won't have happened — that's normal. The student is in the early
 weeks of forming a habit. Don't scold, don't diagnose, don't
 moralise. Just ask.
+
+If `current_build` shows an active build, add one line asking how
+the build's next step went — same tone, one question at most. Do
+not stack questions.
 
 ### Plan tomorrow (1 to 2 short paragraphs)
 
