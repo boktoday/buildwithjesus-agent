@@ -73,18 +73,29 @@ needs it installed locally. No cloud TTS — Piper runs offline.
     `<home>/.openhuman/bin/piper/piper/` on Windows — check there
     first.
 
-### Prepare the profile's Python dependencies
+### Install the memory plugin (Mnemosyne)
 
-The local-first memory provider (Mnemosyne) declares its own Python
-packages. If a chat session reports "mnemosyne declares Python
-dependencies ... not installed", the one-time fix is:
+Mnemosyne is not bundled with Hermes — it installs as a plugin. If a
+chat session reports "mnemosyne declares Python dependencies ...
+not installed", install it once with its own installer (it fetches the
+packages into the Hermes environment), then enable it:
 
 ```bash
-hermes pm repair
+# Linux / macOS
+~/.hermes/hermes-agent/venv/bin/mnemosyne-hermes --hermes-home ~/.hermes install
+# Windows
+"%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\mnemosyne-hermes.exe" --hermes-home "%LOCALAPPDATA%\hermes" install --python "%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\python.exe"
 ```
 
-Then restart the chat. Discovery never installs dependencies by
-itself — this repair is the documented path.
+```bash
+hermes plugins enable hermes-mnemosyne   # the plugin's name is hermes-mnemosyne
+```
+
+On Windows without Developer Mode the profile-link step can fail with
+`WinError 1314`; copy `plugins\mnemosyne` from the Hermes home into the
+profile's `plugins\` folder instead, then enable. A new session with no
+dependency warning is the proof it worked. The full guide lives in the
+repo's `skills/hermes/hermes-mnemosyne/` skill.
 
 ### Voice model download
 

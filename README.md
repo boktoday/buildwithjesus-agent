@@ -429,15 +429,26 @@ hermes chat
 > `buildwithjesus`. Update commands that reference the profile path
 > accordingly.
 
-Then prepare the profile's Python dependencies once (the local-first
-memory provider declares its own packages):
+Then install the memory plugin once — Mnemosyne (local-first memory)
+is not bundled with Hermes; its installer fetches the packages itself:
 
 ```bash
-hermes pm repair
+# Linux / macOS
+~/.hermes/hermes-agent/venv/bin/mnemosyne-hermes --hermes-home ~/.hermes install
 ```
 
-The first chat may warn "mnemosyne declares Python dependencies ...
-not installed" — expected before this repair runs.
+On Windows, run
+`%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\mnemosyne-hermes.exe`
+with `--hermes-home "%LOCALAPPDATA%\hermes" install --python "%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\python.exe"`,
+then enable it for this profile:
+
+```bash
+hermes plugins enable hermes-mnemosyne
+```
+
+A fresh chat session should show no "mnemosyne declares Python
+dependencies" warning. Windows symlink errors and the status-display
+quirk are covered in `INSTALL.md`, Step 1b.
 
 > **Windows:** profiles live at `%LOCALAPPDATA%\hermes\profiles`
 > (`C:\Users\<you>\AppData\Local\hermes\profiles`), not `~/.hermes`.

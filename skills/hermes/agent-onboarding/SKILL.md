@@ -588,9 +588,11 @@ Apply only the approved items, in this order:
 7. Guide MD files in `essentials/<NN-name>/lessons/` (user drops
    them in; agent lists the folder to confirm).
 8. Memory choice with `hermes config set` or `hermes memory setup`.
-   For the recommended Mnemosyne setup, if a "missing Python
-   dependencies" warning appears in the session, the one-time fix
-   is `hermes pm repair`, then a restart.
+   For the recommended Mnemosyne setup: if a session shows the
+   "mnemosyne declares Python dependencies" warning, install the plugin
+   with its own installer and enable it with
+   `hermes plugins enable hermes-mnemosyne` — full guide in the
+   `hermes-mnemosyne` skill.
 9. Approved skill or integration setup, pausing at all credential
    and permission gates.
 10. Toolset selection through `hermes tools` if a persistent
@@ -855,9 +857,11 @@ again.
       `essentials/<NN-name>/lessons/` folder.
 - [ ] No credentials, private account contents, vault paths, or
       personal identifiers entered the public package.
-- [ ] Memory choice was explicitly selected and verified with
-      `hermes memory status` (Mnemosyne Python dependencies repaired
-      with `hermes pm repair` if the warning appeared).
+- [ ] Memory choice was explicitly selected and verified
+      (`hermes memory status`; note its plugin line can display stale
+      on some layouts — a fresh session with no dependency warning is
+      the real proof. Mnemosyne install guide: the `hermes-mnemosyne`
+      skill).
 - [ ] Notes or other integrations were distinguished from their
       Hermes skills and configured only after approval.
 - [ ] Toolset changes used `hermes tools` or a documented one-off

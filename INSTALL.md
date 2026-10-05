@@ -42,17 +42,50 @@ hermes chat
 > `~/.hermes/profiles` path in Git Bash points somewhere else — use the
 > real location.
 
-### Step 1b: Prepare the profile's Python dependencies
+### Step 1b: Install the memory plugin (Mnemosyne)
+
+The profile's local-first memory is the **Mnemosyne plugin**. It is not
+bundled with Hermes, so install it once — its own installer fetches the
+packages into the Hermes environment:
+
+- **Linux / macOS:**
+
+  ```bash
+  ~/.hermes/hermes-agent/venv/bin/mnemosyne-hermes --hermes-home ~/.hermes install
+  ```
+
+- **Windows** (one line; `%LOCALAPPDATA%\hermes` is the Hermes home on
+  this platform):
+
+  ```bash
+  "%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\mnemosyne-hermes.exe" --hermes-home "%LOCALAPPDATA%\hermes" install --python "%LOCALAPPDATA%\hermes\hermes-agent\venv\Scripts\python.exe"
+  ```
+
+Then enable it for the profile:
 
 ```bash
-hermes pm repair
+hermes plugins enable hermes-mnemosyne
 ```
 
-The profile's local-first memory (Mnemosyne) declares its own Python
-packages (`mnemosyne-hermes`, `mnemosyne-memory`). The first chat may
-print "mnemosyne declares Python dependencies ... not installed" — that
-is expected before this repair runs. Run it once after cloning; without
-it the agent still chats, but the memory tools stay unavailable.
+Start a new chat. If the session still prints "mnemosyne declares
+Python dependencies ... not installed", the plugin is not prepared —
+re-run the install command, or see the `hermes-mnemosyne` skill in
+this repo (`skills/hermes/hermes-mnemosyne/`) for troubleshooting.
+
+> **Windows without Developer Mode:** the installer's profile-link step
+> can fail with `WinError 1314` (a symlink privilege error). Copy the
+> plugin folder into the profile instead, then enable:
+>
+> ```bash
+> xcopy /E /I "%LOCALAPPDATA%\hermes\plugins\mnemosyne" "%LOCALAPPDATA%\hermes\profiles\buildwithjesus-agent\plugins\mnemosyne"
+> hermes plugins enable hermes-mnemosyne
+> ```
+
+> **Display quirk to ignore:** `hermes memory status` can keep saying
+> "Plugin: NOT installed" on some layouts (it probes the textual
+> `~/.hermes/plugins/` path) even when the plugin is working. The
+> reliable proof is a fresh session with **no** dependency warning and
+> live memory tools.
 
 ### Step 2: First chat → accept the orientation
 
