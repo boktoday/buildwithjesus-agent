@@ -21,6 +21,7 @@ metadata:
     related_skills:
     - build-coach
     - handover
+    - outreach
     - planning-session
     - morning-minute
     - afternoon-checkin
@@ -78,6 +79,13 @@ do people cope without it now? Would anyone actually use this?* Pick
 ONE need that can be seen working in two to six weeks. If the
 student is blank, suggest two or three concrete candidates from the
 three wells - suggest, never assign.
+
+For needs **outside the student's own life** - a community hub, a
+school, a church team - do not improvise the discovery in chat: run
+the `outreach` skill. It carries the whole campaign (targets, first
+message, the discovery question set, qualifying the need, and the
+expressions-of-interest landing page) and hands a qualified need
+back here as the project card.
 
 ### 1.2 Choose the medium, honestly
 

@@ -1,6 +1,6 @@
 """bwj-commands - guided slash commands for the Build with Jesus Agent.
 
-Fourteen in-session commands, each one starting the matching skill flow in
+Fifteen in-session commands, each one starting the matching skill flow in
 the live conversation:
 
     /morning   today's Morning Minute          (morning-minute skill)
@@ -17,6 +17,7 @@ the live conversation:
     /question  one of the twenty prompts, to sit with   (prompts.md)
     /ideas     brainstorm things to build or do         (guide activities + build-project)
     /guide     the guide edition link, online + offline pack
+    /outreach  find a real need to build for    (outreach skill)
 
 How it works: the handler injects a short user-style instruction into the
 current session, so the agent opens the right skill and runs the flow in
@@ -112,6 +113,13 @@ _GUIDE = (
     "Share my guide: send the link for my language's edition of the "
     "one-to-eight guide - the read-online link and the offline pack. See "
     "essentials/guide-editions.md."
+)
+_OUTREACH = (
+    "Outreach time: walk me through the outreach workflow - follow the "
+    "outreach skill. Help me build my target list (community hubs, my "
+    "school, our church), draft the first message for an adult to check, "
+    "then the discovery questions for whoever I reach. We are offering to "
+    "build something small, free, and hand it over as a gift."
 )
 
 _BUILD_ALIASES = {
@@ -264,4 +272,9 @@ def register(ctx) -> None:
     ctx.register_command(
         "guide", lambda raw: _start(ctx, _GUIDE),
         description="Send the guide: read online + offline pack",
+    )
+    # Finding a need
+    ctx.register_command(
+        "outreach", lambda raw: _start(ctx, _OUTREACH),
+        description="Find a real need to build for (community outreach)",
     )

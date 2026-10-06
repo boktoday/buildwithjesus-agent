@@ -358,8 +358,8 @@ the morning-minute Piper voice already chosen.
 
 ## Guided commands (/slash)
 
-Fourteen shortcuts for the daily rituals, the build round, the deep
-dives, the twenty prompts and the guide. They live in the
+Fifteen shortcuts for the daily rituals, the build round, the deep
+dives, the twenty prompts, the guide and outreach. They live in the
 `bwj-commands` plugin and appear automatically in CLI autocomplete,
 `/help`, and the Telegram command menu.
 
@@ -379,6 +379,7 @@ dives, the twenty prompts and the guide. They live in the
 | `/question` | One of the twenty prompts, to sit with. Takes a number (`/question 13`) or a mood (`tired`, `wired`, `stuck`, `think`, `do`) | `essentials/00-introduction/lessons/prompts.md` |
 | `/ideas` | Brainstorm things to build or do this week - tailored, and routable into the build track | `build-project` + guide activities |
 | `/guide` | The student's guide edition - read online plus the offline pack | `essentials/guide-editions.md` |
+| `/outreach` | Finds a real need to build for: target list, first message, discovery questions, expressions of interest | `outreach` |
 
 Each command simply starts the same flow the schedule would run, in the
 live conversation - consent, tradition, voice and cost rules all still
@@ -439,12 +440,21 @@ no personal data collection, consent from whoever it is for, and a
 parent or leader in the loop for anything hosted or public. One
 project at a time — the inbox holds the rest.
 
+**Finding a need to build for.** When the need is outside their own
+life, the `outreach` skill runs the full campaign: a short target
+list of community hubs, schools and churches; the first message
+carrying the offer; the discovery question set; five filters that
+qualify a need; and expressions of interest captured through a small
+landing page the student builds themselves. A qualified need comes
+back into this pipeline as the project card.
+
 **Where the code lives.**
 
 | Track | Skill path |
 |---|---|
 | Small builds | `skills/profile/build-coach/` |
 | Projects (pipeline + Build Round) | `skills/profile/build-project/` |
+| Finding a need (outreach) | `skills/profile/outreach/` |
 | The give-away | `skills/profile/handover/` |
 
 ---
@@ -865,6 +875,7 @@ buildwithjesus-agent/
 │       ├── planning-session/              ← the nightly plan + the Build Round
 │       ├── build-coach/                   ← small one-activity builds
 │       ├── build-project/                 ← project builds: apps, sites, dashboards, workshops
+│       ├── outreach/                      ← finding a real need (community, schools, churches)
 │       ├── handover/                      ← giving a finished build away
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │
