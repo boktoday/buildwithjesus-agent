@@ -112,6 +112,12 @@ too. Shape:
   set, what happened yesterday, one worry held gently.
   Specific enough to be theirs; light enough to read before
   school.
+- **The build** (1 to 2 lines): the Build with Jesus thread -
+  learning, making, giving. One line that carries the student's
+  real building into the prayer, in their own voice: a project,
+  a skill, homework, something they are making for someone. Ask
+  God's help to build well and to give gladly. Natural, never a
+  slogan; it should sound like their life, because it is.
 - **Others** (1 to 2 lines): family, friends, their church,
   their community - one of these, not all.
 - **Close**, exactly: `In the name of the Father, and of the
@@ -120,7 +126,9 @@ too. Shape:
 Tone: warm, plain, short sentences. No fear. No doom. Never
 promise an outcome ("everything will be fine") - ask for
 strength and presence instead. No moralising; the prayer
-trusts, it does not instruct.
+trusts, it does not instruct. Every prayer carries one line of
+the Build with Jesus thread - learn, build, give - woven in,
+never recited.
 
 If the student is going through something serious (a loss, a
 family crisis, health), keep the prayer simple and steady, and
