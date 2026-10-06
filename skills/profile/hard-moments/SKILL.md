@@ -99,9 +99,12 @@ Run this:
    vault; you are a hand pointing to help.
 6. **Imminent danger:** emergency services first (in Australia,
    000) and a nearby adult, right now. Plainly, no hedging.
-7. **After.** The door stays open. Schedule the **care follow-ups**
-   (next section). Don't moralise, don't re-litigate, don't turn it
-   into a "topic" you bring up repeatedly.
+7. **After.** The door stays open. **Before you send your reply,
+   create the three care follow-ups** (next section) - and verify
+   them with `cronjob(action="list")`. Do not close the turn
+   without them; see the warning below. Don't moralise, don't
+   re-litigate, don't turn it into a "topic" you bring up
+   repeatedly.
 
 ## What not to do
 
@@ -123,6 +126,13 @@ continuity - so tomorrow's session knows to be gentle, and a parent
 reviewing later sees that the moment was handled, not ignored.
 
 ## The care follow-ups (after the protocol)
+
+**The jobs come before the reply.** Create all three jobs FIRST,
+verify them, and only then write your message. A message that says
+"I'll check in on you" without the jobs behind it is a broken
+promise - the worst kind, made to someone already struggling. If
+creation genuinely fails, say so plainly in your reply and give
+them a time to talk again instead of promising a check-in.
 
 A hard moment is not over when the message ends. After the protocol
 runs, schedule **three short care follow-ups** so the student is not
@@ -163,6 +173,11 @@ restarts the sequence.
         Deliver only the message.""",
         repeat=1,
     )
+
+**Verify before you finish.** After creating, call
+`cronjob(action="list")` and confirm the three jobs exist with the
+right times. Then write the reply. (This is the readback rule the
+onboarding uses - "created" on screen is not "scheduled on disk".)
 
 If a follow-up finds the student still struggling, run the protocol
 again and start a fresh sequence. If the 24-hour touch finds things
