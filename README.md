@@ -358,8 +358,9 @@ the morning-minute Piper voice already chosen.
 
 ## Guided commands (/slash)
 
-Six shortcuts for the on-demand rituals and the build round. They live in
-the `bwj-commands` plugin and appear automatically in CLI autocomplete,
+Fourteen shortcuts for the daily rituals, the build round, the deep
+dives, the twenty prompts and the guide. They live in the
+`bwj-commands` plugin and appear automatically in CLI autocomplete,
 `/help`, and the Telegram command menu.
 
 | Command | What it does | Skill it starts |
@@ -370,6 +371,14 @@ the `bwj-commands` plugin and appear automatically in CLI autocomplete,
 | `/tomorrow` | Runs tonight's Planning Session (plans tomorrow), opening with the Build Round | `planning-session` |
 | `/passage` | Runs tonight's Night Passage now - audio + text | `night-passage` |
 | `/build` | The Build Round: start / keep going / finish. Takes an argument - `/build start`, `/build keep`, `/build finish` - or the idea in a sentence | `build-project` |
+| `/summary` | An essential's key points plus a 3 to 5 minute voice note | `essential-deep-dives` (Format 1) |
+| `/lesson` | A three-page HTML lesson with cited sources and a quiz - delivered as a link | `essential-deep-dives` (Format 2) |
+| `/poem` | A rhyming spoken-word poem - voice note + text | `essential-deep-dives` (Format 3) |
+| `/song` | An original song about an essential (~$0.08; the agent confirms spend first) | `essential-deep-dives` (Format 4) |
+| `/video` | A music video for the song (~$0.35; spend confirmed first) | `essential-deep-dives` (Format 5) |
+| `/question` | One of the twenty prompts, to sit with. Takes a number (`/question 13`) or a mood (`tired`, `wired`, `stuck`, `think`, `do`) | `essentials/00-introduction/lessons/prompts.md` |
+| `/ideas` | Brainstorm things to build or do this week - tailored, and routable into the build track | `build-project` + guide activities |
+| `/guide` | The student's guide edition - read online plus the offline pack | `essentials/guide-editions.md` |
 
 Each command simply starts the same flow the schedule would run, in the
 live conversation - consent, tradition, voice and cost rules all still
