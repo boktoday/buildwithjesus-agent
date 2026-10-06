@@ -1,6 +1,7 @@
 ---
 name: handover
-description: Use when a student's build is finished — the Give half of Learn/Build/Give. Runs the finish-well check, helps deliver the work to the person or church it was made for, records it, and marks the moment. Nothing sits in a folder.
+description: Use when a student's build is finished — the Give half of Learn/Build/Give. Runs the finish-well check, helps deliver the work to the person or church it was made for, records it, marks the moment, and helps write the story of the
+build once it is given. Nothing sits in a folder.
 version: 1.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -18,9 +19,11 @@ metadata:
     - learn-build-give
     related_skills:
     - build-coach
+    - build-project
     - morning-minute
     - essential-deep-dives
     - eight-essentials-curriculum
+    - outreach
 ---
 # Handover
 
@@ -79,7 +82,29 @@ Walk these with the student, in order:
 - **Keep it about the giving.** One or two lines. Not a
   performance review.
 
-## Step 4 — What next
+## Step 4 — The story (after the give)
+
+Offer it, once, while the moment is fresh: *"Want to write down how
+this one went? One page you could show your leader or your
+parents."* Use `references/build-story-template.md` next to this
+skill: the need, what was built, the give, what was learned, a
+photo if there is one.
+
+- **The student's words stay.** Polish spelling and rhythm; the
+  voice is theirs.
+- **Permission first** for names, quotes, and photographs - ask the
+  person who received it.
+- **Where it goes:** appended to `builds-archive.md` under the
+  build's entry, and - with the same leader-review rule as anything
+  public - a shareable copy for the noticeboard, the family, or
+  the site's examples.
+- **It doubles as the portfolio.** When the student does outreach,
+  the build stories are what they show. See `outreach`.
+
+If the student declines: fine. The build is given; the story is a
+bonus, never homework.
+
+## Step 5 — What next
 
 Ask, never push: *"Want to start the next one?"*
 

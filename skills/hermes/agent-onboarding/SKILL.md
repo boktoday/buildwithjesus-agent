@@ -522,6 +522,15 @@ Explain what it is: before bed, the agent drafts tomorrow's plan
 real-world thing), the student edits it, and the plan saves
 locally — no app, no account, no cloud sync.
 
+### Weekly Review (optional)
+
+Offer the **Weekly Review** - a short look back at the week
+(learned, built, gave, one win, one thing for next week) that also
+restarts the rhythm gently after a gap. Default Sunday 7pm; the
+student can choose another evening. If taken, create the job per
+the `weekly-review` skill's template. Say plainly when offering
+it: a review is never an audit.
+
 ### Build projects (the project track)
 
 Mention that the agent can guide bigger builds: a workshop project,
@@ -933,6 +942,8 @@ the readback is the proof.
       companion) and the `hard-moments` cadence noted.
 - [ ] The family brief (`FAMILY.md`) was offered, and the spend
       cap question asked.
+- [ ] The Weekly Review was offered (optional; default Sunday
+      7pm) and the answer recorded.
 - [ ] Newly created jobs were read back field by field (name,
       schedule, skills, prompt) and any mangled field repaired.
 - [ ] Post-change config, skill, toolset, and cron state were read

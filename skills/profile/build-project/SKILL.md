@@ -185,6 +185,8 @@ Completion checklist:
       the physical object with a photo.
 - [ ] **The reflection**, three lines: what I learned / what I
       built / what I gave.
+- [ ] **The story** offered (`handover`, Step 4): one page, their
+      words, shared with permission.
 - [ ] Archive the project. Open the inbox for the next round.
 
 Then mark it warmly in one line. A finished, given-away build is

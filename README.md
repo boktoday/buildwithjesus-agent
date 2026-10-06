@@ -362,7 +362,7 @@ the morning-minute Piper voice already chosen.
 
 ## Guided commands (/slash)
 
-Fifteen shortcuts for the daily rituals, the build round, the deep
+Sixteen shortcuts for the daily rituals, the build round, the deep
 dives, the twenty prompts, the guide and outreach. They live in the
 `bwj-commands` plugin and appear automatically in CLI autocomplete,
 `/help`, and the Telegram command menu.
@@ -384,6 +384,7 @@ dives, the twenty prompts, the guide and outreach. They live in the
 | `/ideas` | Brainstorm things to build or do this week - tailored, and routable into the build track | `build-project` + guide activities |
 | `/guide` | The student's guide edition - read online plus the offline pack | `essentials/guide-editions.md` |
 | `/outreach` | Finds a real need to build for: target list, first message, discovery questions, expressions of interest | `outreach` |
+| `/recap` | Your week in review: learned, built, gave, one win, one thing for next week | `weekly-review` |
 
 Each command simply starts the same flow the schedule would run, in the
 live conversation - consent, tradition, voice and cost rules all still
@@ -438,6 +439,11 @@ directs and the agent generates alongside them; and finish properly
 **given away** (`handover`). The agent keeps the record in
 `build-project.md`: the inbox of ideas, the active project card,
 and an archive of everything finished and given.
+
+**The story.** After the give, `handover` offers to write one page
+about the build - the need, the making, the giving, in the
+student's words. It is what they show their church and their
+family, and it makes every outreach conversation easier.
 
 Defaults keep it safe: local-first (no accounts, no servers, $0),
 no personal data collection, consent from whoever it is for, and a
@@ -927,6 +933,7 @@ buildwithjesus-agent/
 │       ├── build-project/                 ← project builds: apps, sites, dashboards, workshops
 │       ├── outreach/                      ← finding a real need (community, schools, churches)
 │       ├── hard-moments/                   ← hard moments: the role boundary, real people, helplines
+│       ├── weekly-review/                 ← the weekly recap (and the gentle comeback)
 │       ├── handover/                      ← giving a finished build away
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │

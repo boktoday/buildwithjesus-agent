@@ -176,7 +176,8 @@ people. The student **builds it themselves** (usually as a
 - **The offer** as the headline - one or two lines, the same words
   as the flyer.
 - **What we can make** - three or four examples, including the
-  student's own finished builds.
+  student's own finished builds, and the build stories from
+  `handover` - the stories are the proof.
 - **How it works** - three steps: tell us what's hard / we scope
   one small thing / we build it free and hand it over.
 - **Expressions of interest** - a short form or a clearly labelled
