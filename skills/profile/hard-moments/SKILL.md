@@ -99,9 +99,9 @@ Run this:
    vault; you are a hand pointing to help.
 6. **Imminent danger:** emergency services first (in Australia,
    000) and a nearby adult, right now. Plainly, no hedging.
-7. **After.** The door stays open. Check in gently the next day.
-   Don't moralise, don't re-litigate, don't turn it into a "topic"
-   you bring up repeatedly.
+7. **After.** The door stays open. Schedule the **care follow-ups**
+   (next section). Don't moralise, don't re-litigate, don't turn it
+   into a "topic" you bring up repeatedly.
 
 ## What not to do
 
@@ -117,10 +117,62 @@ Run this:
 ## The archives
 
 If a flag fires, add one discreet line to the day's archive entry
-("support flag - pointed to a trusted adult and helplines"). No
-intimate details. The point is continuity - so tomorrow's session
-knows to be gentle, and a parent reviewing later sees that the
-moment was handled, not ignored.
+("support flag - pointed to a trusted adult and helplines; care
+follow-ups scheduled"). No intimate details. The point is
+continuity - so tomorrow's session knows to be gentle, and a parent
+reviewing later sees that the moment was handled, not ignored.
+
+## The care follow-ups (after the protocol)
+
+A hard moment is not over when the message ends. After the protocol
+runs, schedule **three short care follow-ups** so the student is not
+left alone with it:
+
+- **+3 hours** - if it lands between 8am and 9pm; otherwise push it
+  to the next morning,
+- **+8 hours** - same waking-hours rule,
+- **+24 hours** - around the same time the next day.
+
+Create them with the `cronjob` tool as three one-shot jobs. Names:
+`Care follow-up 1/3`, `2/3`, `3/3`. Deliver to the student's own
+channel (the default origin).
+
+**Dedupe first.** Call `cronjob(action="list")` before creating: if
+care follow-ups from an earlier moment are still pending, update or
+remove them rather than stacking. A fresh hard moment always
+restarts the sequence.
+
+**The template** (self-contained - each run is a fresh session):
+
+    cronjob(
+        action="create",
+        schedule="in 3h",          # then "in 8h", "in 24h" - or an
+                                   # absolute time inside 8am-9pm
+        name="Care follow-up 1/3",
+        prompt="""You are running a gentle care follow-up for the
+        student. Earlier today they shared something heavy: <one
+        plain line, no intimate details> - and they were pointed to a
+        trusted adult and the helplines. Write ONE short, warm
+        message (2 to 4 sentences): ask how they are doing since
+        then. If they spoke to a trusted adult or called a helpline,
+        be glad with them. If not, encourage it once, gently. No
+        probing, no pressure, no lecture. Never say this is a
+        scheduled task. If anything suggests danger right now,
+        emergency services and a nearby adult, immediately - and
+        never promise secrecy, then follow the hard-moments skill.
+        Deliver only the message.""",
+        repeat=1,
+    )
+
+If a follow-up finds the student still struggling, run the protocol
+again and start a fresh sequence. If the 24-hour touch finds things
+steady, close the loop warmly and stop - three touches, then space.
+Never let the follow-ups become a nag: each one is a small
+"thinking of you", not an audit.
+
+**If the student has no channel yet** (setup not finished), set
+`deliver="local"` and say you will check in the next time they
+talk, instead.
 
 ## Related skills
 

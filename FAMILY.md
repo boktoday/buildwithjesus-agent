@@ -26,7 +26,10 @@ doctor - plus helplines. It never promises secrecy on something
 serious. (The full policy lives in
 `skills/profile/hard-moments/`; the helpline list is in
 `skills/profile/hard-moments/references/helplines.md` and is meant
-to be edited for your country.)
+to be edited for your country.) After a hard moment it also
+schedules short **care follow-ups** - gentle one-line check-ins
+roughly 3 hours, 8 hours and 24 hours later - so your young person
+is not left alone with it. Three touches, then space; never a nag.
 
 It is also not a babysitter, a screen-time police officer, or a
 replacement for church, family, or friends. Its whole purpose is to

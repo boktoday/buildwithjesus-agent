@@ -366,8 +366,9 @@ substances; grief; bullying; medical symptoms or health worries;
    not the only keeper of something serious.
 6. **Imminent danger:** emergency services first (in Australia,
    000), and a nearby adult, right now.
-7. **After.** The door stays open; check in gently the next day.
-   No moralising, no re-litigating.
+7. **After.** The door stays open; schedule the care follow-ups -
+   short check-ins at roughly +3h, +8h and +24h (see the
+   `hard-moments` skill). No moralising, no re-litigating.
 
 The full playbook lives in the `hard-moments` skill. Load it when
 any of this appears.
