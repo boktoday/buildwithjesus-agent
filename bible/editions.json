@@ -1,0 +1,12 @@
+{
+  "note": "Freely-licensed Scripture editions, fetched once at onboarding via fetch_edition.py. Only public-domain, Creative Commons, or explicitly permissioned texts belong here - never a copyrighted modern translation. English ships as PDFs in bible/ (KJV, WEB, ASV) and is not listed. 'status: verified' means the licence was read from the fetched about page; 'scope' notes incomplete editions. Japanese is held pending licence review (the 1965 text is New Testament only and its stated licence is contradictory) and Malay and Thai await a verified source.",
+  "editions": {
+    "es": {"id": "spaRV1909", "name": "Reina-Valera 1909 (Spanish)", "status": "verified", "licence": "Public Domain"},
+    "tl": {"id": "tglulb", "name": "Unlocked Literal Bible (Tagalog)", "status": "verified", "licence": "CC BY-SA 4.0 (unfoldingWord)"},
+    "zh": {"id": "cmn-cu89s", "name": "\u548c\u5408\u672c\u7b80\u4f53 - Chinese Union Version, Simplified", "status": "verified", "licence": "Public Domain"},
+    "zh-Hant": {"id": "cmn-cu89t", "name": "\u548c\u5408\u672c\u7e41\u9ad4 - Chinese Union Version, Traditional", "status": "verified", "licence": "Public Domain"},
+    "vi": {"id": "vie1934", "name": "Vietnamese Bible (Cadman, 1923)", "status": "verified", "licence": "Public Domain"},
+    "ko": {"id": "kor", "name": "Korean Holy Bible (1910)", "status": "verified", "licence": "Public Domain"},
+    "id": {"id": "ind", "name": "Indonesian Bible (partial)", "status": "verified", "licence": "CC BY-SA 4.0", "scope": "48 of 66 books - full New Testament plus most of the Old Testament; Psalms and several prophetic books await a verified edition"}
+  }
+}

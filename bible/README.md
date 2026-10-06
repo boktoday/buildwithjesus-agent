@@ -22,13 +22,38 @@ these files, exactly as written, with the translation named, and never
 from model memory. If a file cannot be read, the agent says so and
 gives the reference, rather than reciting from memory.
 
+## Language editions (downloaded at onboarding)
+
+For students whose language is one of the guide's ten, the agent
+downloads a freely-licensed edition once during onboarding - see
+`editions.json` (the registry) and `fetch_edition.py`:
+
+```bash
+python bible/fetch_edition.py --list     # what is available
+python bible/fetch_edition.py es         # fetch the Spanish edition
+```
+
+The edition lands at `bible/<language-code>/<edition-id>.txt` -
+plain text, verse per line, so `read_file` and search work exactly
+as they do on the PDFs. The licence and source travel in the file
+header. One download, then offline.
+
+Only public-domain or freely-licensed editions may enter the
+registry - never a copyrighted modern translation. Where no edition
+exists yet for a language, the agent quotes the English exactly and
+adds a clearly-marked plain-language sense line in the student's
+language instead; it never passes a machine translation off as
+Scripture.
+
 ## Working with these files
 
 - To find a passage, search the extracted text, or page through with
   `read_file` (the `offset` parameter walks the text).
 - To print them: they are print-format PDFs, ready as they are.
-- To swap in another translation: drop a text-layer PDF into this
-  folder and update the list in SOUL.md and this file. A word of care:
+- To swap in another translation: for a guide language, prefer
+  adding it to `editions.json` so onboarding can fetch it; otherwise
+  drop a text-layer PDF into this folder and update the list in
+  SOUL.md and this file. A word of care:
   most modern translations (NIV, ESV, NLT, NASB, CSB and so on) are
   copyrighted. Fine for a student's personal copy; not fine to
   redistribute in this repo or ship with the product. Keep the shipped

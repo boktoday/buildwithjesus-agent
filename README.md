@@ -131,6 +131,17 @@ A quick check:
 ls bible/*.pdf        # expect KJV.pdf  WEB.pdf  ASV.pdf
 ```
 
+**Language editions.** Students who use one of the guide's other
+languages get their Scripture from a freely-licensed edition
+downloaded once at onboarding (`python bible/fetch_edition.py <code>`,
+registry in `bible/editions.json`): Reina-Valera 1909 (Spanish),
+Unlocked Literal Bible (Tagalog), Chinese Union Version (simplified
+and traditional), Vietnamese 1934 - with more languages added after
+licence verification. Where no verified edition exists yet, the agent
+quotes the English exactly and gives a clearly-marked sense line in
+the student's language; it never passes a machine translation off as
+Scripture.
+
 To swap in another translation, drop a text-layer PDF into `bible/`
 and update the list in SOUL.md. One word of care: most modern
 translations (NIV, ESV, NLT, NASB, CSB and so on) are copyrighted —
@@ -887,6 +898,8 @@ buildwithjesus-agent/
 │   ├── KJV.pdf
 │   ├── WEB.pdf
 │   ├── ASV.pdf
+│   ├── editions.json                       ← freely-licensed language editions (fetched at onboarding)
+│   ├── fetch_edition.py                    ← one-shot download for the student's language
 │   └── README.md
 │
 ├── essentials/                            ← the Eight Essentials source content

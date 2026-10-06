@@ -210,6 +210,16 @@ Record the choice in profile memory as `language` (e.g. `ms`, `tl`,
 this key first. Do not guess a student's language from their name,
 location, or tradition — ask.
 
+**Download their Scripture edition once.** For a guide language, run
+`python bible/fetch_edition.py <code>` — it reads
+`bible/editions.json`, fetches the freely-licensed edition, and
+stores it in `bible/<code>/`. One download, offline from then on.
+Confirm with the printed summary (edition, books, verses, licence).
+If the language has no registry entry, or the fetch fails, say so
+plainly: Scripture will be quoted from the English files with a
+clearly-marked sense line in their language until their edition is
+added.
+
 ### Profile and life
 
 This is where the agent learns enough about the student to actually
@@ -944,6 +954,9 @@ the readback is the proof.
       cap question asked.
 - [ ] The Weekly Review was offered (optional; default Sunday
       7pm) and the answer recorded.
+- [ ] The student's Scripture edition was downloaded (`python
+      bible/fetch_edition.py <code>`), or the English fallback was
+      noted plainly.
 - [ ] Newly created jobs were read back field by field (name,
       schedule, skills, prompt) and any mangled field repaired.
 - [ ] Post-change config, skill, toolset, and cron state were read
