@@ -20,6 +20,7 @@ metadata:
     - afternoon-checkin
     - agent-onboarding
     - build-coach
+    - build-project
 ---
 # Planning Session
 
@@ -44,6 +45,16 @@ Draft tomorrow's plan with exactly four lanes:
 4. **One real-world thing they want to do** — a phone call, a
    football kick, a coffee with a friend, a walk. One concrete
    thing that happens off a screen.
+
+And once a project is running - or an idea is waiting in the
+inbox - the session opens with the **Build Round**:
+
+> "Build round: are we starting something new, keeping one going,
+> or finishing and giving one away?"
+
+The three doors and everything that follows live in the
+`build-project` skill. This session asks the question and slots the
+next step into tomorrow.
 
 ## How it works
 
@@ -197,3 +208,5 @@ Schedule format depends on the student's choice. Common options:
 - `afternoon-checkin` — feeds the planning session its state.
 - `agent-onboarding` — sets the planning time and
   channel.
+- `build-project` — the Build Round question and the project
+  pipeline (start / continue / finish).

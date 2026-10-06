@@ -204,7 +204,9 @@ Don't instruct. Just close.
 
 ### Part D — The build thread (only if a build is active)
 
-Read the `current_build` memory key. If a build is active, add one
+Read the project record - `build-project.md` in the profile
+directory (the file works in cron contexts; the `current_build`
+memory key mirrors it in chat). If a project is active, add one
 short line naming it and today's next step: *"The noticeboard frame
 for the hall — today, sand the perch."* One line only. The build
 rides alongside the essential; it never replaces it. If no build is

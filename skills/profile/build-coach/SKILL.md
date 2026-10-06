@@ -18,6 +18,7 @@ metadata:
     - learn-build-give
     related_skills:
     - handover
+    - build-project
     - morning-minute
     - afternoon-checkin
     - planning-session
@@ -34,6 +35,12 @@ The agent's job is **not to build it for them.** The agent coaches.
 It keeps the build small enough to move, keeps exactly one next
 step visible, and never lets a stalled build turn into a guilty
 object.
+
+This skill covers the **small builds** - one-activity things done in
+a sitting or a weekend. For **projects** (workshops, apps,
+local-first sites, dashboards, multi-session builds), use
+`build-project`; both tracks share this skill's stall playbook and
+one-next-step discipline.
 
 ## The memory key
 
@@ -69,6 +76,9 @@ approval setting.
   `eight-essentials-curriculum`.
 - School and homework tasks — those are lanes in
   `planning-session`.
+- A project build - a workshop, a short or long project, an app,
+  a local-first site or a dashboard the student vibe-codes with
+  the agent - that is `build-project`.
 - The build is done — that is `handover`.
 
 ## Step 1 — Capture (first time)

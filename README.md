@@ -303,7 +303,7 @@ detail.
 |---|---|---|---|
 | **Morning Minute** | Daily at the student's chosen time (default 6 am) | Telegram or WhatsApp — **voice bubble + text** | Audio plan for the day, focused on one small action from the current essential. |
 | **Afternoon Check-In** | Daily at the student's chosen time (default 5 pm) | Telegram or WhatsApp — **text only** | Reflection on how the day went, plan for tomorrow, one question to sit with overnight. |
-| **Planning Session** | Daily before bed at the student's chosen time (default 9 pm) | Telegram or WhatsApp — **text only** | Agent drafts tomorrow's plan (school tasks, homework deadlines, the week's essential, one real-world thing). The student edits it. Saves locally. |
+| **Planning Session** | Daily before bed at the student's chosen time (default 9 pm) | Telegram or WhatsApp — **text only** | Agent drafts tomorrow's plan (school tasks, homework deadlines, the week's essential, one real-world thing), and asks the Build Round when a project is active. The student edits it. Saves locally. |
 | **Essential Summary** | On demand, any time the student asks | Telegram or WhatsApp — **voice note** | 3 to 5 minute spoken summary of one essential + a short written key-points list. |
 | **Essential Lesson** | On demand, any time the student asks | here.now — **HTML page link in chat** | Three-page lesson on one essential with cited sources, key quotes, and a short quiz. |
 | **Essential Poem** | On demand, any time the student asks | Telegram or WhatsApp — **voice note + text** | A rhyming spoken-word poem on the essential, read aloud with text underneath. |
@@ -353,6 +353,48 @@ All three can be paused, resumed, or removed later with
 `cronjob(action="...")`. The on-demand formats pick the student's
 tradition automatically; their voice and length are inherited from
 the morning-minute Piper voice already chosen.
+
+---
+
+## Build projects (short and long)
+
+Two sizes of making, one loop: Learn. Build. Give.
+
+- **Small builds** (`build-coach`) — one-activity things: a shelf,
+  a repair, welcome cards. Done in a sitting or a weekend.
+- **Projects** (`build-project`) — a workshop day, or a short or
+  long project. Most often a young person using the agent to design
+  and vibe-code something real: an **app**, a **local-first
+  website**, a **dashboard** — for a need in their own life, their
+  church, or their community. Or a real-world build from the
+  guide's activities.
+
+Once something is on the workbench, the nightly Planning Session
+opens with the **Build Round**:
+
+> "Build round: are we starting something new, keeping one going,
+> or finishing and giving one away?"
+
+Three doors, three different jobs: find the need and scope the
+smallest thing that helps; run maker sessions where the student
+directs and the agent generates alongside them; and finish properly
+— tested by the person it is for, named, with a how-to card, then
+**given away** (`handover`). The agent keeps the record in
+`build-project.md`: the inbox of ideas, the active project card,
+and an archive of everything finished and given.
+
+Defaults keep it safe: local-first (no accounts, no servers, $0),
+no personal data collection, consent from whoever it is for, and a
+parent or leader in the loop for anything hosted or public. One
+project at a time — the inbox holds the rest.
+
+**Where the code lives.**
+
+| Track | Skill path |
+|---|---|
+| Small builds | `skills/profile/build-coach/` |
+| Projects (pipeline + Build Round) | `skills/profile/build-project/` |
+| The give-away | `skills/profile/handover/` |
 
 ---
 
@@ -769,6 +811,10 @@ buildwithjesus-agent/
 │       ├── essential-deep-dives/          ← summary, lesson, poem formats
 │       ├── morning-prayer/                ← optional 6 am prayer (audio + text)
 │       ├── night-passage/                 ← optional 8:30 pm Bible reading (audio + text)
+│       ├── planning-session/              ← the nightly plan + the Build Round
+│       ├── build-coach/                   ← small one-activity builds
+│       ├── build-project/                 ← project builds: apps, sites, dashboards, workshops
+│       ├── handover/                      ← giving a finished build away
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │
 ├── plugins/hermes-token-router/           ← optional tool-narrowing plugin

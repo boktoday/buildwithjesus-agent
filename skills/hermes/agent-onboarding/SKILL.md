@@ -502,6 +502,19 @@ Explain what it is: before bed, the agent drafts tomorrow's plan
 real-world thing), the student edits it, and the plan saves
 locally — no app, no account, no cloud sync.
 
+### Build projects (the project track)
+
+Mention that the agent can guide bigger builds: a workshop project,
+or a short or long project - an app, a local-first website or a
+dashboard for a real need in the student's life, their church or
+their community - or a real-world build from the guide's activities.
+Ask whether the student would like the **Build Round** question in
+the nightly Planning Session ("starting something new, keeping one
+going, or finishing and giving one away"). Default: yes, asked once
+a week once a project is active or an idea is waiting. The question
+and the full pipeline live in the `build-project` skill - no setup
+needed; it activates when a project starts.
+
 ### Token Router (optional)
 
 Mention the optional Hermes Token Router and offer to enable it.
@@ -894,6 +907,8 @@ the readback is the proof.
 - [ ] If chosen, the Morning Prayer and Night Passage jobs were
       created with the agreed schedules (Morning Prayer staggered
       from the Morning Minute when both hold the 6 am hour).
+- [ ] The Build Round was offered (the `build-project` project
+      track) and the student's answer recorded.
 - [ ] Newly created jobs were read back field by field (name,
       schedule, skills, prompt) and any mangled field repaired.
 - [ ] Post-change config, skill, toolset, and cron state were read
