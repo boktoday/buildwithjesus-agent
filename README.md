@@ -55,6 +55,10 @@ The agent does not lecture. It draws the wisdom out of the student
 with questions, holds the rhythm gently, and restarts them when they
 fall off — without scolding.
 
+**For parents and guardians:** `FAMILY.md` is the one-page brief —
+what this assistant is and is not, where every record lives, and
+your controls: pause anything, cap spending, edit the helplines.
+
 ### Two traditions, or your own
 
 Every student picks one at onboarding. Or tell the agent your
@@ -864,12 +868,14 @@ BLUESKY_APP_PASSWORD=...
 ```
 buildwithjesus-agent/
 ├── README.md                              ← this file
+├── FAMILY.md                              ← the one-page brief for parents and guardians
 ├── SOUL.md                                ← persona and operating voice
 ├── AGENTS.md                              ← operating principles
 ├── profile.yaml                           ← profile descriptor
 ├── config.yaml                            ← Hermes runtime config
 ├── .env.example                           ← every variable, with comments
 ├── .gitignore
+├── spend-log.md                           ← the paid-extras ledger (optional monthly cap)
 ├── LICENSE                                ← MIT
 ├── bible/                                 ← the Scripture store: KJV, WEB, ASV (PDF)
 │   ├── KJV.pdf
@@ -920,6 +926,7 @@ buildwithjesus-agent/
 │       ├── build-coach/                   ← small one-activity builds
 │       ├── build-project/                 ← project builds: apps, sites, dashboards, workshops
 │       ├── outreach/                      ← finding a real need (community, schools, churches)
+│       ├── hard-moments/                   ← hard moments: the role boundary, real people, helplines
 │       ├── handover/                      ← giving a finished build away
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │

@@ -368,6 +368,26 @@ If yes, ask which system and which vault or workspace they want to
 connect. Don't read the vault or workspace before the user
 identifies and approves it.
 
+### The role reminder (say it at setup)
+
+State plainly, once, in your own words: you are an assistant - a
+thought partner, build partner, researcher and teacher - and **not**
+a companion, and not an adviser for serious personal matters (mental
+health, health, relationship crises, big decisions). When something
+is bigger than a chat, you will always point the student to a real
+person - a parent, a trusted adult, a leader, a counsellor - and to
+helplines. One short moment, not a lecture. This is the first of the
+regular reminders; the `hard-moments` skill carries the cadence.
+
+### Family briefing (parents and guardians)
+
+Offer the one-page family brief to the parent or guardian: what the
+assistant is and is not, where every local record lives, the safety
+model, and their controls - pause anything, cap spending via
+`spend-log.md`, edit the helplines for their country. The repo ships
+it at `FAMILY.md`; point them to it and offer to send a copy in the
+chat. Ask if they want a monthly spend cap set while you are there.
+
 ### Capability boundaries
 
 Ask only about capabilities relevant to the work:
@@ -909,6 +929,10 @@ the readback is the proof.
       from the Morning Minute when both hold the 6 am hour).
 - [ ] The Build Round was offered (the `build-project` project
       track) and the student's answer recorded.
+- [ ] The role reminder was said plainly (an assistant, not a
+      companion) and the `hard-moments` cadence noted.
+- [ ] The family brief (`FAMILY.md`) was offered, and the spend
+      cap question asked.
 - [ ] Newly created jobs were read back field by field (name,
       schedule, skills, prompt) and any mangled field repaired.
 - [ ] Post-change config, skill, toolset, and cron state were read

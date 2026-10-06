@@ -430,8 +430,11 @@ MEDIA:/absolute/path/to/essential-song-body.mp3
 <poem text, line by line>
 ```
 
-Tell the student the cost just incurred and show the running
-monthly total so spend stays legible.
+Append the cost to `spend-log.md` (date, item, cost), then tell
+the student the cost just incurred and show the running monthly
+total so spend stays legible. If the log carries a monthly cap and
+this spend passes it, decline gently and offer the free formats
+instead.
 
 ---
 
@@ -491,8 +494,9 @@ Same publish pattern as Format 2's lesson (drive + finalize +
 publish). Send the link in chat, the MP4 plays inline in
 Telegram or is opened in WhatsApp.
 
-Tell the student the cost just incurred; show running monthly
-total.
+Append the cost to `spend-log.md`, then tell the student the cost
+just incurred and show the running monthly total. Check the cap
+first, as in Format 4.
 
 ---
 
