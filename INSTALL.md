@@ -109,17 +109,15 @@ full "Proposed setup" summary before applying anything.
    goal, off-limits topics, and the **language** for the guide,
    lessons and messages (ten guide languages — see
    `essentials/guide-editions.md`)
-3. **Tradition** — *Christian* (Scripture-anchored) or *Universal*
-   (secular reflection). This branches all lessons; it never mixes.
-4. **Piper TTS** — verifies Piper runs, picks a morning voice,
+3. **Piper TTS** — verifies Piper runs, picks a morning voice,
    downloads the voice model
-5. **Jina API key** — you add it to `.env` yourself; the agent
+4. **Jina API key** — you add it to `.env` yourself; the agent
    verifies with a real search
-6. **Delivery channel** — Telegram bot (recommended) or WhatsApp.
+5. **Delivery channel** — Telegram bot (recommended) or WhatsApp.
    You add tokens to `.env`; the agent verifies with a test message
-7. **Eight Essentials guide** — confirms the lesson MD files are in
+6. **Eight Essentials guide** — confirms the lesson MD files are in
    `essentials/01..08/lessons/`
-8. **Memory** — Mnemosyne (local-first, no account) recommended
+7. **Memory** — Mnemosyne (local-first, no account) recommended
 9. **Morning Minute schedule** — time, timezone, days
 10. **Afternoon Check-In schedule** — time, timezone, days
 11. **Token Router** — optional plugin that narrows the agent's
@@ -164,7 +162,7 @@ TELEGRAM_CHAT_ID=123456789
 ```
 
 **Guide files** — the repo ships with
-`essentials/01..08/lessons/{christian,universal}.md` already in
+`essentials/01..08/lessons/christian.md` already in
 place. If a chapter is missing, the agent says so and helps you find
 it — it does **not** invent lesson content. The guide is also
 published online in ten languages — read online or download the
@@ -262,7 +260,7 @@ to navigate, don't guess.
 The agent must load the matching skill *before* doing the work:
 
 - **`agent-onboarding`** — the consent-gated orientation
-  (identity → tradition → integrations → schedules → plan → apply →
+  (identity → integrations → schedules → plan → apply →
   verify)
 - **`setup-walkthrough`** — the four concrete setup pieces (Piper,
   Jina, channel, guide files)
@@ -274,13 +272,13 @@ The agent must load the matching skill *before* doing the work:
 - **`essential-deep-dives`** — the three deeper formats (summary
   voice-note, HTML lesson, spoken-word poem)
 
-### 4. Stay inside the persona and the tradition
+### 4. Stay inside the persona
 
 `SOUL.md` carries the persona: gentle mentor, asks good questions,
 draws wisdom out, honest about the work, steady. The agent never
-lectures, moralises, or mixes traditions — a Universal student never
-gets a Psalm; a Christian student never gets a Marcus Aurelius
-reflection.
+lectures or moralises, and it stays Bible-anchored - Scripture quoted
+accurately, prayer a normal part of the day, the student's faith
+honoured at every step.
 
 ### 5. The consent gates are non-negotiable
 
@@ -322,4 +320,4 @@ untouched — `hermes update` never overwrites curated skills.
 
 **The one-line version:** clone → `hermes profile use` → say yes to
 the orientation → let the agent ask, propose, and verify — you only
-ever add your own keys to `.env` and pick the voice/times/tradition.
+ever add your own keys to `.env` and pick the voice and times.

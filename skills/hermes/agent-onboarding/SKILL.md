@@ -1,6 +1,6 @@
 ---
 name: agent-onboarding
-description: Use when a new Build with Jesus Agent profile needs guided first-run setup, identity choices, the student's language for the guide and messages, tradition (Christian or Universal), morning voice and delivery channel (Telegram or WhatsApp), Piper TTS and Jina AI setup, Eight Essentials guide loading, Eight Essentials delivery order (sequential or randomised), memory preferences, and Morning Minute + Afternoon Check-In + Planning Session schedules. Plan the setup conversationally, obtain approval, apply only the selected changes, and verify every result.
+description: Use when a new Build with Jesus Agent profile needs guided first-run setup, identity choices, the student's language for the guide and messages, morning voice and delivery channel (Telegram or WhatsApp), Piper TTS and Jina AI setup, Eight Essentials guide loading, Eight Essentials delivery order (sequential or randomised), memory preferences, and Morning Minute + Afternoon Check-In + Planning Session schedules. Plan the setup conversationally, obtain approval, apply only the selected changes, and verify every result.
 version: 2.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -42,8 +42,8 @@ mentor setting up the profile for a young person, or the young person
 themselves if they're old enough to install their own tool.
 
 The workflow is conversational and consent-gated: learn the
-identity, the student's language, the tradition (Christian or
-Universal), the morning voice and delivery channel, the Piper and
+identity, the student's language, the morning voice and delivery
+channel, the Piper and
 Jina credentials, and the Eight Essentials guide loaded into
 `essentials/`. Recommend a small
 capability bundle, show the proposed changes, apply only what the
@@ -66,7 +66,7 @@ accounts. Ask instead.
   Build with Jesus Agent profile for the first time.
 - The user says "set me up," "configure my assistant," "help me get
   the morning minute working," or similar.
-- The user wants to choose their language, tradition, voice,
+- The user wants to choose their language, voice,
   delivery channel, Piper/Jina setup, or load the Eight Essentials
   guide.
 - The user asks to add or change the Morning Minute, the Build with Jesus
@@ -90,7 +90,7 @@ accounts. Ask instead.
 
 1. Ask one small group of related questions at a time. Don't
    present a forty-item questionnaire.
-2. Start with identity, language, and tradition, then move to the
+2. Start with identity and language, then move to the
    four product-specific setups (Piper, Jina, channel, guide). Don't
    ask users to choose toolset names they have never seen.
 3. Explain what will happen before it happens. No installation,
@@ -207,8 +207,8 @@ What the choice changes:
 
 Record the choice in profile memory as `language` (e.g. `ms`, `tl`,
 `es`; `en` if skipped). Every skill that writes to the student reads
-this key first. Do not guess a student's language from their name,
-location, or tradition — ask.
+this key first. Do not guess a student's language from their name
+or location — ask.
 
 **Download their Scripture edition once.** For a guide language, run
 `python bible/fetch_edition.py <code>` — it reads
@@ -287,19 +287,6 @@ If a question gets skipped, use the neutral default (age → "young person",
 location → "your area", and so on) and tell the student what was
 assumed. Don't push. The student can fill in missing fields later by
 chatting.
-
-### Tradition (the most important early choice)
-
-Ask:
-
-> "Two ways to teach the Eight Essentials. Christian — Bible-
-> anchored, with Scripture in the Morning Minute. Universal —
-> secular, with reflection and intention in place of prayer. Which
-> works for you? Or tell me your tradition and I'll build that in."
-
-The agent will not mix traditions. If the student brings their own
-tradition, keep every quote and framing accurate to it. The student
-(or parent) can change later, but lessons will branch from this point.
 
 ### Piper TTS install + voice pick
 
@@ -591,9 +578,6 @@ Profile:
 - Getting in the way: <honest answer or "skipped">
 - Off-limits: <topics/people/situations or "none">
 
-Tradition:
-- Christian / Universal
-
 Eight Essentials delivery:
 - Sequential (1 → 8) / Randomised
 
@@ -643,17 +627,15 @@ Apply only the approved items, in this order:
    `student_age`, `location`, `living_situation`, `week_shape`,
    `interests`, `focus_goal`, `friendship_circle`, `blocker`,
    `off_limits`, and `language` keys in Mnemosyne).
-3. Tradition in the active profile memory (writes a `tradition`
-   key in Mnemosyne).
-4. Piper paths in the active profile memory (`piper_path` and
+3. Piper paths in the active profile memory (`piper_path` and
    `piper_voice_path`, both from the verified setup-walkthrough
    probe — or the explicit `tts_fallback: edge` decision).
-5. Jina key in `.env` (user adds it themselves; agent verifies).
-6. Delivery channel credentials in `.env` (user adds them
+4. Jina key in `.env` (user adds it themselves; agent verifies).
+5. Delivery channel credentials in `.env` (user adds them
    themselves; agent verifies with a test message).
-7. Guide MD files in `essentials/<NN-name>/lessons/` (user drops
+6. Guide MD files in `essentials/<NN-name>/lessons/` (user drops
    them in; agent lists the folder to confirm).
-8. Memory choice with `hermes config set` or `hermes memory setup`.
+7. Memory choice with `hermes config set` or `hermes memory setup`.
    For the recommended Mnemosyne setup: if a session shows the
    "mnemosyne declares Python dependencies" warning, install the plugin
    with its own installer and enable it with
@@ -693,8 +675,6 @@ The Morning Minute cron prompt must say:
   since last touched, what the student said they were struggling
   with recently, and what fits the day's energy. In both modes,
   every essential must still be covered eventually.
-- Stay inside the chosen tradition (Christian or Universal). Don't
-  mix the two.
 - **If `randomised`:** open the Morning Minute with a one-paragraph
   knowledge summary from the chosen essential's guide chapter,
   then propose one small activity for the day. The summary is
@@ -719,8 +699,7 @@ cronjob(
     schedule="0 6 * * *",
     name="Morning Minute",
     prompt="""You are running the student's Morning Minute for today.
-        Use the morning-minute skill. The student's tradition is
-        <christian/universal>. The essentials delivery order is
+        Use the morning-minute skill. The essentials delivery order is
         <sequential/randomised> — read this from the essentials_order
         memory key, not from this prompt. The voice is <piper voice model path>, binary at <piper binary path>.
         The student's language is read from the language memory key —
@@ -828,7 +807,6 @@ The check-in cron prompt must say:
 - Compose a short text message (3 to 6 paragraphs): how the day
   went, one small action for tomorrow, one question to sit with
   overnight.
-- Stay inside the chosen tradition.
 - Deliver as plain text (no audio) to the student's channel.
 - Save a one-line summary to Mnemosyne so tomorrow's Morning
   Minute can open with a callback.
@@ -841,8 +819,7 @@ cronjob(
     schedule="0 17 * * *",
     name="Afternoon Check-In",
     prompt="""You are running the student's Afternoon Check-In
-    for today. Use the afternoon-checkin skill. The student's
-    tradition is <christian/universal>. Deliver a short text
+    for today. Use the afternoon-checkin skill. Deliver a short text
     message and save a one-line summary to memory. Do not write
     anything else to memory and do not ask for credentials in
     the cron prompt.""",
@@ -901,22 +878,19 @@ the readback is the proof.
 6. **Fabricating lesson content.** If the Eight Essentials guide
    hasn't been dropped into `essentials/<NN-name>/lessons/`, say
    so. Don't invent chapters.
-7. **Mixing traditions.** A Christian student should not get a
-   reflection from Marcus Aurelius. A Universal student should
-   not get a Psalm. Verify tradition in memory before generating.
-8. **Credential leakage.** Never place API keys, tokens, OAuth
+7. **Credential leakage.** Never place API keys, tokens, OAuth
    codes, or full account contents in a cron prompt, job name,
    response, skill file, or package artifact.
-9. **Skipping the parent for young students.** When a setup
+8. **Skipping the parent for young students.** When a setup
    step involves money, an adult service, or a long-term
    commitment, bring a parent or trusted adult into the
    conversation.
-10. **Assuming a language.** Ask; never infer the student's
-    language from a name, location, or tradition.
+9. **Assuming a language.** Ask; never infer the student's
+    language from a name or location.
 
 ## Verification checklist
 
-- [ ] Identity, profile and life, and tradition were confirmed
+- [ ] Identity, profile and life were confirmed
       before being written. Profile fields (age, location, hobbies,
       focus goal, friendship circle, blocker, off-limits) all
       landed in Mnemosyne with the student's approval.

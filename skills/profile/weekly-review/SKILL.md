@@ -75,7 +75,7 @@ one scroll. If it doesn't, cut it.
 7. **Close warm.** Steady, one line, no moralising.
 
 Everything goes out in the student's `language` memory key, in the
-chosen tradition (Christian or Universal), and in the student's
+Bible-anchored where it fits naturally, and in the student's
 voice.
 
 ## The comeback (after a gap)

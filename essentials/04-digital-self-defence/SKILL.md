@@ -14,8 +14,8 @@ your mind. Not paranoia — literacy.
 - **Defence has three layers.** Privacy (what data you give),
   attention (what you give your attention to), and identity (who
   you are when no one is watching).
-- **Tradition matters.** Christian: "be sober-minded; be watchful"
-  (1 Pet 5:8). Universal: the same principle without the metaphor.
+- **Bible-anchored.** "be sober-minded; be watchful"
+  (1 Pet 5:8).
 
 ## Folder layout
 

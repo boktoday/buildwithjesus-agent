@@ -1,6 +1,6 @@
 ---
 name: essential-deep-dives
-description: Use when the student asks to go deeper on an essential — an essential summary (key points + a 3 to 5 minute voice note), a three-page HTML lesson (published to here.now with cited sources and a quiz), a rhyming spoken-word poem, an original song (Lyria 3 on OpenRouter, ~$0.08), or a music video of the song (~$0.35). Reads the guide, branches by tradition, and tailors to the student's profile.
+description: Use when the student asks to go deeper on an essential — an essential summary (key points + a 3 to 5 minute voice note), a three-page HTML lesson (published to here.now with cited sources and a quiz), a rhyming spoken-word poem, an original song (Lyria 3 on OpenRouter, ~$0.08), or a music video of the song (~$0.35). Reads the guide and tailors to the student's profile.
 version: 1.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -81,15 +81,11 @@ default to Song or Music Video — they cost real money.
 
 1. **Read the guide.** Read `essentials/<NN-name>/SKILL.md` (the
    agent's teaching notes) and the relevant `lessons/*.md` file(s)
-   first. Branch by tradition: use `<file>.christian.md` /
-   `<file>.universal.md` when they exist. The guide is the source of
+   first (the Christian edition, `lessons/christian.md`). The guide is the source of
    truth — these formats *synthesise* it, they never invent
    content from scratch.
-2. **Confirm tradition** (`christian` / `universal`) and
-   `essentials_order` (`sequential` / `randomised`) from memory
-   before drafting. Never mix traditions: a Christian student should
-   not get a Marcus Aurelius quote, a Universal student should not
-   get a Psalm.
+2. **Confirm `essentials_order`** (`sequential` / `randomised`)
+   from memory before drafting. Everything is Bible-anchored.
 3. **Tailor to the profile.** Pull `student_age`, `focus_goal`,
    `interests`, `location`, `blocker`, and `off_limits` from Mnemosyne
    (set at onboarding). Reference the student's actual life — their
@@ -185,8 +181,8 @@ can read in a browser and answer a quiz in. Delivered as a link.
 
 ### Step 1 — Read and research
 
-1. Read the essential's `SKILL.md` + `lessons/*.md`, branched by
-   tradition (see preamble).
+1. Read the essential's `SKILL.md` + `lessons/christian.md`
+   (see preamble).
 2. Decide whether the lesson needs **external research**. Most
    essentials can be taught straight from the guide. Add external
    material only when the lesson is stronger with evidence the guide
@@ -222,8 +218,8 @@ cross-links.
   the one-line promise of practising it. Opens with the hero.
 - **Page 2 — The key points / evidence.** The core teaching, with
   inline **cited sources** (superscript or small "Source:" links) and
-  **key quotes** from the guide or the student's tradition (Bible
-  verse for Christian, thinker/reflection for Universal).
+  **key quotes** from the guide or Scripture (quoted exactly,
+  translation named).
 - **Page 3 — Test yourself + act.** A **quiz** (5 to 8 questions),
   the "one action to try", and a closing line.
 
@@ -352,14 +348,13 @@ spoken-word poem the student can listen to and read along with.
 
 ### Step 1 — Write the poem
 
-- Read the essential's lesson file first (branch by tradition).
+- Read the essential's lesson file first.
 - Write **12 to 24 lines** with a consistent meter and a real rhyme
   scheme (AABB or ABAB). Rhymes must be natural — a forced rhyme
   reads as mockery. If a line won't rhyme cleanly, rephrase the line,
   not the idea.
 - Honour the essential's core idea and finish on the one small
-  action. For a Christian student, the verse may be woven in
-  naturally; for a Universal student, the reflection.
+  action. The verse may be woven in naturally.
 - Age-appropriate, no jargon, no em dashes. Keep the weight of the
   essential — the project's tone is clear-eyed, not saccharine. A
   poem about Tested Faith or Digital Self-Defence can be honest about
@@ -505,8 +500,8 @@ first, as in Format 4.
 - **Inventing content.** The guide is the source of truth. Synthesise,
   never invent. If the lesson file is missing, say so — don't draft
   teaching the student hasn't authorised.
-- **Mixing traditions.** Verify `christian`/`universal` before
-  drafting any quote, verse, poem line, or quiz answer.
+- **Quoting Scripture.** From the `bible/` files, exactly, translation
+  named - never from memory.
 - **Forced rhyme.** A bad rhyme is worse than no poem. Rephrase the
   line before bending the meaning.
 - **Em dashes in TTS input.** Replace with commas/periods; Piper

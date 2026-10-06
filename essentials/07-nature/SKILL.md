@@ -11,8 +11,8 @@ medicine.
 - **It doesn't have to be wilderness.** A park bench counts. A
   backyard counts. What doesn't count is looking at nature on a
   screen.
-- **Tradition matters.** Christian: "the heavens declare the glory
-  of God" (Ps 19:1). Universal: the same wonder without the doxology.
+- **Bible-anchored.** "the heavens declare the glory
+  of God" (Ps 19:1).
 
 ## Folder layout
 

@@ -11,8 +11,8 @@ else does.
   people they could call at 2am.
 - **Community is a practice, not a feeling.** You don't wait until
   you feel like showing up. You show up, and the feeling follows.
-- **Tradition matters.** Christian: "carry one another's burdens"
-  (Gal 6:2). Universal: the same ethic without the verse.
+- **Bible-anchored.** "carry one another's burdens"
+  (Gal 6:2).
 
 ## Folder layout
 

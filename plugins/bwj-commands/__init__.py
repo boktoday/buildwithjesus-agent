@@ -22,7 +22,7 @@ the live conversation:
 
 How it works: the handler injects a short user-style instruction into the
 current session, so the agent opens the right skill and runs the flow in
-the normal way - consent, tradition, spend and voice rules all still
+the normal way - consent, spend and voice rules all still
 apply. The commands are shortcuts only; students can always just ask in a
 sentence.
 
@@ -57,8 +57,7 @@ _MORNING = (
 )
 _PRAYER = (
     "Run today's Morning Prayer now, please - follow the morning-prayer "
-    "skill and deliver the audio + text here. If my tradition is not "
-    "Christian, say so gently instead."
+    "skill and deliver the audio + text here."
 )
 _CHECKIN = (
     "Run today's Afternoon Check-In now, please - follow the "

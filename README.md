@@ -8,7 +8,7 @@ plans, reflection check-ins, and small actions, taught from the
 Eight Essentials guide that ships with the repo.
 
 This edition is built for the **Build with Jesus** project. It lives
-comfortably in the **Christian tradition**: the agent helps teach
+comfortably in the **Christian faith**: the agent helps teach
 Bible passages, can help shape prayers, and always points the student
 back to their local church and its leaders. Young people build real
 things for their church and community, and give them away.
@@ -40,8 +40,8 @@ Agent exists to make that daily rhythm stick:
   plan, the student edits it, and it saves locally — no app, no
   account, no cloud sync.
 - The agent teaches from the **Eight Essentials guide** stored in the
-  repo (`essentials/01..08/lessons/*.md`), branching by the student's
-  chosen tradition.
+  repo (`essentials/01..08/lessons/christian.md`), written for a
+  Christian young person.
 - The guide is also published in **ten languages** — read online, or
   downloaded as an offline pack for use without internet. See
   `essentials/guide-editions.md`.
@@ -58,23 +58,6 @@ fall off — without scolding.
 **For parents and guardians:** `FAMILY.md` is the one-page brief —
 what this assistant is and is not, where every record lives, and
 your controls: pause anything, cap spending, edit the helplines.
-
-### Two traditions, or your own
-
-Every student picks one at onboarding. Or tell the agent your
-tradition and it will build that in. The agent stays inside the
-chosen tradition; it never mixes traditions:
-
-- **Christian** — Bible-anchored. The Morning Minute includes a Bible
-  verse each morning, read naturally. The check-in frames the day
-  inside a living faith.
-- **Universal (secular)** — wisdom traditions honoured without
-  doctrine. The Morning Minute includes a short reflection or question
-  from a thinker. The check-in frames the day inside reflection,
-  gratitude, and intention.
-
-The student can change tradition later, but lessons branch from that
-moment on.
 
 ### Two delivery orders
 
@@ -212,7 +195,7 @@ explicit approval.
 A small library of go-to questions a young person can put to the
 Build with Jesus Agent at any time. The agent reads the relevant guide
 chapter, draws on what it already knows about the student, and
-answers in their voice, in their tradition.
+answers in their voice, Bible-anchored.
 
 The point is **not** to answer all twenty each day. The point is
 to have a small set of go-to prompts that surface the essentials,
@@ -365,8 +348,8 @@ skill when the student asks for the format.
 **How to customise.** The agent walks the student through choosing
 the time, timezone, and day-rule for each cron ritual during setup.
 All three can be paused, resumed, or removed later with
-`cronjob(action="...")`. The on-demand formats pick the student's
-tradition automatically; their voice and length are inherited from
+`cronjob(action="...")`. The on-demand formats pick up the student's
+settings automatically; their voice and length are inherited from
 the morning-minute Piper voice already chosen.
 
 ---
@@ -398,7 +381,7 @@ dives, the twenty prompts, the guide and outreach. They live in the
 | `/recap` | Your week in review: learned, built, gave, one win, one thing for next week | `weekly-review` |
 
 Each command simply starts the same flow the schedule would run, in the
-live conversation - consent, tradition, voice and cost rules all still
+live conversation - consent, voice and cost rules all still
 apply. They are shortcuts, never requirements: students can always just
 ask in a sentence ("run my Morning Minute").
 
@@ -652,16 +635,15 @@ Here is what it covers, in order:
 |---|---|---|
 | 1. Identity | Names (yours, the student's, the agent's), reply style, and the language for the guide, lessons and messages | Stored in the profile memory |
 | 2. Profile and life | Age, location, living situation, week shape, 3 interests, focus goal, friendship circle, blocker, off-limits — the fields the agent uses to tailor the Morning Minute and lessons | Stored in profile memory |
-| 3. Tradition | Christian, Universal, or their own | Stored in profile memory |
-| 4. Piper install + voice | Verifies Piper works, picks a voice, downloads the voice model | Voice model in `piper-voices/` |
-| 5. Jina API key | Sign up free, add to `.env`, agent verifies with a real search | `JINA_API_KEY=` in `.env` |
-| 6. Delivery channel | Telegram or WhatsApp bot credentials | `TELEGRAM_BOT_TOKEN=` / `WHATSAPP_*` in `.env` |
-| 7. Eight Essentials guide | Confirms the lesson MD files are in `essentials/01..08/lessons/`, and shares the guide's edition in the student's language (`essentials/guide-editions.md`) | Files in the repo |
-| 8. Memory | Mnemosyne recommended (local-first, no external account) | `hermes memory setup` |
-| 9. Morning Minute schedule | What time, what timezone, what days | Created as a cron job |
-| 10. Afternoon Check-In schedule | What time, what timezone, what days | Created as a cron job |
-| 11. Planning Session schedule | What time (default 9 pm), what timezone, what days | Created as a cron job |
-| 12. Token Router (optional) | The plugin that narrows the tool surface | `plugins.enabled` in `config.yaml` |
+| 3. Piper install + voice | Verifies Piper works, picks a voice, downloads the voice model | Voice model in `piper-voices/` |
+| 4. Jina API key | Sign up free, add to `.env`, agent verifies with a real search | `JINA_API_KEY=` in `.env` |
+| 5. Delivery channel | Telegram or WhatsApp bot credentials | `TELEGRAM_BOT_TOKEN=` / `WHATSAPP_*` in `.env` |
+| 6. Eight Essentials guide | Confirms the lesson MD files are in `essentials/01..08/lessons/`, and shares the guide's edition in the student's language (`essentials/guide-editions.md`) | Files in the repo |
+| 7. Memory | Mnemosyne recommended (local-first, no external account) | `hermes memory setup` |
+| 8. Morning Minute schedule | What time, what timezone, what days | Created as a cron job |
+| 9. Afternoon Check-In schedule | What time, what timezone, what days | Created as a cron job |
+| 10. Planning Session schedule | What time (default 9 pm), what timezone, what days | Created as a cron job |
+| 11. Token Router (optional) | The plugin that narrows the tool surface | `plugins.enabled` in `config.yaml` |
 
 At the end the agent shows a **Proposed setup** summary and waits for
 your explicit approval before applying anything.
@@ -794,8 +776,7 @@ and all three require nothing but asking:
   assembly). Published as an MP4 to here.now; the link goes in
   chat. Confirm spend before running.
 
-The agent reads the guide before drafting any of them, branches by
-the student's tradition, and tailors to the student's profile — the
+The agent reads the guide before drafting any of them, reads the guide carefully, and tailors to the student's profile — the
 same rules as the curriculum skill.
 
 ### 8 — Maintenance
@@ -904,14 +885,12 @@ buildwithjesus-agent/
 │
 ├── essentials/                            ← the Eight Essentials source content
 │   ├── 00-introduction/lessons/
-│   │   ├── christian.md                   ← Introduction (Christian edition)
-│   │   └── universal.md                   ← Introduction (Universal edition)
+│   │   └── christian.md                   ← Introduction
 │   ├── 01-silence/
 │   │   ├── SKILL.md                       ← agent's teaching notes for this essential
 │   │   ├── lessons/
 │   │   │   ├── README.md                 ← file schema
-│   │   │   ├── christian.md               ← Chapter 1 (Christian edition)
-│   │   │   └── universal.md               ← Chapter 1 (Universal edition)
+│   │   │   └── christian.md               ← Chapter 1
 │   │   └── activities/README.md
 │   ├── 02-body/        (same structure)
 │   ├── 03-skills/      (same structure)
@@ -921,11 +900,10 @@ buildwithjesus-agent/
 │   ├── 07-nature/
 │   ├── 08-faith/
 │   │   ├── lessons/
-│   │   │   ├── christian.md               ← Tested Faith + Christian Customisation
-│   │   │   └── universal.md               ← Tested Faith + Secular Customisation
+│   │   │   └── christian.md               ← Tested Faith + Christian Customisation
 │   │   └── activities/README.md
-│   ├── 09-conclusion/lessons/{christian,universal}.md
-│   ├── 10-before-after/lessons/{christian,universal}.md
+│   ├── 09-conclusion/lessons/christian.md
+│   ├── 10-before-after/lessons/christian.md
 │   └── guide-editions.md                  ← the guide online in ten languages
 │
 ├── skills/
@@ -1007,8 +985,7 @@ cronjob(
     schedule="0 20 * * *",
     name="Morning Minute",
     prompt="""You are running the student's Morning Minute.
-    Use the morning-minute skill. The student's tradition is
-    <christian/universal>. Generate the day's plan, run Piper TTS,
+    Use the morning-minute skill. Generate the day's plan, run Piper TTS,
     upload to here.now, deliver via multipart upload to Telegram.
     Do not write memories. Deliver only the final voice + text.""",
     skills=["morning-minute"],
@@ -1054,8 +1031,7 @@ Minute cron contract.
 | Cron fires at the wrong time | UTC confusion | The cron stores UTC. 6am AEST = `0 20 * * *`. 6am EST = `0 11 * * *` |
 | Schedule says daily but only fires weekdays | Wrong cron format | `0 6 * * *` = every day. `0 6 * * 1-5` = Mon–Fri |
 | Jina search returns nothing | Key not in `.env` or wrong | Test with `curl -H "Authorization: Bearer YOUR_KEY" "https://s.jina.ai/"` |
-| Agent gives the wrong tradition's content | Tradition not in memory | Re-run the tradition step of the orientation |
-| Lesson file isn't being read | Missing `.christian.md` or `.universal.md` suffix | Check `ls essentials/<NN>/lessons/` — files must be suffixed correctly |
+| Lesson file isn't being read | Missing the lesson MD file | Check `ls essentials/<NN>/lessons/` |
 
 ---
 

@@ -1,7 +1,7 @@
 # Lessons — Essential 1: Silence
 
 The guide's chapter for this essential lives in this folder as
-Markdown — one file per tradition (`christian.md`, `universal.md`).
+Markdown — the Christian edition (`christian.md`).
 The Build with Jesus Agent reads them and uses them as the source of
 truth for what to teach.
 
@@ -28,7 +28,7 @@ Each lesson MD file should have:
 3. The body — what the student needs to understand.
 4. A "Try this" section with one or two small, concrete actions.
 5. A "Reflection" prompt or two.
-6. (Christian tradition only) A Scripture quote or reference.
+6. A Scripture quote or reference.
 
 Example skeleton:
 
@@ -50,18 +50,6 @@ Two sentences on what this lesson is about and why it matters.
 
 > "Be still, and know that I am God." — Psalm 46:10
 ```
-
-## Tradition branching
-
-If the same lesson needs a different framing for Christian vs
-Universal students, use two files:
-
-```
-03-the-two-minute-practice.christian.md
-03-the-two-minute-practice.universal.md
-```
-
-The agent picks the right one based on the student's tradition.
 
 ## What to do first
 

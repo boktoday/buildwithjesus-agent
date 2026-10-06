@@ -12,16 +12,15 @@ sunlight. The hardware the rest of the life runs on.
 - **Young people underestimate sleep.** Most are sleeping an hour less
   than they need. Don't lecture; ask them what time they fall asleep
   and what time they wake up. Then point out the gap.
-- **Tradition matters.** Christian: "your body is a temple" (1 Cor
-  6:19). Universal: the body is the only place you live; treat it
-  accordingly.
+- **Bible-anchored.** "your body is a temple" (1 Cor
+  6:19).
 
 ## Folder layout
 
 ```
 02-body/
 ├── SKILL.md                 ← this file
-├── lessons/                 ← the chapter files (christian / universal)
+├── lessons/                 ← the chapter file (Christian edition)
 └── activities/              ← sleep, food, movement, water, sunlight
 ```
 

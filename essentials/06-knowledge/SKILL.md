@@ -11,9 +11,8 @@ reading. Not rented knowledge from a feed.
   they can recall with the phone off.
 - **Reading builds the memory palace.** A young person who reads for
   thirty minutes a day will know things their peers don't.
-- **Tradition matters.** Christian: "study to show thyself approved"
-  (2 Tim 2:15). Universal: the discipline of knowing things for
-  yourself, not because an algorithm fed them to you.
+- **Bible-anchored.** "study to show thyself approved"
+  (2 Tim 2:15).
 
 ## Folder layout
 

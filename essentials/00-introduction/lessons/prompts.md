@@ -3,7 +3,7 @@
 A small library of questions a young person can put to the Build with Jesus
 Agent at any time. The agent reads the relevant guide chapter, draws
 on what it already knows about the student, and answers in their
-voice, in their tradition.
+voice, Bible-anchored.
 
 The point is **not** to answer all twenty each day. The point is to
 have a small set of go-to prompts that surface the essentials, draw
@@ -235,10 +235,8 @@ check-in with one observation, not five.
 
 The evening ritual. The agent holds space. The student talks.
 The agent reflects back what the student said in a short
-paragraph the student can save as a memory of the day. In the
-Christian tradition, the agent may close with a short prayer
-or a verse. In the Universal tradition, it may close with a
-short reflection or a line from a thinker.
+paragraph the student can save as a memory of the day. The agent may close with a short prayer
+or a verse.
 
 ---
 

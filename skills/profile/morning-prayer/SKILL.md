@@ -37,7 +37,7 @@ the student's real life - their goals, what happened in the last
 day or two, what weighs on them, and the Scriptures they are
 reading. It is never a template with a name dropped in.
 
-**Prerequisites.** The student chose the Christian tradition (or
+**Prerequisites.** The student is a Christian young person (or
 has explicitly asked for this rhythm). The `language` memory key
 is set, Piper is installed with a chosen voice, the delivery
 channel works, and the profile's Bible files live in `bible/`
@@ -242,9 +242,8 @@ Manage, pause or change it with `cronjob(action="list"/"update"/
 
 ## Pitfalls
 
-- **Never for a Universal student.** A prayer is a Christian
-  practice; create this job only for the Christian tradition or
-  on an explicit request.
+- **Only on an explicit request.** A prayer is a Christian practice;
+  create this job only when the student asks for this rhythm.
 - **Never quote from memory.** From the `bible/` files, exactly,
   translation named. Hard rule.
 - **Repeating verses.** Search the whole archive before

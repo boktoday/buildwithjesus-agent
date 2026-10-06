@@ -28,9 +28,8 @@ metadata:
 
 The **Morning Minute** is the daily 6 am plan the student receives
 as audio + text in their chosen channel (Telegram or WhatsApp). It
-names the day's essential, the day's one small action, and — for
-Christian students — a Scripture quote. For Universal students, a
-wisdom reflection replaces the verse.
+names the day's essential, the day's one small action, and a
+Scripture quote.
 
 Despite the name, the audio is **not constrained to one minute.**
 The name is a brand. The audio is whatever length the day's plan
@@ -41,14 +40,13 @@ student into the day, short enough to listen to while getting ready.
 
 Before generating, the agent must have:
 
-1. **Tradition** — `christian` or `universal` (from onboarding).
-2. **Language** — the student's language for everything the student
+1. **Language** — the student's language for everything the student
    reads or hears (memory key `language`; default `en`).
-3. **Delivery channel** — `telegram` or `whatsapp`, with credentials
+2. **Delivery channel** — `telegram` or `whatsapp`, with credentials
    configured in `.env`.
-4. **Voice** — the Piper voice the student picked at onboarding,
+3. **Voice** — the Piper voice the student picked at onboarding,
    plus the path to the voice model.
-5. **Day-N essential** — today's essential of the week. The default
+4. **Day-N essential** — today's essential of the week. The default
    cycle is one essential per day, repeating. The student can pin
    an essential to focus on a season (set in memory).
 6. **Recent lessons read** — the agent keeps a memory log of which
@@ -123,8 +121,7 @@ Silence again.
 Read `essentials/<NN-name>/SKILL.md` first to ground yourself in
 the essential's teaching notes. Then read the next unread
 `lessons/*.md` file in `essentials/<NN-name>/lessons/` (alphanumeric
-order, branching by tradition if `<file>.christian.md` or
-`<file>.universal.md` exists).
+order; the Christian edition is the source of truth).
 
 Track which lesson files you have read for this student in memory
 (`hermes memory store`) so you do not repeat them within ~30 days.
@@ -191,10 +188,6 @@ In cron context never extract via shell pipes (`pdftotext | grep`
 and long one-liners are blocked) and never use `/tmp` (it does not
 exist on Windows). Never quote from memory. One short sentence
 after the quote.
-
-**Universal:** one short wisdom reflection — a question, a line
-from a thinker, a sentence the student can hold during the day. No
-attribution to religious texts. Attribution to a thinker is fine.
 
 ### Closing (5 to 10 seconds)
 
@@ -421,7 +414,7 @@ with urllib.request.urlopen(req, timeout=60) as r:
 assert out["ok"], out
 
 # Then send the plain-text plan below the voice bubble:
-text_body = "<full plan text — callback, essential, action, tradition line, closer>"
+text_body = "<full plan text — callback, essential, action, Scripture line, closer>"
 req = urllib.request.Request(
     f"https://api.telegram.org/bot{BOT}/sendMessage",
     data=json.dumps({"chat_id": CHAT, "text": text_body,
@@ -502,10 +495,6 @@ the student chats.
 - **The plan text drifts longer every day.** If it goes over ~200
   words, the audio goes over two minutes. Cut. The discipline is
   in the constraint.
-- **Forgetting tradition.** A Christian student should not get a
-  reflection from Marcus Aurelius in their Morning Minute. A
-  Universal student should not get a Psalm. Verify tradition in
-  memory before generating.
 - **Forgetting the student's language.** The intro line, the plan
   text and the spoken audio all go out in the `language` memory
   key (default English) — a Thai student's Morning Minute is
@@ -519,5 +508,5 @@ the student chats.
   MD files and teaches from them.
 - `setup-walkthrough` — walks the student through installing
   Piper, getting a Jina key, configuring Telegram or WhatsApp.
-- `agent-onboarding` — sets the student's tradition and language,
-  voice, and channel.
+- `agent-onboarding` — sets the student's language, voice,
+  and channel.

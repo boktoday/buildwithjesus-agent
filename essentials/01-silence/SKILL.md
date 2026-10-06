@@ -10,7 +10,7 @@ essential, and the one everything else rests on.
 ```
 01-silence/
 ├── SKILL.md                 ← this file (agent's teaching notes)
-├── lessons/                 ← the chapter files, one per tradition
+├── lessons/                 ← the chapter file (Christian edition)
 │   └── README.md            ← schema + checklist for the lesson files
 └── activities/              ← custom activities for the student
     └── README.md            ← schema + checklist for activity files
@@ -27,9 +27,8 @@ When the student is working on Silence, hold these in mind:
 - **The first attempts will be uncomfortable.** The student will
   fidget, check their phone, want to talk. That's normal. Don't
   diagnose it as failure. Just restart the next day.
-- **Tradition matters.** Christian students: sit in the quiet with
-  God. Universal students: sit with the question, "What am I
-  feeling right now, without naming it as anything?"
+- **Sit with God.** The quiet is where the student meets God - the
+  question "what am I feeling right now" is held inside prayer.
 - **Practical scaffolding helps.** Two minutes. A timer. A chair
   they don't use for anything else. A notebook for what surfaces
   afterward.

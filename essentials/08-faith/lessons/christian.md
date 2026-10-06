@@ -1,16 +1,9 @@
-# Chapter 8 — Tested Faith (Christian edition)
+# Chapter 8 â€” Tested Faith (Christian edition)
 
-> This is the **Christian** reading of Chapter Eight of the
-> onetoeight *Eight Essentials* guide. The chapter is explicitly
-> Christian-anchored in the source: the scenario is the sister
-> whose younger brother died, the framework is tested faith
-> rooted in Scripture, and the practices are the Christian
-> spiritual disciplines.
->
-> At the bottom of this file are the **Christian Customisation
-> notes** from Appendix B of the source guide — they describe
-> the substitutions a Christian facilitator should make if
-> running this as part of a church programme.
+> This is the **Christian** reading of Chapter Eight of the onetoeight
+> *Eight Essentials* guide, prepared for the Build with Jesus Agent.
+> Scripture is honoured and quoted accurately, and the chapter is read
+> inside a living faith.
 
 ---
 
@@ -499,7 +492,7 @@ Discussion Questions
                                  -- end of Chapter Eight --
 ---
 
-## Appendix B — Christian Customisation
+## Appendix B â€” Christian Customisation
 
 Christian Customisation
 

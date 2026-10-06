@@ -74,9 +74,8 @@ Walk these with the student, in order:
   given_on), then close `current_build` — status `done`, or clear
   it.
 - **Mark the moment.** A photo where possible, told to one person
-  who will be glad, and — in the student's tradition — thanks said
-  out loud. For Christian students a short prayer of thanks fits
-  here; quote any Scripture exactly from `bible/`, translation
+  who will be glad, and thanks said out loud — a short prayer of
+  thanks fits here; quote any Scripture exactly from `bible/`, translation
   named, as always. References that suit the moment: Acts 20:35,
   Matthew 5:16, Proverbs 3:27.
 - **Keep it about the giving.** One or two lines. Not a

@@ -1,13 +1,8 @@
-# Introduction — Why Roots Matter (Christian edition)
+# Introduction â€” Why Roots Matter (Christian edition)
 
-> This is the **Introduction** to the onetoeight *Eight
-> Essentials* guide (Universal Edition V.3.0.0), packaged for
-> the Build with Jesus Agent's Christian tradition.
->
-> The Introduction contains the source guide's root metaphor,
-> the worked-example **Christian** version of Chapter Eight
-> (Tested Faith, the sister whose brother died), and the eight
-> essentials listed in the order they are taught.
+> This is the on-screen reading copy from the onetoeight *Eight Essentials*
+> guide, prepared for the Build with Jesus Agent. Scripture is honoured
+> and quoted accurately, and the chapter is read inside a living faith.
 
 ---
 
@@ -134,58 +129,32 @@ Every chapter includes:
    same questions.
 
 You can read this guide alone in an evening. But it works better with
-others. If your church, mosque, temple, school, or community
-organisation is running an onetoeight weekly meetup, this guide is
+others. If your church or community
+is running an onetoeight weekly meetup, this guide is
 your companion. If you're reading it on your own, find at least one
 other person to discuss it with. The eight essentials were never meant
 to be built in isolation.
 
 A Word About Faith -- and This Guide's Approach
 
-This is the Universal Edition of onetoeight. It is designed to be used by
-anyone, regardless of faith or none. The first three essentials --
-silence, body, and skills -- are human universals. They matter whether
-you are Christian, Muslim, Jewish, Hindu, Buddhist, secular, humanist,
-agnostic, or anything else. They are about being a whole human being.
+This edition of the guide is for Christian young people. It is read
+inside a living faith: Scripture is honoured and quoted accurately,
+prayer is a normal part of the day, and the eight essentials are
+framed inside a relationship with God. The first three essentials --
+silence, body, and skills -- are human universals and matter to
+anyone walking this path. The seventh -- Prescribe Nature -- is the
+original therapy. The eighth -- Tested Faith -- is explicitly
+Christian-anchored: values and beliefs examined, and held under
+pressure.
 
-The second essential -- Your Body is a Temple -- is about radical self-
-care and personal accountability. Your body is the physical
-infrastructure on which everything else is built. The temple metaphor
--- whether you understand it spiritually or purely practically -- calls
-you to proactive maintenance, guarded boundaries, and reverence for
-the only body you will ever have.
-
-The seventh essential -- Prescribe Nature -- is about the original
-therapy. Time outdoors lowers stress, restores attention, and
-reconnects you to the natural world. Sunlight, soil, and the slow rhythm
-of the seasons are not luxuries; they are medicine, prescribed for
-every generation before ours.
-
-The eighth essential -- Tested Convictions -- is written in a way that
-works for everyone. It is about having values, beliefs, and a sense of
-purpose that have been examined and that hold under pressure. For
-many readers, these convictions will be rooted in their faith. For others,
-they will come from philosophy, family, culture, or personal
-experience. Both are valid. Both can be load-bearing.
-
-If you are running this programme in a faith community -- a church,
-mosque, synagogue, or temple -- you may wish to replace Chapter
-Eight with a version that draws specifically from your tradition. An
-appendix at the end of this guide explains exactly how to do that, with
-templates and suggestions for major faith traditions.
-
-If you are running this programme in a secular context -- a school,
-youth club, or community organisation -- Chapter Eight stands on its
-own. It is about meaning, purpose, and values that have been tested.
-No faith required.
-     WISDOM
+     WISDOM
 
     "He is like a tree planted by streams of water, which yields its
     fruit in season and whose leaf does not wither -- whatever they
     do prospers."
     Psalm 1:3 -- Hebrew Bible / Old Testament
 
-That image -- from one of the world's great traditions -- captures
+That image -- from Scripture -- captures
 what we're building toward. A tree with roots. Not a tree that looks
 impressive from a distance but has nothing anchoring it underground.
 A tree that draws from deep water, that bears fruit when it's meant to,
@@ -193,4 +162,4 @@ that doesn't wither when the heat comes. That is what we're building.
 Whatever your background, whatever your beliefs, whatever has
 brought you to this guide -- welcome. Let's begin.
 
-                                                  onetoeight. · V.3.0.0
+                                                  onetoeight. Â· V.3.0.0

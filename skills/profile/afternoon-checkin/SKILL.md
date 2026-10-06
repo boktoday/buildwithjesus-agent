@@ -42,13 +42,12 @@ The check-in has three jobs:
 
 ## Input contract
 
-1. **Tradition** — `christian` or `universal` (from onboarding).
-2. **Language** — the student's language for the message (memory
+1. **Language** — the student's language for the message (memory
    key `language`; default `en`).
-3. **Delivery channel** — `telegram` or `whatsapp`.
-4. **Today's essential and action** — what the Morning Minute
+2. **Delivery channel** — `telegram` or `whatsapp`.
+3. **Today's essential and action** — what the Morning Minute
    told the student to do.
-5. **Memory** — read any recent check-ins, and the `current_build`
+4. **Memory** — read any recent check-ins, and the `current_build`
    key, to maintain continuity.
 
 ## Output contract (text only)
@@ -134,7 +133,6 @@ Examples:
 - **Knowledge:** "What did you remember from memory today?"
 - **Nature:** "When did you last feel the wind?"
 - **Faith (Christian):** "Where did you see God today?"
-- **Faith (Universal):** "What did you believe in today?"
 
 Pick the right one for the day's essential.
 

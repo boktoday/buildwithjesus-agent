@@ -266,9 +266,6 @@ essentials/05-community/lessons/
 essentials/06-knowledge/lessons/
 essentials/07-nature/lessons/
 essentials/08-faith/lessons/          ← chapter on Faith
-                                       (branch into .christian.md
-                                        and .universal.md if both
-                                        are needed)
 ```
 
 See `essentials/01-silence/lessons/README.md` for the file schema
@@ -304,10 +301,9 @@ from `essentials/guide-editions.md` once the language is chosen.
   check (a Piper test synthesis, a Jina search, a Telegram test
   message, a file listing). Don't mark a step complete until the
   check passes.
-- **Mixing traditions.** If the student chose Universal at
-  onboarding, don't push them into Scripture quotes. If they
-  chose Christian, don't push them into "find your own truth"
-  framings.
+- **Never force Scripture.** If the student isn't ready to read the
+  Bible yet, don't push them; hold the rhythm gently and let them
+  come to it.
 
 ## Related skills
 

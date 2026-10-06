@@ -1,6 +1,6 @@
 ---
 name: eight-essentials-curriculum
-description: Use when the student asks a question about the Eight Essentials, when generating deeper lessons or activities, or when the orientation needs to load the guide MD files. Reads from essentials/<NN-name>/lessons/*.md and tailors by tradition.
+description: Use when the student asks a question about the Eight Essentials, when generating deeper lessons or activities, or when the orientation needs to load the guide MD files. Reads from essentials/<NN-name>/lessons/*.md and tailors to the student.
 version: 1.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -68,22 +68,11 @@ the install — say so plainly. (The guide ships with the profile, so
 this should not happen.) Never generate lesson content from scratch —
 that would invent teaching the student hasn't authorised.
 
-### Step 2 — Branch by tradition
+### Step 2 — Read the lesson
 
-The student picks Christian or Universal at onboarding. Some
-lesson files branch:
-
-```
-03-the-two-minute-practice.christian.md
-03-the-two-minute-practice.universal.md
-```
-
-If a branch exists, use the matching file. If only one version
-exists, use it for both traditions (some lessons are common to
-both).
-
-If neither branch file exists but a base `03-the-two-minute-practice.md`
-does, use that.
+Read the next unread `lessons/christian.md` file (alphanumeric order,
+or as pinned). The Christian edition is the source of truth for what
+to teach.
 
 Teach in the student's language (`language` memory key, default
 English). The lesson files are in English — translate the teaching
@@ -130,8 +119,7 @@ job is to teach, not to read aloud. Synthesise:
 - Pull the key idea from the lesson file.
 - Add the day's one small action if relevant.
 - Add a "why this works" sentence.
-- Add the right quote for the tradition.
-- (Christian) Reference the verse naturally.
+- Add a Scripture quote and reference it naturally.
 
 Then teach. Don't paraphrase the lesson file at length. Don't
 quote it verbatim and pretend that's teaching. The student can
@@ -180,7 +168,7 @@ tools, not weapons.
 
 ```bash
 ls essentials/00-introduction/lessons/
-# Should show: christian.md  universal.md  prompts.md  README.md
+# Should show: christian.md  prompts.md  README.md
 ```
 
 If `prompts.md` is missing, the prompts list is not available.
@@ -195,11 +183,10 @@ file is part of the guide the student owns. The agent's job is to
 space for the answer. Do not paste a prompt at length and pretend
 that is teaching. Do not ask three prompts in a row.
 
-### Branching by tradition
+### Answering the prompts
 
-The prompts file is tradition-neutral. The agent responds in the
-student's tradition — Christian or Universal — based on the
-onboarding memory.
+The prompts file is part of the guide the student owns. The agent
+answers Bible-anchored, in the student's language.
 
 ### Branching by delivery order
 
@@ -280,26 +267,16 @@ line. It works because it works, not because they understand why.
 
 ### Faith (Tested)
 
-This is the chapter that branches most by tradition.
-
-**Christian:** Scripture is honoured and quoted accurately. Doubt
-is not failure — it is the precursor to deeper belief. Prayer is
-a conversation, not a checklist. The student's faith has to be
-theirs, and it has to hold up under pressure.
-
-**Universal:** the same ethic without the doctrine. The student
-is invited to ask the hard questions — what do you believe, where
-did you get it, has it held up under pressure? Reflection is the
-practice, not doctrine.
+This chapter is explicitly Christian-anchored. Scripture is honoured
+and quoted accurately. Doubt is not failure — it is the precursor to
+deeper belief. Prayer is a conversation, not a checklist. The
+student's faith has to be theirs, and it has to hold up under
+pressure.
 
 ## Pitfalls
 
 - **Inventing content from scratch.** The lesson files are the
   source of truth. If they don't exist, say so. Do not pretend.
-- **Mixing traditions.** A Christian student should not get a
-  reflection from Marcus Aurelius in their lesson. A Universal
-  student should not get a Psalm. Verify tradition in memory
-  before generating.
 - **Lecturing.** The student is here to learn, not to be lectured.
   Draw it out with questions.
 - **Quoting the guide at length.** The student can read. Synthesise.
@@ -316,4 +293,4 @@ practice, not doctrine.
   reply.
 - `setup-walkthrough` — walks the student through dropping the
   guide MD files into `essentials/01..08/`.
-- `agent-onboarding` — sets the tradition.
+- `agent-onboarding` — runs the orientation.

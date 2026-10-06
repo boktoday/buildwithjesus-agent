@@ -1,23 +1,8 @@
-# Chapter 4 — Digital Self-Defence (Christian edition)
+# Chapter 4 â€” Digital Self-Defence (Christian edition)
 
-> This is the on-screen reading copy of **Digital Self-Defence** as it appears
-> in the onetoeight *Eight Essentials* guide (Universal Edition
-> V.3.0.0), packaged for the Build with Jesus Agent's Christian
-> tradition.
->
-> In the Christian tradition, the Eight Essentials are framed
-> inside a living faith. Scripture is honoured and quoted
-> accurately. Prayer is a normal part of the day. The morning
-> and evening check-ins frame the student's day inside a
-> relationship with God.
->
-> The body of this chapter is the same in both traditions,
-> because the guide is intentionally inclusive. Where Scripture
-> appears (Hebrew Bible / Old Testament and New Testament), it
-> is honoured as one source of wisdom alongside the other
-> sources the student encounters. The tradition wrapper (the
-> Morning Minute's Scripture quote, the prayer framing in the
-> check-in) is configured at onboarding, not here.
+> This is the on-screen reading copy from the onetoeight *Eight Essentials*
+> guide, prepared for the Build with Jesus Agent. Scripture is honoured
+> and quoted accurately, and the chapter is read inside a living faith.
 
 ---
 
@@ -115,7 +100,7 @@ investment schemes, romance scams, student loan fraud, parcel
 delivery texts, the tax office refund scams -- these are not
 opportunistic attempts by individuals. They are run by organised
 criminal networks using AI to personalise attacks at scale. Scams
-targeting 16­25 year olds have doubled since 2023. You are the target.
+targeting 16Â­25 year olds have doubled since 2023. You are the target.
 
 3. AI has changed the threat.
 
@@ -270,7 +255,7 @@ not a coincidence. It is a design choice.
 How Profiling Works
 
 The platform assigns you to a "cohort" -- a group of people who
-behave similarly. If you're in a cohort of 18­24 year-old males who like
+behave similarly. If you're in a cohort of 18Â­24 year-old males who like
 gaming and follow certain political accounts, the algorithm will feed
 you content that statistically keeps that cohort engaged. You are not
 an individual to the algorithm. You are a data point in a cluster. Your
@@ -579,7 +564,7 @@ designed by people who study human psychology for a living.
 
     4.8 hrs                                  2x
 
-average daily screen time for 16­24  increase in anxiety and depression in
+average daily screen time for 16Â­24  increase in anxiety and depression in
               year olds                         young people since 2012
 
 The Comparison Trap
