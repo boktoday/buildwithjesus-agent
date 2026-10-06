@@ -440,13 +440,15 @@ no personal data collection, consent from whoever it is for, and a
 parent or leader in the loop for anything hosted or public. One
 project at a time — the inbox holds the rest.
 
-**Finding a need to build for.** When the need is outside their own
-life, the `outreach` skill runs the full campaign: a short target
-list of community hubs, schools and churches; the first message
-carrying the offer; the discovery question set; five filters that
-qualify a need; and expressions of interest captured through a small
-landing page the student builds themselves. A qualified need comes
-back into this pipeline as the project card.
+**Where ideas come from.** Three places: the student's own life
+(build-project Door 1), a brainstorm (`/ideas`, or the activity
+prompts in the twenty), or a real need found through outreach - see
+the outreach section below.
+
+**Finding a need to build for.** For needs outside their own life,
+the `outreach` workflow (next section) finds a real problem, makes
+the free-build offer, and captures expressions of interest. A
+qualified need comes back into this pipeline as the project card.
 
 **Where the code lives.**
 
@@ -456,6 +458,48 @@ back into this pipeline as the project card.
 | Projects (pipeline + Build Round) | `skills/profile/build-project/` |
 | Finding a need (outreach) | `skills/profile/outreach/` |
 | The give-away | `skills/profile/handover/` |
+
+---
+
+## Outreach - find a real need to build for
+
+Stage two of the build track. Stage one is building for yourself and
+learning the craft; stage two is going out and serving a real need.
+The `outreach` skill (and the `/outreach` command) carries the whole
+workflow:
+
+1. **The target list** - three to five places: the school, the church
+   and its ministries, community hubs (library, community centre,
+   sports club, food bank, aged care).
+2. **The first message** - the offer in the student's own words:
+   *"If there's something hard to keep track of, plan, or share where
+   you are, I'd love to build you a small, simple tool for free and
+   hand it over as a gift. No cost, no catch."* One question rides
+   along: what's the most annoying repetitive task in your week?
+3. **The discovery conversation** - a ten-question set that finds
+   what people actually need: what's repetitive, what lives on
+   paper, what breaks when someone is away, how they cope now, what
+   "solved" looks like.
+4. **Five filters** - real, small, buildable, safe, givable. A need
+   that passes becomes the project card; "not now" is a normal
+   outcome, logged like everything else.
+5. **The brief, then the yes** - one page, in their words, with the
+   give-away promise. Then the build runs through `build-project`
+   and ends in `handover`.
+
+**The expressions-of-interest page.** Organisations can also come to
+the student: the workflow includes a single-page site the student
+builds themselves - the offer as the headline, their finished builds
+as proof, how it works, and a short expressions form routed to a
+family-monitored inbox (no trackers, no personal data beyond what
+the reply needs). It prints as a flyer with a QR code for
+noticeboards.
+
+**Safety defaults** run through everything: a parent or youth
+leader approves the target list and every step, official channels
+only, never meeting anyone alone, no personal data collection, one
+polite follow-up maximum. The whole campaign lives in
+`skills/profile/outreach/` and is tracked in `outreach-log.md`.
 
 ---
 
