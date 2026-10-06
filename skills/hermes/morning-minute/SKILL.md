@@ -183,8 +183,14 @@ If there was no check-in, skip this part and start with the greeting.
 
 ### Part C — The quote or reflection (15 to 30 seconds)
 
-**Christian:** one verse, quoted accurately, with the reference read
-naturally (see Step 4). One short sentence after it.
+**Christian:** one verse, quoted accurately from the profile's
+`bible/` PDFs — open them with `read_file` (the text layer
+extracts; use `offset` paging), copy the verse exactly, and name
+the translation (the full rule lives in `morning-prayer` Step 1).
+In cron context never extract via shell pipes (`pdftotext | grep`
+and long one-liners are blocked) and never use `/tmp` (it does not
+exist on Windows). Never quote from memory. One short sentence
+after the quote.
 
 **Universal:** one short wisdom reflection — a question, a line
 from a thinker, a sentence the student can hold during the day. No
@@ -221,18 +227,19 @@ Before passing the text to Piper:
 - **Drop hashtags, URLs, and Markdown formatting.** Piper reads
   `#` as "hash". Strip Markdown.
 
-Save the cleaned text to the canonical path the cron uses. See
-"File paths" below.
+Save the cleaned text to the profile directory, where the run's
+audio and archive live:
+`~/.hermes/profiles/buildwithjesus-agent/morning-minute-today.txt`
+(Windows: `C:\Users\<you>\AppData\Local\hermes\profiles\buildwithjesus-agent\`).
 
 ## Step 4 — Piper TTS (offline, native exe on Windows)
 
-The pre-built pattern, verified to work in this environment:
+The pattern, verified on Windows in the field. Use the student's
+verified paths — `piper_path` and `piper_voice_path` from
+onboarding:
 
 ```bash
-"/c/Users/insig/.openhuman/bin/piper/piper/piper.exe" \
-  -m "C:/Users/insig/projects/onetoeight-essentials/piper-voices/en/en_GB/<voice>/medium/<voice>.onnx" \
-  -f "C:/Users/insig/morning-minute-today.wav" \
-  < /c/Users/insig/morning-minute-tts.txt
+"<piper_path>" -m "<piper_voice_path>" -f "morning-minute-today.wav" < "morning-minute-tts.txt"
 ```
 
 **Voice catalogue** — verify the voice exists at the path before
@@ -269,14 +276,16 @@ native (`C:/...`) for stdin redirect, but back-slash native
 
 ```bash
 ffmpeg -y -hide_banner -loglevel error \
-  -i "C:/Users/insig/morning-minute-today.wav" \
+  -i "morning-minute-today.wav" \
   -c:a libopus -b:a 24k \
-  "C:/Users/insig/morning-minute-today.ogg"
+  "morning-minute-today.ogg"
 ```
 
 Sanity check the output: ~250 to ~450 KB and ~60 to ~120 s. A
 result under 200 KB or under 45 s suggests the TTS input was
-truncated.
+truncated. The delivered artifact is always this OGG Opus file —
+if a fallback engine produced an mp3 or wav, convert it, and note
+the fallback in the archive.
 
 ## Step 6 — Publish to here.now (optional archival path)
 

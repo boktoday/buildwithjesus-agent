@@ -96,6 +96,10 @@ or `bible/ASV.pdf`.
   same public-domain text). The rule does not change: one
   translation per quote, translation named, and anything you
   quote exactly as the files hold it.
+- In cron context, shell extraction is not available: piped
+  commands (`pdftotext | grep`, long one-liners) are blocked and
+  `/tmp` does not exist on Windows. `read_file` on the PDFs is the
+  route — it is what the verified field runs used.
 
 ## Step 2 - Write the prayer (~120 to ~200 words)
 
@@ -148,8 +152,11 @@ line, drop any Markdown. Save the canonical text to
 
 Use the exact verified Piper pattern from `morning-minute`,
 Step 4 (native `piper.exe`, the voice table, the MSYS path
-pitfall). Write the audio to
+pitfall), with the student's `piper_path` and `piper_voice_path`
+from onboarding. Write the audio to
 `~/.hermes/profiles/buildwithjesus-agent/morning-prayer-today.wav`.
+If the household recorded `tts_fallback: edge` at onboarding, use
+the recorded fallback voice and say so in the archive.
 
 ## Step 5 - Convert to OGG
 

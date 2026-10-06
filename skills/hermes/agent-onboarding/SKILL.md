@@ -139,9 +139,16 @@ Before proposing changes, inspect only the active profile:
 5. If the user mentions a specific integration, inspect the
    installed skill inventory with `skills_list()`.
 6. Confirm Piper is installed: try the test-synthesis command from
-   `setup-walkthrough` Skill Step 1. If it fails, note that and
-   pause for Piper install (routes in `setup-walkthrough`:
-   `pip install piper-tts`, or the release binary).
+   `setup-walkthrough` Skill Step 1. This probe gates the audio
+   jobs. If it fails, pause for Piper install (routes in
+   `setup-walkthrough`: `pip install piper-tts`, or the release
+   binary) — do not create the Morning Minute, Morning Prayer, or
+   Night Passage jobs until Piper synthesizes, or until the user
+   explicitly chooses the fallback below. If the household
+   explicitly declines Piper, record `tts_fallback: edge` in
+   profile memory, name the Edge fallback voice in the job prompts,
+   and say the fallback out loud in the setup plan — the engine
+   must never diverge silently.
 7. Confirm the guide MD files are loaded: list
    `essentials/*/lessons/`. If any folder has only `README.md`,
    note which essential needs its chapter dropped in.
@@ -292,13 +299,18 @@ binary), picking a voice, and verifying with a test synthesis.
 
 **Ask the student which voice they want to wake up to:**
 
-> "Which voice should Anna wake up to each morning? Here are the
-> options: US male (Joe), US female (Amy), UK male (Alan), UK
+> "Which voice should <student> wake up to each morning? Here are
+> the options: US male (Joe), US female (Amy), UK male (Alan), UK
 > female (Jenny Dioco), or Australian female (Natasha)."
 
-Don't default to Joe silently — make the choice explicit. The voice
-the student picks shapes whether they actually listen to the Morning
-Minute.
+Use the student's name, never a hardcoded example name. Don't
+default to Joe silently — make the choice explicit. The voice the
+student picks shapes whether they actually listen to the Morning
+Minute. The five voices are the Piper catalogue (see
+`setup-walkthrough` and `morning-minute` Step 4): record the chosen
+voice and the two verified paths in profile memory as `piper_path`
+(the binary) and `piper_voice_path` (the `.onnx` model). The audio
+job prompts name those paths, not just a voice name.
 
 The agent does NOT ask for keys or tokens in chat. It walks the
 user to where they add things themselves.
@@ -581,7 +593,9 @@ Apply only the approved items, in this order:
    `off_limits`, and `language` keys in Mnemosyne).
 3. Tradition in the active profile memory (writes a `tradition`
    key in Mnemosyne).
-4. Piper voice path in the active profile memory.
+4. Piper paths in the active profile memory (`piper_path` and
+   `piper_voice_path`, both from the verified setup-walkthrough
+   probe — or the explicit `tts_fallback: edge` decision).
 5. Jina key in `.env` (user adds it themselves; agent verifies).
 6. Delivery channel credentials in `.env` (user adds them
    themselves; agent verifies with a test message).
@@ -656,7 +670,7 @@ cronjob(
         Use the morning-minute skill. The student's tradition is
         <christian/universal>. The essentials delivery order is
         <sequential/randomised> — read this from the essentials_order
-        memory key, not from this prompt. The voice is <voice path>.
+        memory key, not from this prompt. The voice is <piper voice model path>, binary at <piper binary path>.
         The student's language is read from the language memory key —
         write all student-facing text in it.
         The delivery channel is <telegram/whatsapp>. Generate the day's
@@ -698,7 +712,7 @@ cronjob(
     prompt="""You are running the student's Morning Prayer for today.
         Use the morning-prayer skill. The student's language is read
         from the language memory key — write everything in it. The
-        voice is <voice path>. The delivery channel is
+        voice is <piper voice model path>, binary at <piper binary path>. The delivery channel is
         <telegram/whatsapp>. Choose a verse from the profile's Bible
         files (never from memory), quote it exactly with the
         translation named, write the prayer, run Piper TTS, convert
@@ -738,7 +752,7 @@ cronjob(
     prompt="""You are running the student's Night Passage for tonight.
         Use the night-passage skill. The student's language is read
         from the language memory key — write everything in it. The
-        voice is <voice path>. The delivery channel is
+        voice is <piper voice model path>, binary at <piper binary path>. The delivery channel is
         <telegram/whatsapp>. Continue their current reading from the
         archive; pick a passage that speaks to their week — peace
         and light only, never heavy passages at night; quote it
@@ -805,8 +819,14 @@ If an equivalent job exists:
 - Use `cronjob(action="remove", job_id="<id>")` only after
   explicit approval because removal deletes the schedule.
 
-After creating or updating a job, use `cronjob(action="list")`
-again.
+After creating or updating a job, call `cronjob(action="list")`
+and read every created job back field by field: name, schedule,
+`skills`, and `prompt`. A creation can land a mangled field (seen
+in the field: the first created job's `skills` array arrived
+corrupted while later jobs were fine) — if anything is off, repair
+it with `cronjob(action="update", job_id="<id>", ...)` before
+reporting success. "Created" on screen is not "correct on disk";
+the readback is the proof.
 
 ## Common pitfalls
 
@@ -850,7 +870,8 @@ again.
       landed in Mnemosyne with the student's approval.
 - [ ] Language was captured, stored as `language`, and the student's
       guide edition link was shared.
-- [ ] Piper voice was verified with a test synthesis.
+- [ ] Piper was verified with a test synthesis (or the explicit
+      Edge fallback was chosen and recorded).
 - [ ] Jina API key was verified with a real search.
 - [ ] Delivery channel was verified with a test message.
 - [ ] Eight Essentials guide MD files are present in every
@@ -868,12 +889,13 @@ again.
       toolset override.
 - [ ] Existing jobs were listed before any recurring job was
       created.
-- [ ] Morning Minute and Afternoon Check-In jobs were created
+- [ ] Morning Minute and Afternoon Check-In jobs were created only
+      when individually approved, with self-contained prompts.
 - [ ] If chosen, the Morning Prayer and Night Passage jobs were
       created with the agreed schedules (Morning Prayer staggered
       from the Morning Minute when both hold the 6 am hour).
-      only when individually approved, with self-contained
-      prompts.
+- [ ] Newly created jobs were read back field by field (name,
+      schedule, skills, prompt) and any mangled field repaired.
 - [ ] Post-change config, skill, toolset, and cron state were read
       back.
 - [ ] Any required fresh-session or gateway-restart gate was
