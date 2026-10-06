@@ -356,6 +356,48 @@ the morning-minute Piper voice already chosen.
 
 ---
 
+## Guided commands (/slash)
+
+Six shortcuts for the on-demand rituals and the build round. They live in
+the `bwj-commands` plugin and appear automatically in CLI autocomplete,
+`/help`, and the Telegram command menu.
+
+| Command | What it does | Skill it starts |
+|---|---|---|
+| `/morning` | Runs today's Morning Minute now - audio + text | `morning-minute` |
+| `/prayer` | Runs today's Morning Prayer now - audio + text | `morning-prayer` |
+| `/checkin` | Runs today's Afternoon Check-In now | `afternoon-checkin` |
+| `/tomorrow` | Runs tonight's Planning Session (plans tomorrow), opening with the Build Round | `planning-session` |
+| `/passage` | Runs tonight's Night Passage now - audio + text | `night-passage` |
+| `/build` | The Build Round: start / keep going / finish. Takes an argument - `/build start`, `/build keep`, `/build finish` - or the idea in a sentence | `build-project` |
+
+Each command simply starts the same flow the schedule would run, in the
+live conversation - consent, tradition, voice and cost rules all still
+apply. They are shortcuts, never requirements: students can always just
+ask in a sentence ("run my Morning Minute").
+
+**One-time setup.** The plugin ships in `plugins/bwj-commands/`. Enable
+it, and (for Telegram/WhatsApp) allow it to start turns in the live
+session:
+
+```bash
+hermes plugins enable bwj-commands
+```
+
+```yaml
+# config.yaml
+plugins:
+  enabled:
+    - bwj-commands
+  entries:
+    bwj-commands:
+      allow_gateway_injection: true
+```
+
+On the gateway the commands appear in the Telegram bot menu automatically.
+
+---
+
 ## Build projects (short and long)
 
 Two sizes of making, one loop: Learn. Build. Give.
@@ -817,6 +859,7 @@ buildwithjesus-agent/
 │       ├── handover/                      ← giving a finished build away
 │       └── setup-walkthrough/            ← Piper, Jina, channel setup
 │
+├── plugins/bwj-commands/                  ← /morning /prayer /checkin /tomorrow /passage /build
 ├── plugins/hermes-token-router/           ← optional tool-narrowing plugin
 ├── memories/                              ← generic operating-practice seeds
 └── skins/buildwithjesus.yaml                 ← colour theme

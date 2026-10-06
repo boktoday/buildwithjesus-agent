@@ -1,0 +1,4 @@
+name: bwj-commands
+version: 1.0.0
+description: "Guided-ritual slash commands for the Build with Jesus Agent: /morning, /prayer, /checkin, /tomorrow, /passage, /build. Each one starts the matching skill flow in the live chat."
+author: "Build with Jesus Agent contributors"
