@@ -1,4 +1,4 @@
-# Before & After — Before & After — Your Roots Assessment (Christian edition)
+# Before & After — Before & After — Your Roots Assessment
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -13,7 +13,8 @@
                                                     Jeremiah 29:11
 
                                                   onetoeight. · V.3.0.0
-onetoeight. The Eight Essentials  Before & After
+
+onetoeight. The Eight Essentials  Before & After
 
 Before & After: Your Roots Assessment
 
@@ -22,7 +23,8 @@ start of this guide. Now do it again. The point is not to see
 dramatic improvement. The point is to see movement --
 even small movement -- and to notice where the roots are
 taking hold.
-             Rate Yourself: Before & After
+
+             Rate Yourself: Before & After
 
 Score each essential 1 (not yet begun) to 5 (deeply rooted). Do the
 "Before" column from memory, then the "After" column honestly.
@@ -60,7 +62,8 @@ Nature -- Regular time outdoors, grounded in the natural world
 
 Convictions -- Values that have been tested and hold under
 pressure
-1 2345  1 2345
+
+1 2345  1 2345
 
 REFLECT
 

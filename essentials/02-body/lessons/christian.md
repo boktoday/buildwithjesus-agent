@@ -1,4 +1,4 @@
-# Chapter 2 — Your Body is a Temple (Christian edition)
+# Chapter 2 — Your Body is a Temple
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-CHAPTER TWO
+
+CHAPTER TWO
 
                                                    YOUR BODY IS A TEMPLE
 
@@ -18,7 +19,8 @@ is a Temple
       Jim Rohn, entrepreneur and author
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 2 -- Your Body is a Temple
+
+onetoeight. The Eight Essentials  Ch. 2 -- Your Body is a Temple
 
 Your Body is a Temple
 
@@ -50,7 +52,8 @@ and he realised something that frightened him: no one was coming
 to fix this. There was no pill, no appointment, no professional who
 could do the work for him. He was the architect. He was the
 caretaker. It was his temple, and he'd been letting it crumble.
-This is not a story about one person. It is the story of a generation that
+
+This is not a story about one person. It is the story of a generation that
 has been taught to optimise their phones, their study schedules, and
 their social media profiles -- but not their bodies. You know the battery
 health of your iPhone. You do not know your own blood pressure.
@@ -58,11 +61,10 @@ Something has gone badly wrong.
 
 Why This Essential Matters
 
-Strip away the religious context, and "your body is a temple" remains
-one of the most powerful metaphors we have for radical self-care and
-personal accountability. It shifts how you treat your health from a
-chore to a baseline standard. Here is what the concept means in a
-purely practical, modern sense.
+Scripture gives us the phrase: your body is a temple (1 Corinthians
+6:19). It remains one of the most powerful pictures of radical
+self-care and personal accountability, and it shifts how you treat
+your health from a chore to a baseline standard.
 
 Think about an actual temple -- a historic monument, a high-end
 gallery, a cathedral. You don't let trash pile up in the foyer. You don't
@@ -75,13 +77,7 @@ life. Every thought you think, every relationship you build, every skill
 you learn, every conviction you hold -- all of it runs on the hardware of
 your body. If the hardware fails, everything else fails with it.
 
-     WISDOM -- PHILOSOPHICAL TRADITION
-
-    "It is a shame for a person to grow old without seeing the
-    beauty and strength of which their body is capable."
-
-    Socrates (attributed), Greek philosopher
-1. High-Value Maintenance, Not Neglect
+1. High-Value Maintenance, Not Neglect
 
 Think about an actual temple, an historic monument, or a high-end
 gallery. You don't let trash pile up in the foyer, leave the roof leaking,
@@ -108,7 +104,8 @@ food. If it comes from a factory and has ingredients you can't
 pronounce, it is not food. It is a food-like product. Your body can
 process it -- for now -- but it is not maintaining the temple. It is filling it
 with trash.
-     PRACTICAL TIPS -- NUTRITION
+
+     PRACTICAL TIPS -- NUTRITION
 
     Learn to cook five healthy meals. If you can cook, you control
        what goes in. (See Chapter 3.)
@@ -140,7 +137,8 @@ You do not need a gym membership, a programme, or a wearable. You
 need to move your body, every day, in ways that challenge it. Walk.
 Run. Lift heavy things. Stretch. Climb. Swim. Cycle. Do whatever you
 enjoy, and do it consistently.
-PRACTICAL TIPS -- MOVEMENT
+
+PRACTICAL TIPS -- MOVEMENT
 
  Walk 8,000­10,000 steps a day. This is the single most
    underrated health intervention available to you.
@@ -155,7 +153,8 @@ enjoy, and do it consistently.
 
  Sit less. Standing desks, walking meetings, taking the stairs --
    every bit of movement counts.
-Rest: Structural Repairs
+
+Rest: Structural Repairs
 
 A temple that never closes -- that never has time for maintenance,
 repair, and restoration -- will not last. Your body is the same. Sleep is
@@ -195,7 +194,8 @@ same is true of your body and your mind.
 
 You become highly intentional about what you allow inside. This
 applies physically -- to substances, ultra-processed foods, and toxins.
-But it also applies mentally -- guarding your time, your energy, and
+
+But it also applies mentally -- guarding your time, your energy, and
 your attention against high-stress environments, chronic negativity,
 and the relentless input of information that triggers physical wear and
 tear.
@@ -230,14 +230,16 @@ means being intentional about what you let into your mental space.
    self-neglect. Learn to say no.
    Comparison. Social media is a comparison engine. Every
    comparison you make is a stressor. Guard against it.
-PAUSE AND REFLECT
+
+PAUSE AND REFLECT
 
 What are you letting through the gates of your temple? Make a list
 -- physical and mental. What enters your body, your mind, your
 space on a daily basis? Which of these are maintaining the
 temple? Which are filling it with trash? What would it look like to
 be more selective at the gate?
-3. The Ultimate Ownership
+
+3. The Ultimate Ownership
 
 A temple is built to last, often standing long after other buildings
 crumble. But it only survives if someone takes responsibility for it. The
@@ -257,12 +259,6 @@ habits. You are the architect. Terrifying because it means there is no
 one to blame. If the temple crumbles, it is because the caretaker
 neglected it.
 
-     WISDOM
-
-    "The first and best victory is to conquer self."
-
-    Plato, Greek philosopher
-
 No doctor, no therapist, no nutritionist, no personal trainer can do the
 work for you. They can advise, guide, and support. But the work -- the
 daily, unglamorous, repetitive work of maintaining the temple -- is
@@ -272,9 +268,10 @@ will take responsibility for it.
 
 4. Reverence for the Instrument
 
-In a secular sense, your body is the only vehicle you get to experience
+Your body is the only vehicle you get to experience
 the universe, do meaningful work, travel, and connect with the people
-you love. It is the essential toolkit that allows you to show up for your
+
+you love. It is the essential toolkit that allows you to show up for your
 life every single day.
 
 Treating it like a temple means treating it with respect rather than
@@ -314,7 +311,8 @@ perfect, but because it is yours.
    because it does. It's the only one I've got.
 
    -- Priya, age 23
-How the Eight Essentials Connect
+
+How the Eight Essentials Connect
 
 Your body is the physical infrastructure on which all the other
 essentials are built. You cannot sit in silence (Chapter 1) if your brain is
@@ -335,9 +333,9 @@ physically, mentally, relationally, and spiritually.
 
 Respect the Machinery
 
-Ultimately, taking the spiritual out of the phrase "your body is a
-temple" leaves you with a deeply grounded philosophy: respect the
-machinery that makes your life possible.
+Ultimately, the phrase is more than metaphor: your body is God's
+creation, entrusted to you. Respect the machinery that makes your
+life possible - because it was given to you for a purpose.
 
 This is not about perfection. It is not about being an athlete, a model,
 or a biohacker. It is about a baseline standard of care -- the kind of
@@ -352,7 +350,8 @@ you let through the gates.
 
 Treat it like a temple. Not because it is perfect. Because it is the only
 one you have.
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -373,14 +372,15 @@ one you have.
        other eight essentials? Where have you noticed the
        connection?
 
-    6. Read 1 Corinthians 6:19-20 (or the Socrates quote). What does
+    6. Read 1 Corinthians 6:19-20. What does
        it mean to "honour" your body? How is this different from diet
        culture or vanity?
 
     7. What is one change you could make this week -- one meal, one
        walk, one hour of sleep -- that would begin to maintain the
        temple?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -412,7 +412,8 @@ one you have.
    At the end of the week, review: what is maintaining the temple?
    What is filling it with trash? Choose one thing to stop letting
    through the gate.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -435,7 +436,8 @@ one you have.
     "He who has health has hope; and he who has hope has
     everything."
     Arabic proverb
-Chapter 2 Checklist
+
+Chapter 2 Checklist
 
      BEFORE MOVING TO CHAPTER 3
 

@@ -1,4 +1,4 @@
-# Chapter 8 — Tested Faith (Christian edition)
+# Chapter 8 — Tested Faith
 
 > This is the **Christian** reading of Chapter Eight of the onetoeight
 > *Eight Essentials* guide, prepared for the Build with Jesus Agent.
@@ -7,7 +7,8 @@
 
 ---
 
-CHAPTER EIGHT
+
+CHAPTER EIGHT
 
                                                      TESTED CONVICTIONS
 
@@ -20,7 +21,8 @@ Faith
     may be mature and complete, not lacking anything."
 
 V.3.0.J0ames 1:2-4
-onetoeight. The Eight Essentials  Ch. 8 -- Tested Faith
+
+onetoeight. The Eight Essentials  Ch. 8 -- Tested Faith
 
 Tested Faith
 
@@ -30,7 +32,8 @@ decorative. Knowing whose you are, not just knowing about
 God. Survival through disappointment. Preparation for
 deception. Trust that has been through the fire and come out
 refined.
-The Scenario
+
+The Scenario
 
      REAL STORY
 
@@ -67,7 +70,8 @@ to listen for. Without faith, the body is just maintenance -- there is no
 reverence behind it. Without faith, the skills are just self-reliance --
 there is no purpose behind them. Without faith, the community is just a
 club -- there is nothing binding it together. Without faith, the
-knowledge is just information -- there is no framework for applying it.
+
+knowledge is just information -- there is no framework for applying it.
 Without faith, nature is just scenery -- there is no Creator behind it.
 
 But not all convictions are equal. There is a kind of conviction that is
@@ -93,7 +97,8 @@ The question is whether they will hold.
 Testing reveals what is real. Fire purifies. Trials show you what you
 actually believe -- not what you say you believe, but what you hold
 onto when everything else falls away.
-Decorative vs Load-Bearing Convictions
+
+Decorative vs Load-Bearing Convictions
 
 Think of convictions like a beam in a building. A decorative beam looks
 good -- it's polished, painted, maybe carved. It adds to the aesthetic.
@@ -132,7 +137,8 @@ Preparation for Deception
 
 One of the things that will test your convictions is deception -- the
 pressure to believe things that are not true. This comes in many forms:
-cultural narratives that contradict your values, well-meaning friends
+
+cultural narratives that contradict your values, well-meaning friends
 who question your beliefs, intellectual arguments that seem
 compelling, and -- increasingly -- a digital environment where truth
 and lies are intermingled so seamlessly that discernment becomes
@@ -151,7 +157,8 @@ knowledge are vague. Knowledge without community is isolated.
 Community without skills is dependent. Skills without silence is
 busywork. Silence without convictions is just meditation. Together,
 they form a life that holds.
-Survival Through Disappointment
+
+Survival Through Disappointment
 
 The most common conviction-test is not intellectual -- it is emotional.
 It is the experience of disappointment: with life, with people, with
@@ -185,7 +192,8 @@ not naive. It is the hardest-won conviction there is.
 Convictions that survive disappointment are convictions that have
 decided what is true and good regardless of what happens -- and that
 decision is made in the dark, not in the light.
-Knowing vs Knowing About
+
+Knowing vs Knowing About
 
 There is a critical difference between knowing about something and
 knowing it directly. It is the difference between reading about courage
@@ -216,7 +224,8 @@ humble, more real, more rooted.
     "My ears had heard of you, but now my eyes have seen you."
 
     Job 42:5
-The Tests That Come
+
+The Tests That Come
 
 What will test your convictions? Let's be specific. Here are the
 common tests -- the ones that come for almost everyone.
@@ -255,7 +264,8 @@ uniquely painful because it comes from within the community. The
 answer is not to pretend people are perfect. It is to recognise that
 convictions must be tested against reality -- including the reality that
 the people who hold them are flawed.
-The Test of Silence
+
+The Test of Silence
 
 When you are quiet (Chapter 1) and nothing comes. When you reflect
 on your values and they feel empty. When the silence feels like
@@ -263,7 +273,8 @@ absence rather than presence. This is the test of persistence -- will
 you keep seeking truth even when it seems hidden? The mystics
 called this the "dark night of the soul," and it is a recognised stage of
 growth. It is often the prelude to deeper understanding.
-Building Load-Bearing Convictions
+
+Building Load-Bearing Convictions
 
 How do you build convictions that hold? Not by avoiding tests -- you
 can't -- but by building deliberately, with practices that deepen and
@@ -303,7 +314,8 @@ saw them proven, the times you experienced their truth. This is why
 internalising wisdom (Chapter 6) matters: when you can't feel the
 truth, you can remember it. Remembering is not nostalgia; it is fuel for
 endurance.
-5. Persevere
+
+5. Persevere
 
 Ultimately, tested convictions are the convictions that persevere --
 that keep going when it would be easier to stop. This is not about
@@ -340,7 +352,8 @@ convictions that last are the convictions that are real.
    And that something held.
 
    -- Marcus, age 22
-Where Does Faith Come From?
+
+Where Does Faith Come From?
 
 Faith -- the load-bearing kind -- comes from God. It is not something
 we manufacture. It is something we receive, respond to, and grow into.
@@ -377,7 +390,8 @@ one coherent testimony, and they all point to one Lord.
     one comes to the Father except through me.'"
 
     John 14:6
-The point is not to have 'a source.' The point is to be anchored in the
+
+The point is not to have 'a source.' The point is to be anchored in the
 One who is the source of all truth. And to have tested that anchor -- to
 know, not just to believe, that He holds.
 
@@ -407,7 +421,8 @@ Discussion Questions
 
     7. How do the other four essentials (silence, skills, community,
        knowledge) contribute to convictions that hold under pressure?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -445,7 +460,8 @@ Discussion Questions
    be dramatic. It just needs to be true. Then share it with at least one
    person. This is how faith is strengthened: by telling the truth about
    what God has done.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -473,7 +489,8 @@ Discussion Questions
     "Be on your guard; stand firm in the faith; be courageous; be
     strong. Do everything in love."
     1 Corinthians 16:13-14
-Chapter 8 Checklist
+
+Chapter 8 Checklist
 
      BEFORE MOVING TO THE CONCLUSION
 
@@ -506,7 +523,8 @@ Convictions" with "Tested Faith". Use the following substitutions:
    13:15 ("though He slay me"), Job 42:5-6 ("now my eye sees you"),
    Matthew 7:24-27 (house on the rock), James 1:2-4 (trials produce
    perseverance).
-   The five practices: Replace with: (1) Build on Scripture, not
+
+   The five practices: Replace with: (1) Build on Scripture, not
    feelings; (2) Pray honestly (using the Psalms as a model); (3) Stay
    in church community; (4) Remember God's faithfulness; (5)
    Persevere (Hebrews 12:1-2).

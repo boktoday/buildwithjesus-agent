@@ -1,4 +1,4 @@
-# Chapter 3 — Useful Real-World Skills (Christian edition)
+# Chapter 3 — Useful Real-World Skills
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-CHAPTER THREE
+
+CHAPTER THREE
 
                                                 USEFUL REAL-WORLD SKILLS
 
@@ -19,7 +20,8 @@ Real-World Skills
       Luke 14:28 -- New Testament
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 3 -- Useful Real-World Skills
+
+onetoeight. The Eight Essentials  Ch. 3 -- Useful Real-World Skills
 
 Useful Real-World Skills
 
@@ -51,7 +53,8 @@ at length -- and he couldn't balance his own account.
 
 He didn't tell anyone. Everyone else seemed to be managing. He
 assumed the overdraft was just part of being an adult.
-This is not a story about one young man. It is the story of an entire
+
+This is not a story about one young man. It is the story of an entire
 generation that has been taught to earn but not to manage, to
 consume but not to budget, to take out loans but not to understand
 them. It is the story of the financial skills gap -- the quiet,
@@ -90,7 +93,8 @@ themselves when the delivery app is down. They can fix something
 when the tradesperson can't come for a week. They can survive three
 months without income because they built an emergency fund. They
 are, in the truest sense, more resilient.
-3. Service
+
+3. Service
 
 Useful skills are not just for you. They are for the people around you.
 The person who can cook is the person who feeds the grieving family.
@@ -99,13 +103,12 @@ neighbour. The person who can build is the person who serves the
 community. The person who understands money is the person who
 can advise a younger sibling, help a friend avoid a bad loan, and model
 wisdom for the next generation. Skills are for service. This is a
-universal principle: your capabilities are not for your own self-esteem
+Scripture principle: your capabilities are not for your own self-esteem
 but for the building up of others.
 
 4. Stewardship
 
-Every major tradition -- philosophical, religious, and secular -- has
-something to say about money. It is the resource that determines
+Scripture has a great deal to say about money. It is the resource that determines
 where you live, what you eat, how you spend your time, and what you
 can give away. To manage it well is not to be materialistic; it is to be a
 good steward of what you have been given. A person who cannot
@@ -119,7 +122,8 @@ options.
     "Whatever your hand finds to do, do it with all your might."
 
     Ecclesiastes 9:10 -- Hebrew Bible / Old Testament
-Feed, Fix, Build, and Finance: The Four Categories
+
+Feed, Fix, Build, and Finance: The Four Categories
 
 Real-world skills fall into four broad categories. You don't need to
 master all of them. You do need to be competent in at least one thing
@@ -157,7 +161,8 @@ What to Learn
    Plan a week of meals. Write a menu, make a shopping list, buy the
    ingredients, cook them across the week. This is the difference
    between "I can follow a recipe" and "I can feed myself."
-PRACTICAL TIPS
+
+PRACTICAL TIPS
 
  Start with eggs. They're cheap, versatile, and forgiving. Learn
    to scramble, fry, poach, and boil them.
@@ -173,7 +178,8 @@ What to Learn
 
  Wash up as you go. This is the difference between cooking
    being a joy and a chore.
-Category Two: Fix
+
+Category Two: Fix
 
 The ability to fix things -- to diagnose a problem, find a solution, and
 execute it -- is a skill that transfers to every area of life. A person who
@@ -197,7 +203,8 @@ What to Learn
    keeping it for years.
    Basic car maintenance. Check oil, check tyre pressure, change a
    tyre, jump-start a battery. If you drive, you should know these.
- DO THIS THIS WEEK
+
+ DO THIS THIS WEEK
 
  The Tool Kit Challenge
 
@@ -217,7 +224,8 @@ What to Learn
  Buy them individually from a hardware shop, not in a cheap pre-
  packaged set. Individual tools are better quality. Put them in a box.
  This is your starter kit for independence.
-Category Three: Build
+
+Category Three: Build
 
 Fixing is reactive. Building is creative. The ability to make something --
 a shelf, a planter box, a meal, a fire, a garden -- is the ability to create
@@ -242,7 +250,8 @@ What to Learn
    Learn a craft. Woodworking, knitting, pottery, leatherwork,
    bookbinding -- anything where you transform raw material into
    something useful or beautiful.
-Category Four: Finance
+
+Category Four: Finance
 
 The first three categories are about doing things with your hands. The
 fourth is about doing things with your money. In a generation that has
@@ -283,7 +292,8 @@ Without a number, you are not budgeting; you are hoping.
 
 One of the most important financial moves you will ever make: save
 one month's essential outgoings in cash. Then two. Then three. An
-emergency fund is what lets you say no to bad jobs, leave bad
+
+emergency fund is what lets you say no to bad jobs, leave bad
 relationships, weather a redundancy, or fix a broken car without taking
 on debt. It is the financial equivalent of knowing where the stopcock is.
 It is not glamorous, but it is the difference between freedom and
@@ -322,7 +332,8 @@ catastrophe.
        Helpline, financial counselling services, and your university's
        welfare service exist for this. The shame of asking for help is
        worse than the help itself.
-5. Learn the Difference Between an Asset and a Liability
+
+5. Learn the Difference Between an Asset and a Liability
 
 An asset puts money in your pocket. A liability takes money out. Your
 own home can be either, depending on the mortgage. A car is almost
@@ -334,8 +345,7 @@ accumulating more of the former than the latter.
 
 6. Give Something Away
 
-Every tradition that takes money seriously -- Christian, Jewish,
-Islamic, Buddhist, secular humanist -- emphasises generosity. This is
+Scripture emphasises generosity from beginning to end. This is
 not sentimental. It is strategic. People who give regularly, even small
 amounts, develop a healthier relationship with money than people who
 hoard it. Generosity trains you to treat money as a tool, not a master.
@@ -345,7 +355,8 @@ happier than spending it on yourself.
 Pick a number -- 1%, 5%, 10% -- and give it away regularly. To a
 charity, a friend in need, a community organisation, your place of
 worship. The amount matters less than the habit.
-DO THIS THIS WEEK
+
+DO THIS THIS WEEK
 
 The First Budget Challenge
 
@@ -373,7 +384,8 @@ This takes 30 minutes. It will save you years of stress. Most people
 who do this for the first time discover they have $100­$300 a
 month they didn't know they had -- and didn't know they were
 wasting.
-7. Understand Pensions (Yes, Already)
+
+7. Understand Pensions (Yes, Already)
 
 If you're working, your employer is likely paying into a workplace
 pension on your behalf, and you may be auto-enrolled. Pay attention.
@@ -414,11 +426,13 @@ damage is done. The $4 daily coffee is not the problem. The $4 daily
 coffee plus the $80 weekend takeaway plus the $120 impulse Amazon
 orders plus the three unused subscriptions -- that's the problem. You
 cannot manage what you cannot see.
-       37%                                  $1,800
+
+       37%                                  $1,800
 
 of UK adults say they often or always  average credit card balance per adult
   run out of money before payday
-What Finance Connects To
+
+What Finance Connects To
 
 Financial literacy is not a separate life skill. It touches everything.
 
@@ -435,13 +449,6 @@ Financial literacy is not a separate life skill. It touches everything.
    tax thresholds -- these are knowledge without Wi-Fi. They will
    outlast any app.
 
-     WISDOM -- PHILOSOPHICAL TRADITION
-
-    "Wealth consists not in having great possessions, but in having
-    few wants."
-
-    Epictetus, Stoic philosopher
-
       PAUSE AND REFLECT
 
     What would change in your life if you had three months' essential
@@ -454,7 +461,8 @@ Resilience Over Visibility
 
 There is a critical distinction here: the skills we're talking about are not
 the kind that get you likes. They are not visible on Instagram. Nobody
-is impressed that you know where your stopcock is. Nobody films
+
+is impressed that you know where your stopcock is. Nobody films
 themselves hemming trousers and gets a thousand views.
 
 That is exactly the point. These skills are for resilience, not visibility.
@@ -467,7 +475,8 @@ The culture says: be visible. Wisdom says: be capable. The culture
 says: show what you've achieved. Wisdom says: do what needs doing.
 These are two very different value systems, and the one you choose to
 live by will shape the kind of person you become.
-Manual Problem Solving
+
+Manual Problem Solving
 
 There is a kind of thinking that happens when you are fixing or building
 something with your hands -- a kind that doesn't happen when you're
@@ -500,7 +509,8 @@ fix, you preserve. When you build, you create. You move from being a
 consumer to being a producer -- and this changes your relationship to
 everything. You begin to see the world not as a catalogue of things to
 buy but as a workshop of things to make and mend.
-PAUSE AND REFLECT
+
+PAUSE AND REFLECT
 
 Think about the last week. What did you produce? What did you
 fix? What did you build? If the honest answer is "nothing" -- what
@@ -526,13 +536,13 @@ feel capable. I feel like I could survive if I had to. That feeling -- I
 can't get it from a screen.
 
 -- Jess, age 21
-The Dignity of Work
 
-Every major tradition affirms the dignity of work. Whether it's the
-creation story in Genesis -- where God Himself works, making and
-shaping the world -- or the philosophical insight that humans are by
-nature makers and doers, the wisdom is the same: work is not a
-punishment. It is a reflection of what we are.
+The Dignity of Work
+
+Scripture affirms the dignity of work. In Genesis, God Himself works,
+making and shaping the world, and humans are made in His image as
+makers and doers. The wisdom is clear: work is not a punishment. It
+is a reflection of what we are.
 
 The culture around you will tell you that manual work is for people who
 couldn't get into university. This is a lie. The plumber, the electrician,
@@ -545,7 +555,8 @@ academically inclined -- you need manual skills. Not because you
 might need a fallback career, but because your brain needs your
 hands. The split between head and hand is artificial, and it has made
 us less than whole.
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -586,7 +597,8 @@ us less than whole.
    10. Read Luke 14:28. What would it look like to "count the cost"
        before making a major financial decision -- a car, a phone
        contract, a flat, a course of study?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -626,7 +638,8 @@ us less than whole.
    gardening, budgeting -- and teach it to someone else this week.
    The act of teaching will reveal what you actually know and what
    you only think you know. And it will pass on something valuable.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -640,23 +653,18 @@ us less than whole.
 
      DAY 3
 
-    "Wealth consists not in having great possessions, but in having
-    few wants."
-    Epictetus, Stoic philosopher
-
-     DAY 4
-
     "Do you see a person skilled in their work? They will serve
     before kings."
     Proverbs 22:29 -- Hebrew Bible / Old Testament
 
-     DAY 5
+     DAY 4
 
     "Suppose one of you wants to build a tower. Won't you first sit
     down and estimate the cost to see if you have enough money to
     complete it?"
     Luke 14:28 -- New Testament
-Chapter 3 Checklist
+
+Chapter 3 Checklist
 
      BEFORE MOVING TO CHAPTER 4
 

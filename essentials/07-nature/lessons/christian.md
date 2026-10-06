@@ -1,4 +1,4 @@
-# Chapter 7 — Prescribe Nature (Christian edition)
+# Chapter 7 — Prescribe Nature
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-CHAPTER SEVEN
+
+CHAPTER SEVEN
 
                                                        PRESCRIBE NATURE
 
@@ -18,7 +19,8 @@ Nature
       John Muir, naturalist and writer
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 7 -- Prescribe Nature
+
+onetoeight. The Eight Essentials  Ch. 7 -- Prescribe Nature
 
 Prescribe Nature
 
@@ -27,7 +29,8 @@ stress, restores attention, and reminds you that you are part
 of something larger than a screen. Sunlight, soil, fresh air,
 and the slow rhythm of the natural world. This is the original
 therapy, prescribed for every generation before ours.
-The Scenario
+
+The Scenario
 
      REAL STORY
 
@@ -65,7 +68,8 @@ Why This Essential Matters
 For 300,000 years, humans lived outdoors. We evolved under the sun,
 among plants, in contact with soil. Our bodies and brains are designed
 for the natural world -- for natural light, natural temperature variation,
-natural sounds, and natural rhythms. The indoor, screen-based life is,
+
+natural sounds, and natural rhythms. The indoor, screen-based life is,
 from an evolutionary perspective, a bizarre experiment that has been
 running for less than a century. The results are not good.
 
@@ -91,7 +95,8 @@ lifestyle choice. It is a public health crisis.
 
 average daily outdoor time for  of time spent indoors for the average
             children                            person
-Nature as Medicine
+
+Nature as Medicine
 
 The Japanese have a practice called shinrin-yoku, or "forest bathing."
 It is not hiking. It is not exercise. It is simply being in a forest, breathing
@@ -130,7 +135,8 @@ Sunlight: The Missing Nutrient
 
 Your body needs sunlight. Not sunburn -- sunlight. When sunlight hits
 your skin, your body produces vitamin D, which is essential for bone
-health, immune function, mood regulation, and dozens of other
+
+health, immune function, mood regulation, and dozens of other
 processes. When sunlight hits your eyes (specifically, the morning
 light), it sets your circadian clock, regulating sleep, hormone
 production, and energy levels.
@@ -157,7 +163,8 @@ the sun.
 
     Avoid sunburn, but don't avoid the sun entirely. Fear of the sun
        has created a generation of deficiency.
-Grounding: Reconnecting to the Earth
+
+Grounding: Reconnecting to the Earth
 
 There is a practice called "grounding" or "earthing" -- direct physical
 contact with the surface of the earth. Walking barefoot on grass, sand,
@@ -173,20 +180,11 @@ you walk barefoot, you feel the earth. You are aware of temperature,
 texture, moisture, season. You are, in a small but real way, part of the
 natural world -- not a spectator watching it through a screen.
 
-     WISDOM -- ISLAMIC TRADITION
-
-    "And the earth -- We have spread it out and placed therein firm
-    mountains, and caused to grow therein all kinds of things in
-    due proportion."
-
-    Qur'an 15:19
-
-Across traditions, the natural world is understood as a revelation -- a
-place where something deeper speaks. The psalmist hears the
-heavens declaring glory. The Qur'an points to the earth as a sign of
-God's provision. The poet hears music. The scientist sees complexity.
-Whatever your framework, nature is not background noise. It is a place
-of encounter.
+Scripture understands the natural world as a revelation -- a place
+where something deeper speaks. The psalmist hears the heavens
+declaring glory; the earth is a sign of God's provision. The poet
+hears music. The scientist sees complexity. Nature is not background
+noise. It is a place of encounter.
 
 The Slow Rhythm
 
@@ -195,7 +193,8 @@ used to. Trees grow slowly. Seasons change gradually. Tides follow
 the moon. Nothing in nature is instant, urgent, or demanding in the way
 a notification is. When you spend time in nature, your internal clock
 begins to synchronise with the slower, deeper rhythm of the natural
-world. Your heartbeat slows. Your breathing deepens. Your sense of
+
+world. Your heartbeat slows. Your breathing deepens. Your sense of
 urgency fades.
 
 This is one of the most important things nature does: it resynchronises
@@ -208,7 +207,8 @@ everything urgent. Nature reminds you that almost nothing is.
     a bus -- actually outside, under sky, in air? If the answer is "less
     than thirty minutes," you are not alone. But you are also not well.
     What would it take to change that?
-The Indoor Epidemic
+
+The Indoor Epidemic
 
 The shift indoors has happened so fast that we haven't noticed it. In
 1900, most people worked outdoors -- on farms, in trades, in markets.
@@ -247,7 +247,8 @@ Twenty minutes outdoors, every day. Rain or shine. Not a walk to
 somewhere -- a walk for the sake of walking. A park bench. A patch of
 grass. A tree on a street corner. The dose matters more than the
 destination.
-2. The Morning Light
+
+2. The Morning Light
 
 Get outside within 30 minutes of waking. This is the most important
 ten minutes of your day. Morning light sets your circadian rhythm,
@@ -276,7 +277,8 @@ a windowsill, a full garden if you have one. The act of tending
 something living connects you to the natural world in a way that
 walking through it cannot. (See also Chapter 3: Useful Real-World
 Skills.)
-DO THIS THIS WEEK
+
+DO THIS THIS WEEK
 
 The Nature Prescription Challenge
 
@@ -295,7 +297,8 @@ For the next seven days, follow this prescription:
 At the end of the week, write down: how do you feel? How is your
 sleep? Your mood? Your energy? Your attention? Most people are
 astonished by the difference seven days can make.
-How Nature Connects to the Other Essentials
+
+How Nature Connects to the Other Essentials
 
 Nature is not an isolated essential. It reinforces all the others.
 
@@ -315,11 +318,11 @@ Nature is not an isolated essential. It reinforces all the others.
    Knowledge (Chapter 6): Knowing the names of trees, birds, and
    constellations is knowledge without Wi-Fi. It is the oldest
    knowledge there is.
-   Convictions (Chapter 8): For many traditions, nature is where the
-   divine is most easily encountered. The created world as a window
-   to the creator -- or, in secular terms, the natural world as a source
-   of awe, perspective, and humility.
-REAL STORY
+   Convictions (Chapter 8): Nature is where the divine is most easily
+   encountered. The created world is a window to the Creator - and
+   a source of awe, perspective, and humility.
+
+REAL STORY
 
 I started walking in the mornings because my therapist told me
    to. Not exercise -- just walking. Ten minutes outside after I
@@ -341,7 +344,8 @@ more than anything else I've done. I didn't know I was
 malnourished until I started eating.
 
 -- Alex, age 20
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -359,9 +363,7 @@ malnourished until I started eating.
        green space nearby) or perceived (too cold, too boring, too
        much to do)?
 
-    5. Read Psalm 19:1-2 or the Qur'an 15:19. How do different
-       traditions understand the natural world? What does nature
-       reveal, if anything?
+    5. Read Psalm 19:1-2. What does nature reveal about God?
 
     6. The chapter says "the screen makes everything urgent; nature
        reminds you that almost nothing is." Do you agree? How does
@@ -370,7 +372,8 @@ malnourished until I started eating.
     7. What is one change you could make this week to get outside
        more? What time of day? Where? What would make it
        sustainable?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -398,7 +401,8 @@ malnourished until I started eating.
    Find a patch of grass, sand, or soil. Take your shoes off. Walk or
    stand for fifteen minutes. Feel the earth beneath you. It sounds
    strange. It feels strange. Do it anyway. Notice what changes.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -423,7 +427,8 @@ malnourished until I started eating.
 
     "The poetry of the earth is never dead."
     John Keats, poet
-Chapter 7 Checklist
+
+Chapter 7 Checklist
 
      BEFORE MOVING TO CHAPTER 8
 

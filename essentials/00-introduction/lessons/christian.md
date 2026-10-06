@@ -1,4 +1,4 @@
-# Introduction — Why Roots Matter (Christian edition)
+# Introduction — Why Roots Matter
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-onetoeight. The Eight Essentials  Introduction
+
+onetoeight. The Eight Essentials  Introduction
 
 Introduction: Why Roots Matter
 
@@ -25,7 +26,8 @@ at 2am. Or you might be a recent graduate, out in the world for the first
 time, discovering that nobody actually taught you how to cook a
 proper meal, fix a leaky tap, or sit with your own thoughts for ten
 minutes without reaching for your phone.
-This guide is not another self-help book. It will not tell you to manifest
+
+This guide is not another self-help book. It will not tell you to manifest
 your best life, optimise your morning routine, or hack your productivity.
 It will not promise you success, happiness, or fulfilment in seven easy
 steps. It might, however, tell you things you don't want to hear.
@@ -62,7 +64,8 @@ This guide proposes that there are eight things you need -- eight
 foundations, eight essentials -- that the screen-based culture will not
 give you. You will have to build them yourself, with help from people
 who care about you. Here they are:
-1. The Ability to Sit in Silence. The capacity to be still -- without your
+
+1. The Ability to Sit in Silence. The capacity to be still -- without your
   phone, without noise, without distraction. It is where self-
   awareness lives, where you encounter your deepest thoughts, and
   where real strength is forged.
@@ -98,10 +101,9 @@ who care about you. Here they are:
 
 8. Tested Convictions. Values and beliefs that have been examined,
   questioned, and put under pressure -- not inherited and
-  unexamined. Convictions that hold when life gets difficult,
-  whatever their source: faith, philosophy, family wisdom, or lived
-  experience.
-      PAUSE AND REFLECT
+  unexamined. Convictions that hold when life gets difficult.
+
+      PAUSE AND REFLECT
 
     Before you go any further, rate yourself honestly on each of the
     eight essentials, on a scale of 1 to 10. No one is going to see this
@@ -122,9 +124,9 @@ Every chapter includes:
    groups, or just you and a mate over coffee.
    "Do This This Week" challenges -- practical, concrete, and
    sometimes uncomfortable.
-   Wisdom reflections -- quotations from philosophy, literature, and
-   the world's great traditions that connect to daily life. These are
-   offered as prompts for reflection, not as doctrine.
+   Wisdom reflections -- quotations and Scripture that connect to
+   daily life. These are offered as prompts for reflection, not as
+   doctrine.
    Stories from real young people who are working through these
    same questions.
 

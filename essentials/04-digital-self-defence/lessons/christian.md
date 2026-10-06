@@ -1,4 +1,4 @@
-# Chapter 4 — Digital Self-Defence (Christian edition)
+# Chapter 4 — Digital Self-Defence
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,9 @@
 
 ---
 
-CHAPTER FOUR
+
+
+CHAPTER FOUR
 
                                                     DIGITAL SELF-DEFENCE
 
@@ -20,7 +22,8 @@ Self-Defence
       Edward Snowden, permanent record (2019)
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 4 -- Digital Self-Defence
+
+onetoeight. The Eight Essentials  Ch. 4 -- Digital Self-Defence
 
 Digital Self-Defence
 
@@ -31,7 +34,8 @@ seconds of video. This chapter is not about paranoia -- it is
 about literacy. You are already being watched. The question
 is whether you understand how, and whether you've done
 anything about it.
-The Scenario
+
+The Scenario
 
      REAL STORY
 
@@ -70,7 +74,8 @@ Why This Essential Matters
 
 You are the most surveilled generation in human history. Your phone
 knows where you sleep, where you work, who you meet, what you
-read, what you buy, what you search for at 2am, and how fast you
+
+read, what you buy, what you search for at 2am, and how fast you
 walk. It knows your heart rate, your sleep patterns, your menstrual
 cycle, your political views, your sexual orientation, and your deepest
 insecurities. It knows these things not because you told it, but because
@@ -110,7 +115,8 @@ can clone a voice from thirty seconds of audio. It can generate a video
 of someone saying something they never said. It can write a text in
 your mother's voice. The line between real and fake is dissolving --
 and most people haven't noticed.
-4. Privacy is a prerequisite for freedom.
+
+4. Privacy is a prerequisite for freedom.
 
 Privacy is not about hiding bad things. It is about having the space to
 think, question, doubt, and grow without being watched, judged, and
@@ -125,7 +131,8 @@ you to become who you actually are.
     not what we are."
 
     Jean-Paul Sartre, Being and Nothingness (1943)
-1. The Surveillance Economy
+
+1. The Surveillance Economy
 
 Let's understand what's actually happening when you use your phone.
 The apps on your phone are not tools. They are intelligence-gathering
@@ -161,7 +168,8 @@ sale.
 
 global digital advertising market --  of apps share your data with third
         fuelled by your data                        parties
-Government Surveillance
+
+Government Surveillance
 
 It's not just companies. Governments collect data too -- and they don't
 always need a warrant. In the UK, the Investigatory Powers Act allows
@@ -176,7 +184,8 @@ This is not about whether you trust your current government. It is
 about whether you trust every future government. Data collected today
 can be used in ways nobody has imagined yet. Once it exists, it cannot
 be un-existed.
-2. Your Digital Footprint
+
+2. Your Digital Footprint
 
 Your digital footprint is everything about you that exists online -- every
 post, photo, comment, review, like, share, and tag, across every
@@ -215,7 +224,8 @@ Under GDPR (General Data Protection Regulation) in the UK and EU,
 you have the right to request that search engines remove links to
 personal information about you that is "inadequate, irrelevant, or no
 longer relevant." This is called the right to erasure. You can request it
-directly from Google and Bing. It won't remove the original content --
+
+directly from Google and Bing. It won't remove the original content --
 but it will make it much harder to find. Use it.
 
 What You Post vs What They Collect
@@ -233,7 +243,8 @@ services that don't respect your data.
     When was the last time you read the terms and conditions before
     clicking "agree"? Have you ever? What did you give away today --
     without knowing it -- in exchange for the convenience of an app?
-3. Social Media Profiling
+
+3. Social Media Profiling
 
 Algorithms don't just show you content. They study you. Every second
 you spend on a post, every micro-pause before you scroll, every tap
@@ -270,7 +281,8 @@ anxious -- because anxious people spend more time scrolling. If it
 knows you're lonely, it can show you content that makes you feel more
 alone -- because lonely people don't close the app. The platform
 profits from your pain. And it is very, very good at identifying it.
-PRACTICAL TIPS -- LIMIT PROFILING
+
+PRACTICAL TIPS -- LIMIT PROFILING
 
  Turn off "personalised ads" in your account settings on every
    platform. This stops them using your data to target ads.
@@ -286,7 +298,8 @@ profits from your pain. And it is very, very good at identifying it.
 
  Use a non-Google search engine like DuckDuckGo for anything
    you don't want tracked.
-4. AI Chatbots -- The Free Trap
+
+4. AI Chatbots -- The Free Trap
 
 If a product is free, you are the product. This has been true of social
 media for years. It is now true of AI chatbots. When you type a
@@ -324,7 +337,8 @@ This connects to Essential 6 (Knowledge Without Wi-Fi): when you run
 AI locally, you own the intelligence. It can't be revoked, throttled, or
 surveilled. It is yours -- the way a book on your shelf is yours. See
 Chapter 6 for a full guide to building a local AI knowledge base.
-PRACTICAL TIPS -- SAFER AI USE
+
+PRACTICAL TIPS -- SAFER AI USE
 
  Never paste personal, medical, financial, or work-confidential
    information into a free cloud AI chatbot.
@@ -340,7 +354,8 @@ Chapter 6 for a full guide to building a local AI knowledge base.
 
  Treat AI chatbot data the way you'd treat a postcard: assume it
    can be read by anyone who handles it.
-5. Malware, Scams & Ransomware
+
+5. Malware, Scams & Ransomware
 
 Let's get concrete. The threats are real, they're targeting you, and
 they're getting better. Here's what to watch for and how to protect
@@ -380,7 +395,8 @@ your keystrokes, take over your camera, or encrypt your files and
 demand payment to unlock them (ransomware). You get it by
 downloading the wrong file, clicking the wrong link, or installing the
 wrong app. Once it's in, it's very hard to get out.
-     REAL STORY
+
+     REAL STORY
 
  T om, 19, downloaded a "free" version of a paid productivity app
         from a file-sharing site. It came bundled with a piece of
@@ -402,7 +418,8 @@ and universities -- but it also targets individuals. The payment doesn't
 always work. The criminals may take the money and keep the files.
 The FBI and NCSC both advise against paying. The best defence is
 prevention.
-PRACTICAL TIPS -- MALWARE DEFENCE
+
+PRACTICAL TIPS -- MALWARE DEFENCE
 
  Keep your operating system and apps updated. Updates patch
    security holes that malware exploits.
@@ -420,7 +437,8 @@ prevention.
  Back up your important files to a cloud service AND an external
    hard drive. If you're hit by ransomware, you can wipe and
    restore.
-6. Deepfakes & Synthetic Media
+
+6. Deepfakes & Synthetic Media
 
 A deepfake is a video, image, or audio clip generated by AI that shows
 someone doing or saying something they never did. The technology
@@ -459,7 +477,8 @@ Deepfakes are getting better, but they're not perfect. Look for:
    or blink patterns.
    Mouth sync. Watch the lips. Minor mismatches between audio and
    movement are tell-tale signs.
-Lighting and shadows. Light reflecting on the face that doesn't
+
+Lighting and shadows. Light reflecting on the face that doesn't
 match the environment.
 Hands and fingers. AI still struggles with hands -- extra fingers,
 wrong positions, morphing.
@@ -480,7 +499,8 @@ PRACTICAL TIPS -- DEEPFAKE DEFENCE
 
  Be cautious about the amount of your face and voice you put
    online. Every clip is raw material for a clone.
-       REAL STORY -- TOM, 17
+
+       REAL STORY -- TOM, 17
 
      Got called last Tuesday by what I thought was my mum. Her
      exact voice. Same Essex accent, same way she says "love" at
@@ -513,7 +533,8 @@ pattern-of-life profile on you every day -- where you go, when you
 sleep, who you're with, what you read, when you're most susceptible
 to advertising. The algorithm knows your pattern of life better than you
 do. And it uses that knowledge to predict and shape your behaviour.
-Why Predictability Is Dangerous
+
+Why Predictability Is Dangerous
 
 If someone can predict your behaviour, they can manipulate it. If the
 algorithm knows you check Instagram at 11pm every night, that's when
@@ -545,7 +566,8 @@ predictable. You're becoming more yourself.
     week, what would they learn? What time you wake up. What route
     you take. Who you text first. What you search for at night. Is that a
     profile you're comfortable with? If not -- what would you change?
-8. Mental Health Online
+
+8. Mental Health Online
 
 The attention economy is not just a privacy issue. It is a mental health
 issue. The same systems that track you are designed to keep you
@@ -584,14 +606,9 @@ not a habit you chose. It is a behaviour the algorithm encourages
 because negative content generates more engagement than positive
 content. Outrage keeps you scrolling. Fear keeps you scrolling. Hope
 does not. The algorithm has learned this, and it feeds you accordingly.
-Your feed is not a reflection of the world. It is a reflection of what
+
+Your feed is not a reflection of the world. It is a reflection of what
 keeps you on the platform.
-
-     WISDOM
-
-    "We are what we repeatedly do. Excellence, then, is not an act,
-    but a habit."
-    Will Durant, summarising Aristotle (1926)
 
      PRACTICAL TIPS -- PROTECT YOUR MIND
 
@@ -609,7 +626,8 @@ keeps you on the platform.
 
     Unfollow accounts that make you feel worse. Curate your feed
        like you'd curate a library -- with intention.
-9. Practical Digital Defence
+
+9. Practical Digital Defence
 
 Enough theory. Here is your toolkit -- the specific, concrete steps you
 can take today to protect yourself. None of these require technical
@@ -648,7 +666,8 @@ password -- the manager handles the rest.
 from your phone. Even if someone steals your password, they can't
 get in without the second factor. Turn it on for every account that
 offers it -- especially email, banking, and social media. Use an
-authenticator app (Google Authenticator, Authy, Aegis) rather than
+
+authenticator app (Google Authenticator, Authy, Aegis) rather than
 SMS codes, which can be intercepted through SIM-swapping.
 
 3. Encrypted Messaging
@@ -674,7 +693,8 @@ location, camera, microphone, or contacts. Revoke everything that
 isn't essential. Turn off "advertising identifier" in your phone's privacy
 settings. Turn off location history in Google Maps. Use an ad-blocker
 on your phone's browser.
-PHONE PRIVACY CHECKLIST
+
+PHONE PRIVACY CHECKLIST
 
  Review every app's permissions. Settings  Privacy 
    Permission manager. Revoke what isn't needed.
@@ -689,7 +709,8 @@ on your phone's browser.
 
  Turn off microphone and camera access for social media apps.
    They don't need them until you're actively using them.
-10. Building Resilience
+
+10. Building Resilience
 
 Tools and settings will protect you today. Habits will protect you for
 life. The digital landscape will change -- new threats, new platforms,
@@ -727,7 +748,8 @@ reinforced by all the others.
    digital self-defence. You cannot recognise manipulation if you
    never step away from it long enough to see it. Silence is where
    clarity lives -- and clarity is what makes you harder to fool.
-Body (Chapter 2): Sleep deprivation and poor diet make you more
+
+Body (Chapter 2): Sleep deprivation and poor diet make you more
 susceptible to manipulation and scams. Your brain on no sleep is
 not a brain that makes good security decisions. Protect your body
 to protect your mind.
@@ -752,7 +774,8 @@ conviction that you have the right to think, question, and grow
 without being watched -- that is a conviction worth holding.
 Without it, the other essentials are compromised by the very
 systems that track you.
-REAL STORY
+
+REAL STORY
 
 I didn't think about privacy at all until someone used my photos
    to make a fake account. They took pictures from my Instagram
@@ -770,7 +793,8 @@ public accounts. I'm not paranoid -- I'm just aware. I wish I'd been
 aware sooner.
 
 -- Jess, age 21
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -800,7 +824,8 @@ aware sooner.
 
     7. What is one step from the "Practical Digital Defence" section
        that you could take today? What's stopping you?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -834,7 +859,8 @@ aware sooner.
    browser to Firefox or Brave. Install uBlock Origin. Set up Signal and
    invite three people you're close to. This is the start of a more
    private digital life.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -854,7 +880,8 @@ aware sooner.
     "In a digital world, the cost of ignorance is not bliss -- it is
     exploitation."
     Cory Doctorow, writer and activist
-Chapter 4 Checklist
+
+Chapter 4 Checklist
 
      BEFORE MOVING TO CHAPTER 5
 

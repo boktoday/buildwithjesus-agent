@@ -1,4 +1,4 @@
-# Chapter 5 — Real Community (Christian edition)
+# Chapter 5 — Real Community
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-CHAPTER FIVE
+
+CHAPTER FIVE
 
                                                         REAL COMMUNITY
 
@@ -19,7 +20,8 @@ Community
       Ecclesiastes 4:9-10 -- Hebrew Bible / Old Testament
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 5 -- Real Community
+
+onetoeight. The Eight Essentials  Ch. 5 -- Real Community
 
 Real Community
 
@@ -53,7 +55,8 @@ with him. That is community. That is the difference.
 
 This is the great paradox of your generation: you are the most
 connected generation in history, and also the loneliest. You have more
-"friends" and fewer friends than any generation before you. The
+
+"friends" and fewer friends than any generation before you. The
 problem is not that you don't have people in your life. The problem is
 that the relationships you have are not load-bearing -- they cannot
 hold weight.
@@ -92,11 +95,13 @@ something -- time, vulnerability, the risk of being known.
 The danger of social media is not that it gives you followers. The
 danger is that it gives you the feeling of community without the
 substance, which makes you less likely to seek the real thing.
-       45%                                  2-3
+
+       45%                                  2-3
 
 of young people say they feel lonely  the number of close friends the
            often or always            average person can truly rely on
-The Pack vs the Lone Wolf
+
+The Pack vs the Lone Wolf
 
 The culture celebrates the lone wolf -- the self-made individual who
 needs no one. This is a lie. It has always been a lie. No one is self-
@@ -135,7 +140,8 @@ world.
 
 Being known is terrifying. It means someone might not like what they
 see. It means you cannot hide. It means vulnerability -- the willingness
-to let someone close enough to hurt you, trusting that they won't. This
+
+to let someone close enough to hurt you, trusting that they won't. This
 is the risk of community. It is also the only way to experience it.
 
       PAUSE AND REFLECT
@@ -144,7 +150,8 @@ is the risk of community. It is also the only way to experience it.
     story? Who would you call at 2am? Who would call you? If the
     honest answer is "no one" or "I'm not sure," that is not a failure. It
     is a starting point. What would it take to build that?
-The 2am Test
+
+The 2am Test
 
 Here is a test for your relationships. Ask yourself: if I had a crisis at
 2am -- a real crisis, not an inconvenience -- who would I call? And
@@ -184,9 +191,11 @@ Carrying each other's burdens. That is community. Not coffee after a
 meeting (though that's nice). Not a WhatsApp group (though that can
 help). But the actual, costly, inconvenient work of bearing weight for
 each other. Driving someone to hospital. Sitting with someone through
-grief. Having a difficult conversation. Forgiving. Being forgiven. This is
+
+grief. Having a difficult conversation. Forgiving. Being forgiven. This is
 what community is for.
-How to Build Real Community
+
+How to Build Real Community
 
 Real community is not built by accident. It is built intentionally, over
 time, through specific practices. Here are five.
@@ -226,7 +235,8 @@ your generation is to move on -- to a new city, a new group, a new set
 of friends -- whenever things get difficult. Sometimes moving is right.
 But staying, when staying is hard, is often where the deepest
 community is built.
-5. Bear Weight
+
+5. Bear Weight
 
 Community is not just about receiving support. It is about giving it. Be
 the person who carries other people's burdens. Be the person who is
@@ -252,10 +262,11 @@ shaped by what you contribute, not just what you receive.
     3. Ask yourself: who would call me at 2am? If the answer is "no
        one," what would it look like to become that kind of person for
        someone else?
-Community Across Contexts
 
-Community takes many forms. For some, it is a faith community -- a
-church, mosque, synagogue, or temple. For others, it is a sports club,
+Community Across Contexts
+
+Community takes many forms. For some, it is their church family. For
+others, it is a sports club,
 a music group, a neighbourhood association, or a close circle of
 friends. The form matters less than the substance. What matters is that
 the relationships are real, that they are consistent, and that they can
@@ -272,7 +283,8 @@ find or build one. But the principles are the same. Find people who
 share your values. Show up consistently. Be honest. Invest over time.
 Community is not the exclusive property of religious institutions. It is a
 human need, available to anyone willing to do the work.
-REAL STORY
+
+REAL STORY
 
 I moved to a new city for work. I didn't know anyone. I found a
    local community group and sat at the back for three weeks,
@@ -296,7 +308,8 @@ when I had none. I'm still part of that group. I sit near the back. But
 now I look for the new people.
 
 -- Rachel, age 27
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -322,7 +335,8 @@ now I look for the new people.
 
     7. What is one relationship you need to invest in more deeply?
        What would "investing" look like practically this week?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -353,7 +367,8 @@ now I look for the new people.
    alone or on the edges. Invite them to something -- coffee, lunch, a
    walk, an event. Not as a project, but as a person. Be the one who
    notices and includes.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -377,7 +392,8 @@ now I look for the new people.
     "Above all, love each other deeply, because love covers over a
     multitude of sins."
     1 Peter 4:8 -- New Testament
-Chapter 5 Checklist
+
+Chapter 5 Checklist
 
      BEFORE MOVING TO CHAPTER 6
 

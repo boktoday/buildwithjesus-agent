@@ -1,4 +1,4 @@
-# Conclusion — Building a Life That Holds (the Conclusion) (Christian edition)
+# Conclusion — Building a Life That Holds (the Conclusion)
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-onetoeight. The Eight Essentials  Conclusion
+
+onetoeight. The Eight Essentials  Conclusion
 
 Conclusion: Building a Life That Holds
 
@@ -25,7 +26,8 @@ yourself, to connect with what is deepest. The foundation that makes
 everything else possible.
 Your Body is a Temple -- the physical infrastructure on which
 everything else is built. Proactive maintenance, guarded gates, radical
-ownership, and reverence for the only vehicle you get.
+
+ownership, and reverence for the only vehicle you get.
 
 Useful Real-World Skills -- the ability to feed, fix, and build. The
 competence that gives you quiet confidence and makes you useful to
@@ -67,7 +69,8 @@ seems.
 
 Remove one, and the structure is weakened. Together, they form a life
 that holds -- not a life without trouble, but a life that can withstand
-trouble. Not a life without questions, but a life that can hold the
+
+trouble. Not a life without questions, but a life that can hold the
 questions. Not a life without pain, but a life that can bear the pain.
 
 The rain came down. The streams rose. The winds blew and beat
@@ -109,7 +112,8 @@ for the body, competence, digital self-defence, community,
 knowledge, nature, and conviction that carries you through all of it.
 They are not new. They are not innovative. They are not optimised.
 They are ancient, proven, and enduring.
-Build them. Not because they will make you successful -- though they
+
+Build them. Not because they will make you successful -- though they
 might. Not because they will make you happy -- though they will, in a
 deeper sense than the culture understands. Build them because they
 are true. Because they are what it means to be a whole human being,
@@ -121,5 +125,6 @@ people around you -- depends on it.
                                              -- end --
 
                                                   onetoeight. · V.3.0.0
-onetoeight. The Eight Essentials  Appendix A
+
+onetoeight. The Eight Essentials  Appendix A
 

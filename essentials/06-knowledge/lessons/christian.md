@@ -1,4 +1,4 @@
-# Chapter 6 — Knowledge Without Wi-Fi (Christian edition)
+# Chapter 6 — Knowledge Without Wi-Fi
 
 > This is the on-screen reading copy from the onetoeight *Eight Essentials*
 > guide, prepared for the Build with Jesus Agent. Scripture is honoured
@@ -6,7 +6,8 @@
 
 ---
 
-CHAPTER SIX
+
+CHAPTER SIX
 
                                                  KNOWLEDGE WITHOUT WI-FI
 
@@ -19,7 +20,8 @@ Without Wi-Fi
       Proverbs 18:15 -- Hebrew Bible / Old Testament
 
 V.3.0.0
-onetoeight. The Eight Essentials  Ch. 6 -- Knowledge Without Wi-Fi
+
+onetoeight. The Eight Essentials  Ch. 6 -- Knowledge Without Wi-Fi
 
 Knowledge Without Wi-Fi
 
@@ -50,7 +52,8 @@ friend's house without satnav -- he'd never learned the route.
 They hadn't become stupid. They'd become dependent. Their
 knowledge lived in the cloud, not in their heads. When the cloud
 went away, the knowledge went with it.
-This is the situation we are sleepwalking into: a world where we know
+
+This is the situation we are sleepwalking into: a world where we know
 how to find information but do not actually know anything. Where our
 intelligence is rented, not owned. Where our access to knowledge
 depends on a connection that we do not control and that can be
@@ -91,9 +94,11 @@ You have lost ownership of your own mind.
 
 When your knowledge lives in the cloud, your mind is not your own. It
 is rented from a company that can change its terms, restrict your
-access, or simply disappear. You are a tenant in your own intellect.
+
+access, or simply disappear. You are a tenant in your own intellect.
 And tenancy is not ownership.
-Owned vs Rented Knowledge
+
+Owned vs Rented Knowledge
 
 Think of knowledge like housing. Rented knowledge is like a rented
 flat: you live there, you use it, it's convenient -- but it's not yours. The
@@ -124,7 +129,8 @@ a computer?
 
 If the answer to most of these is "no," then you are not independent.
 You are dependent. And dependency is not a strategy for resilience.
-PAUSE AND REFLECT
+
+PAUSE AND REFLECT
 
 Try this: put your phone away for one hour. No phone, no
 computer, no tablet. Now try to answer these questions from
@@ -133,8 +139,9 @@ of water? What is the most important thing your parents or
 grandparents taught you? How do you change a tyre? Which
 could you answer? What does that tell you about what you know
 vs what you can find?
-Internalised Wisdom and Skills
-Across all traditions, the most important knowledge to internalise is
+
+Internalised Wisdom and Skills
+The most important knowledge to internalise is
 wisdom -- the principles, values, and insights that guide how you live.
 This is not the same as information. Information is data. Wisdom is the
 ability to apply it well.
@@ -145,18 +152,13 @@ ability to apply it well.
     against you."
     Psalm 119:11 -- Hebrew Bible / Old Testament
 
-     WISDOM -- PHILOSOPHICAL TRADITION
-
-    "The only true wisdom is in knowing you know nothing."
-    Socrates (attributed), Greek philosopher
-
 "Hidden in my heart." Not "bookmarked on my phone." Not "saved to
 my notes app." Hidden in the heart -- internalised, memorised, woven
 into the fabric of your mind. This is the ancient model of knowledge: it
 lives in you, not in a device.
-Whatever your tradition -- whether you memorise scripture,
-philosophy, poetry, or the wisdom of your grandparents -- the
-principle is the same. The most important knowledge is what you carry
+Whether you memorise Scripture or the wisdom of those who came
+before you, the principle is the same. The most important knowledge
+is what you carry
 inside you. It is available in the moment of trial -- when there is no time
 to look it up, no internet to search, no external source to consult.
 
@@ -164,21 +166,21 @@ Building Your Backup Knowledge Base
 Beyond personal wisdom, there is a broader principle: you should be
 building a library of knowledge that you own -- that lives offline, that
 no one can revoke. This includes:
-Physical Books
+
+Physical Books
 
 Buy books. Real, paper books. Not Kindle -- paper. A physical book
 does not require a battery, a connection, or an account. It cannot be
 remotely deleted. It cannot be censored by a platform. It is yours. Build
 a library that includes:
 
-   The foundational texts of your faith or worldview (Bible, Qur'an,
-   Bhagavad Gita, the Stoics, etc.)
+   Your Bible (a physical copy, not an app)
    A basic cookbook (not a recipe app -- a book)
    A manual of basic home repair
    A first aid manual
    A field guide to your local area (plants, birds, geography)
-   Classics of wisdom (Mere Christianity, Meditations by Marcus
-   Aurelius, The Prophet by Kahlil Gibran)
+   Classics of the faith (Mere Christianity, The Confessions by
+   Augustine, Pilgrim's Progress)
    A book of poetry or hymns/songs that matter to you
 
 Local AI and Offline Tools
@@ -200,13 +202,13 @@ Memorised Knowledge
 
 Some knowledge should live in your head, not in a device:
 
-   Key passages from your tradition -- scripture, poetry, or
-   philosophy that matters to you
+   Key passages of Scripture that matter to you
    Important phone numbers (not just your mum -- at least three
    people you could call in a crisis)
    Your home address and postcode
    Basic first aid (CPR, the recovery position, how to stop bleeding)
-How to read a map and use a compass
+
+How to read a map and use a compass
 Basic maths -- times tables, percentages, fractions -- without a
 calculator
 
@@ -214,21 +216,20 @@ DO THIS THIS WEEK
 
 The Memory Challenge
 
-Choose one passage -- from any source that matters to you --
+Choose one passage of Scripture
 and memorise it this week. Not by reading it on your phone. Write
 it out by hand, read it aloud, repeat it until you can say it without
-looking. Here are three options from different traditions:
+looking. Here are three options:
 
-1. Psalm 23 -- Hebrew Bible / Old Testament (six verses)
-2. Marcus Aurelius, Meditations, Book 4, Section 7 (a paragraph
-
-   on the stability of the inner self)
+1. Psalm 23 (six verses)
+2. John 1:1-5 (the opening of the Gospel of John)
 3. A poem that matters to you -- "If" by Rudyard Kipling, or
 
-   something from your own culture
+   another poem you love
 At the end of the week, say it out loud to someone. From memory.
 No peeking. This is what it feels like to own knowledge.
-Possession Over Access
+
+Possession Over Access
 
 The shift from ownership to access is one of the defining features of
 the modern economy. You don't own your music -- you stream it. You
@@ -268,7 +269,8 @@ learning. It is look-up. And look-up is not a substitute for knowledge.
 
 Real learning involves struggle. It involves sitting with something you
 don't understand until you do. It involves failure -- getting it wrong,
-trying again, getting it less wrong. It involves time -- the kind of time
+
+trying again, getting it less wrong. It involves time -- the kind of time
 that the attention economy is constantly trying to steal from you.
 
 This is why the practice of silence (Chapter 1) and the practice of
@@ -299,7 +301,8 @@ resilience is what holds when everything else gives way.
    knowledge, in my actual head, where no one can take it.
 
    -- Liam, age 20
-Discussion Questions
+
+Discussion Questions
 
      FOR GROUP DISCUSSION
 
@@ -325,7 +328,8 @@ resilience is what holds when everything else gives way.
     6. Read the quote from Psalm 119:11. What does it mean to "hide"
        something "in your heart"? How is this different from
        bookmarking it on your phone?
-"Do This This Week" Challenges
+
+"Do This This Week" Challenges
 
      CHOOSE YOUR CHALLENGE
 
@@ -356,7 +360,8 @@ resilience is what holds when everything else gives way.
    cooking, basic repairs, important texts. For each item, note: do I
    know this, or do I need to look it up? Choose two gaps and commit
    to learning them this month.
-Wisdom Reflections
+
+Wisdom Reflections
 
      DAY 1
 
@@ -364,9 +369,6 @@ resilience is what holds when everything else gives way.
     Colossians 3:16 -- New Testament
 
      DAY 2
-
-    "The mind is not a vessel to be filled, but a fire to be kindled."
-    Plutarch, Greek philosopher
 
      DAY 3
 
@@ -379,7 +381,8 @@ resilience is what holds when everything else gives way.
     "The unfolding of your words gives light; it gives
     understanding to the simple."
     Psalm 119:130 -- Hebrew Bible / Old Testament
-Chapter 6 Checklist
+
+Chapter 6 Checklist
 
      BEFORE MOVING TO CHAPTER 7
 
