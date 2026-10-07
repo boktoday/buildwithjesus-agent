@@ -22,12 +22,30 @@ for both the installer and the agent.
 | here.now key | — | https://here.now/ — the student's multimedia space: HTML pages, images, audio, video |
 | Telegram (recommended) | — | Bot via https://t.me/BotFather — WhatsApp works but is harder and costs more |
 
-### Step 1: Clone the profile
+### Step 1: Download the profile
+
+1. Get `buildwithjesus-agent.zip` from the install sheet and save it to
+   your Downloads folder. The sheet holds every command in this guide,
+   ready to copy and paste, alongside the setup videos.
+
+   Sheet: https://gladtobe.here.now/buildwithjesus/install.html
+
+2. Extract it into your Hermes profiles folder.
 
 ```bash
-mkdir -p ~/.hermes/profiles
-git clone https://github.com/boktoday/buildwithjesus-agent.git \
-  ~/.hermes/profiles/buildwithjesus-agent
+# Mac / Linux, in Terminal:
+unzip -q ~/Downloads/buildwithjesus-agent.zip -d ~/.hermes/profiles/
+
+# Windows, in Terminal:
+tar -xf "%USERPROFILE%\Downloads\buildwithjesus-agent.zip" -C "%LOCALAPPDATA%\hermes\profiles"
+
+# Or skip the terminal here: right-click the zip, Extract All, and move
+# the buildwithjesus-agent folder into the profiles folder.
+```
+
+3. Then tell Hermes to use it, and start your first chat:
+
+```bash
 hermes profile use buildwithjesus-agent
 hermes chat
 ```
@@ -221,8 +239,10 @@ with a callback.
 
 ```bash
 hermes update                    # pulls standard Hermes skill library
-git -C ~/.hermes/profiles/buildwithjesus-agent pull   # upstream improvements
 cronjob(action="list")           # confirm both jobs are scheduled
+# Updates to the agent itself: re-download the zip from the install sheet
+# and copy the updated skills/ and essentials/ folders across. Keep your
+# own .env, memories/, and config.yaml - those files are yours.
 ```
 
 ---
@@ -236,7 +256,7 @@ the README is the reference.
 ### 1. The README is the source of truth for the workflow
 
 Before or during onboarding, the agent reads the README's setup
-sections (prereqs → clone → orientation → verify → first run). It
+sections (prereqs → download → orientation → verify → first run). It
 does **not** improvise a different install path. The README's "What's
 in the repo" section tells the agent where everything lives — use it
 to navigate, don't guess.
@@ -318,6 +338,6 @@ untouched — `hermes update` never overwrites curated skills.
 
 ---
 
-**The one-line version:** clone → `hermes profile use` → say yes to
+**The one-line version:** download → extract → `hermes profile use` → say yes to
 the orientation → let the agent ask, propose, and verify — you only
 ever add your own keys to `.env` and pick the voice and times.
