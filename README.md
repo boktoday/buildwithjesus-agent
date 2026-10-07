@@ -566,12 +566,19 @@ You need:
 - **A Telegram bot** (recommended) or a WhatsApp bridge. Telegram is
   much easier — see Step 4.
 
-### 2 — Clone the profile (one-time)
+### 2 — Download the profile (one-time)
+
+Get `buildwithjesus-agent.zip` from the install sheet
+(https://gladtobe.here.now/buildwithjesus/install.html) and extract it
+into your Hermes profiles folder:
 
 ```bash
-mkdir -p ~/.hermes/profiles
-git clone https://github.com/boktoday/buildwithjesus-agent.git \
-  ~/.hermes/profiles/buildwithjesus-agent
+# Mac / Linux:
+unzip -q ~/Downloads/buildwithjesus-agent.zip -d ~/.hermes/profiles/
+
+# Windows:
+tar -xf "%USERPROFILE%\Downloads\buildwithjesus-agent.zip" -C "%LOCALAPPDATA%\hermes\profiles"
+
 hermes profile use buildwithjesus-agent
 hermes chat
 ```
