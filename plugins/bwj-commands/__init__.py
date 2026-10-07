@@ -1,6 +1,6 @@
 """bwj-commands - guided slash commands for the Build with Jesus Agent.
 
-Sixteen in-session commands, each one starting the matching skill flow in
+Eighteen in-session commands, each one starting the matching skill flow in
 the live conversation:
 
     /morning   today's Morning Minute          (morning-minute skill)
@@ -8,6 +8,8 @@ the live conversation:
     /checkin   today's Afternoon Check-In      (afternoon-checkin skill)
     /tomorrow  tonight's Planning Session      (planning-session skill)
     /passage   tonight's Night Passage         (night-passage skill)
+    /walk      today's Bible Walk stop  (solo mode; solo-bible-walk skill)
+    /verse     look up a passage, quoted exactly      (solo-bible-walk skill)
     /build     the Build Round                 (build-project skill)
     /summary   an essential's key points + voice note   (essential-deep-dives, Format 1)
     /lesson    a three-page HTML lesson with a quiz     (essential-deep-dives, Format 2)
@@ -70,6 +72,12 @@ _TOMORROW = (
 _PASSAGE = (
     "Run tonight's Night Passage now, please - follow the night-passage "
     "skill and deliver the audio + text here."
+)
+_WALK = (
+    "Take me through today's Bible Walk stop now, please - follow the "
+    "solo-bible-walk skill: read today's passage from the profile's bible "
+    "files, quote it exactly with the translation named, then the three "
+    "questions, the memory line, and the optional short prayer."
 )
 
 _SUMMARY = (
@@ -189,6 +197,21 @@ def _handle_build(ctx, raw_args: str) -> str | None:
     return _start(ctx, prompt)
 
 
+def _handle_verse(ctx, raw_args: str) -> str | None:
+    arg = (raw_args or "").strip()
+    if not arg:
+        prompt = ("Look up a passage for me - ask me which one, then follow "
+                  "the solo-bible-walk rules: quote it exactly from the "
+                  "profile's bible files with the translation named, never "
+                  "from memory.")
+    else:
+        prompt = ("Look this passage up for me, please - follow the "
+                  "solo-bible-walk rules: quote it exactly from the profile's "
+                  f"bible files with the translation named, never from memory. "
+                  f"The passage: {arg}")
+    return _start(ctx, prompt)
+
+
 def _handle_question(ctx, raw_args: str) -> str | None:
     arg = (raw_args or "").strip()
     low = arg.lower()
@@ -239,6 +262,15 @@ def register(ctx) -> None:
         description="Run tonight's Night Passage now (audio + text)",
     )
     # The build track
+    ctx.register_command(
+        "walk", lambda raw: _start(ctx, _WALK),
+        description="Solo mode: today's Bible Walk stop (quoted exactly)",
+    )
+    ctx.register_command(
+        "verse", lambda raw: _handle_verse(ctx, raw),
+        description="Look up a passage, quoted exactly from the Bible files",
+        args_hint="<passage>",
+    )
     ctx.register_command(
         "build", lambda raw: _handle_build(ctx, raw),
         description="Build round: start, keep going, or finish a project",

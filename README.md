@@ -10,7 +10,8 @@ Eight Essentials guide that ships with the repo.
 This edition is built for the **Build with Jesus** project. It lives
 comfortably in the **Christian faith**: the agent helps teach
 Bible passages, can help shape prayers, and always points the student
-back to their local church and its leaders. Young people build real
+back to their church and its leaders - or, in Solo mode, to a trusted
+adult. Young people build real
 things for their church and community, and give them away.
 
 This README is the overview and the workflow for getting the agent
@@ -75,6 +76,18 @@ Every student also picks how the Eight Essentials are served:
 In both modes, **all eight essentials are covered eventually.** The
 student can switch later by updating the `essentials_order` memory
 key — no re-onboarding required.
+
+### Solo mode
+
+For a young person learning without a church — or without one they
+want to attend. If they say so during orientation, the agent switches
+on **Solo mode**: alongside the Eight Essentials, it walks them
+through the Bible at their own pace (John, Genesis, Psalms, Proverbs,
+Luke), and every reading and answer is held to a strict rule — only
+the actual Bible text, quoted exactly from the downloaded
+translation, translation named, nothing invented, nothing glossed.
+Questions the text does not answer get a plain answer: "the text
+doesn't say". No pressure about church in either direction, ever.
 
 ### The Eight Essentials (in the order the guide teaches them)
 

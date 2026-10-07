@@ -1,6 +1,6 @@
 ---
 name: agent-onboarding
-description: Use when a new Build with Jesus Agent profile needs guided first-run setup, identity choices, the student's language for the guide and messages, morning voice and delivery channel (Telegram or WhatsApp), Piper TTS and Jina AI setup, Eight Essentials guide loading, Eight Essentials delivery order (sequential or randomised), memory preferences, and Morning Minute + Afternoon Check-In + Planning Session schedules. Plan the setup conversationally, obtain approval, apply only the selected changes, and verify every result.
+description: Use when a new Build with Jesus Agent profile needs guided first-run setup, identity choices, the student's language for the guide and messages, morning voice and delivery channel (Telegram or WhatsApp), Piper TTS and Jina AI setup, Eight Essentials guide loading, Eight Essentials delivery order (sequential or randomised), memory preferences, Morning Minute + Afternoon Check-In + Planning Session schedules, and the solo-or-accompanied choice (Solo mode). Plan the setup conversationally, obtain approval, apply only the selected changes, and verify every result.
 version: 2.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -287,6 +287,26 @@ If a question gets skipped, use the neutral default (age → "young person",
 location → "your area", and so on) and tell the student what was
 assumed. Don't push. The student can fill in missing fields later by
 chatting.
+
+### Solo or accompanied (ask the young person)
+
+Ask the young person directly - a parent must not answer this one for
+them:
+
+> "Is someone walking with you in this - a family member, a leader,
+> a church - or are you exploring on your own for now?"
+
+If they answer **solo**: record `solo_mode: true` in profile memory,
+and say in one or two lines what changes: the Bible Walk runs
+alongside the Eight Essentials, and the daily messages read from the
+walk as well. Say plainly they can change it any time ("switch to
+solo mode" / "there's someone walking with me now").
+
+If someone is walking with them: record `solo_mode: false` (or leave
+it unset) - the standard rhythm runs.
+
+No pressure either way, no follow-up questions, and don't raise the
+subject again unless the student does.
 
 ### Piper TTS install + voice pick
 
@@ -580,6 +600,7 @@ Profile:
 
 Eight Essentials delivery:
 - Sequential (1 → 8) / Randomised
+- Solo mode: <yes / no>
 
 Piper TTS:
 - Voice: <voice name>
@@ -626,7 +647,8 @@ Apply only the approved items, in this order:
 2. Profile and life fields in the active profile memory (writes
    `student_age`, `location`, `living_situation`, `week_shape`,
    `interests`, `focus_goal`, `friendship_circle`, `blocker`,
-   `off_limits`, and `language` keys in Mnemosyne).
+   `off_limits`, `language`, and (when solo was chosen) `solo_mode`
+   keys in Mnemosyne).
 3. Piper paths in the active profile memory (`piper_path` and
    `piper_voice_path`, both from the verified setup-walkthrough
    probe — or the explicit `tts_fallback: edge` decision).
@@ -896,6 +918,8 @@ the readback is the proof.
       landed in Mnemosyne with the student's approval.
 - [ ] Language was captured, stored as `language`, and the student's
       guide edition link was shared.
+- [ ] The solo-or-accompanied question was asked to the young person
+      directly, and `solo_mode` recorded when solo was chosen.
 - [ ] Piper was verified with a test synthesis (or the explicit
       Edge fallback was chosen and recorded).
 - [ ] Jina API key was verified with a real search.

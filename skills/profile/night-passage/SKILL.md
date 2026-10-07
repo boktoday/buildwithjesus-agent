@@ -22,6 +22,7 @@ metadata:
     - afternoon-checkin
     - agent-onboarding
     - setup-walkthrough
+    - solo-bible-walk
 ---
 # Night Passage
 
@@ -67,6 +68,16 @@ Bible files present in `bible/`.
 5. **The archive**:
    `~/.hermes/profiles/buildwithjesus-agent/night-passage-archive.md`.
    Do not repeat a passage used in the last ~14 entries.
+
+## Solo mode (read the `solo_mode` memory key)
+
+When `solo_mode` is true, tonight's passage is the next stop on the
+**Bible Walk** (see `solo-bible-walk`): continue from
+`solo-walk-archive.md`, quote exactly as always, and keep the night's
+peace-first rules. The walk reading is the night's content; the
+framing and closing stay the same. If the student asks questions
+about the passage, answer by the walk's contract: text only, labelled
+sense lines, "the text doesn't say" when it doesn't.
 
 ## Step 0 - Load credentials
 
@@ -216,8 +227,6 @@ cronjob(
   teaching summary - a reading, a breath, a full stop.
 - **Doom tone or guilt.** If the student missed days, no
   mention; the next passage simply arrives.
-- **Universal students.** Only on explicit request, like the
-  Morning Prayer.
 - **Language, em dashes, send timeouts, MSYS paths** - as
   `morning-prayer`.
 

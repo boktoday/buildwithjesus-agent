@@ -23,6 +23,7 @@ metadata:
     - eight-essentials-curriculum
     - setup-walkthrough
     - build-coach
+    - solo-bible-walk
 ---
 # Morning Minute
 
@@ -71,6 +72,23 @@ Before generating, the agent must have:
 
 Never skip the audio. Never skip the text. The student is meant to
 do both — listen and read.
+
+## Solo mode (read the `solo_mode` memory key)
+
+When `solo_mode` is true, today's content is the next **Bible Walk**
+stop instead of the standard essential rotation:
+
+- Load the `solo-bible-walk` skill and follow its contract and
+  checklist exactly (quote from the profile's bible files, translation
+  named, three text questions, memory line, optional short prayer).
+- The walk is the message; the Eight Essentials continue on their own
+  track. Where both are due the same morning, lead with the walk stop
+  and keep the essential short.
+- Keep the same audio + text contract (Piper, OGG, archive), but track
+  the stop in `solo-walk-archive.md` (stage, passage, questions,
+  memory line) instead of the essentials archive.
+- Never pressure about church; never mention the mode to anyone but
+  the student.
 
 ## Step 0 — Load credentials from the profile `.env`
 

@@ -252,6 +252,12 @@ Most young people have none. This is the hardest essential to fake
 and the one with the highest payoff. Start small — one friend,
 one real conversation a week. Build from there.
 
+
+In **solo mode** (`solo_mode` key), frame this chapter to start
+where the student is - family, one friend, online - with no church
+pressure and no criticism of church. If they ask about church,
+answer honestly and warmly, then move on. The `solo-bible-walk`
+skill carries the full rules.
 ### Knowledge Without Wi-Fi
 
 The student needs at least one area of knowledge they own. A
