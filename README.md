@@ -69,6 +69,14 @@ fall off — without scolding.
 what this assistant is and is not, where every record lives, and
 your controls: pause anything, cap spending, edit the helplines.
 
+**What it stands on:** `COMMANDMENTS.md` holds the **Ten Commandments
+for AI Agents**, the standard this agent holds itself to: the task as
+given, truth with provenance, honest ignorance, loud correction,
+borrowed authority, kept secrets, no flattery, an assistant and never
+a companion, and receipts for everything. Form III in that file is the
+acceptance criteria for whoever builds the harness, and the Plain Ten
+appears on the AI page (https://buildwithjesus.com/ai).
+
 ### Two delivery orders
 
 Every student also picks how the Eight Essentials are served:
@@ -897,6 +905,7 @@ buildwithjesus-agent/
 ├── README.md                              ← this file
 ├── FAMILY.md                              ← the one-page brief for parents and guardians
 ├── SOUL.md                                ← persona and operating voice
+├── COMMANDMENTS.md                        ← the Ten Commandments for AI Agents (the standing standard)
 ├── AGENTS.md                              ← operating principles
 ├── profile.yaml                           ← profile descriptor
 ├── config.yaml                            ← Hermes runtime config
