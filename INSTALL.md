@@ -179,6 +179,25 @@ TELEGRAM_BOT_TOKEN=...
 TELEGRAM_CHAT_ID=123456789
 ```
 
+**First contact and the pairing check.** For safety, Hermes does
+not answer unknown Telegram accounts. The first time you message
+the bot, it may reply with a pairing check and a short code
+instead of answering. That is the gate working, not a fault.
+Approve yourself from a terminal:
+
+```bash
+hermes -p buildwithjesus-agent pairing approve telegram <THE-CODE>
+```
+
+The bot's reply includes that exact command with the code already
+in it. One approval is remembered; it never asks again. To skip
+the pairing step entirely, add your own chat id as an allowed
+user in `.env` (the same number as `TELEGRAM_CHAT_ID`):
+
+```bash
+TELEGRAM_ALLOWED_USERS=123456789
+```
+
 **One bot token per profile.** Never copy another profile's
 `TELEGRAM_BOT_TOKEN` into this one. Two profiles holding the same
 token is a blocker by design (only one bot can answer), and the
@@ -238,6 +257,7 @@ JINA_API_KEY=...           # https://jina.ai/
 # Telegram
 TELEGRAM_BOT_TOKEN=...     # https://t.me/BotFather
 TELEGRAM_CHAT_ID=...       # from https://t.me/userinfobot
+TELEGRAM_ALLOWED_USERS=... # same id again; skips the pairing check
 
 # Audio archival
 HERENOW_API_KEY=...        # https://here.now/ — the student's multimedia space

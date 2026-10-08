@@ -203,13 +203,21 @@ through:
 
 2. **Start the bot.** After creating the token, the student must
    open Telegram, find their new bot, and send it any message
-   (e.g. `/start` or just "hi"). A bot that has never received
-   a message cannot receive messages — Telegram will silently fail
-   on the first send.
+   (e.g. `/start` or just "hi"). A bot that has never received a
+   message from the student cannot start a chat with them (Telegram
+   rejects the first outreach). If the bot replies with a pairing
+   check and a short code instead of answering, that is the safety
+   gate working: the student approves themselves from their own
+   terminal with
+   `hermes -p buildwithjesus-agent pairing approve telegram <CODE>`
+   (the bot's reply contains that exact command with the code in
+   it). One approval is remembered; it never asks again.
 
 3. **Find the chat ID.** Message `@userinfobot` in Telegram. It
    replies with the numeric chat ID. Add it to `.env` as
-   `TELEGRAM_CHAT_ID`.
+   `TELEGRAM_CHAT_ID`. Optionally add the same number as
+   `TELEGRAM_ALLOWED_USERS` to skip the pairing check entirely
+   (DMs from any other account stay gated by pairing).
 
 4. **Verify** the agent can send a test message:
 
