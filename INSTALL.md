@@ -179,6 +179,46 @@ TELEGRAM_BOT_TOKEN=...
 TELEGRAM_CHAT_ID=123456789
 ```
 
+**One bot token per profile.** Never copy another profile's
+`TELEGRAM_BOT_TOKEN` into this one. Two profiles holding the same
+token is a blocker by design (only one bot can answer), and the
+gateway refuses to serve both. Always make a fresh bot via
+@BotFather.
+
+**If the bot doesn't answer, or `/` shows no commands:** sending and
+receiving are different halves of Hermes. Cron deliveries can arrive
+while the bot still cannot receive anything, because the machine's
+gateway is not serving this profile yet. Check:
+
+```bash
+hermes gateway status   # is a gateway running?
+hermes gateway list     # does this profile's line show it running?
+```
+
+If no gateway is running at all, install and start the host gateway
+(it serves every profile on the machine):
+
+```bash
+hermes gateway install
+```
+
+If a gateway is running but this profile is not served:
+
+```bash
+hermes gateway migrate --multiplex
+```
+
+Safe to re-run; the gateway restarts briefly (a few seconds). Wait
+about thirty seconds, then open the bot chat and type `/`. The
+profile's command menu (morning, prayer, checkin, build, and the
+rest) appears alongside the standard Hermes commands. If some of the
+profile's commands are not in the menu, that is Telegram's 60-slot
+menu limit, not a fault: `/commands` lists everything, and typed
+commands always work. The shipped `config.yaml` keeps the profile's
+commands at the top of the menu via
+`platforms.telegram.extra.command_menu.priority`. The agent itself
+can run all of these checks during setup.
+
 **Guide files** — the repo ships with
 `essentials/01..08/lessons/christian.md` already in
 place. If a chapter is missing, the agent says so and helps you find

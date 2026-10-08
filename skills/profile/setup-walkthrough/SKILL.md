@@ -227,6 +227,36 @@ through:
 
    If the student receives the test message, Telegram is configured.
 
+5. **Verify the gateway is serving this profile.** This is required
+   for receiving messages and for the command menu. Run:
+
+   ```bash
+   hermes gateway status && hermes gateway list
+   ```
+
+   The profile's line in `gateway list` must show it running. If not:
+
+   - No gateway at all: run `hermes gateway install` (installs and
+     starts the host gateway, which serves every profile on the
+     machine).
+   - A gateway is running but this profile is not served: run
+     `hermes gateway migrate --multiplex` (safe to re-run; the
+     gateway restarts briefly). Wait about thirty seconds and check
+     again.
+
+6. **Ask the student to type `/` in the bot chat.** The menu should
+   list the profile's commands (morning, prayer, checkin, build and
+   the rest). If only the standard Hermes commands appear, the
+   profile's own commands are past Telegram's 60-slot menu limit.
+   That is fine: `/commands` lists everything, typed commands always
+   work, and the shipped `config.yaml` keeps them at the top of the
+   menu via `platforms.telegram.extra.command_menu.priority`.
+
+   Never reuse another profile's `TELEGRAM_BOT_TOKEN`: two profiles
+   sharing one token is a blocker by design (only one bot can
+   answer) and the gateway will refuse to serve both. One fresh
+   @BotFather bot per profile.
+
 ### Option B — WhatsApp
 
 Harder. WhatsApp does not have an official bot API for personal

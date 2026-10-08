@@ -59,6 +59,11 @@ platforms:
     enabled: false
   telegram:
     enabled: false
+    extra:
+      command_menu:
+        # The profile's own slash commands first in the Telegram "/" menu
+        # (core built-ins otherwise fill the 60-slot cap before they appear).
+        priority: [morning, prayer, checkin, tomorrow, passage, walk, verse, build, summary, lesson, poem, song, video, question, ideas, guide, outreach, recap]
   bluebubbles:
     enabled: false
 agent:
