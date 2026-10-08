@@ -38,8 +38,9 @@ metadata:
 
 Use this skill to turn a blank or lightly configured Build with Jesus
 Agent profile into a setup chosen by its owner — the parent or
-mentor setting up the profile for a young person, or the young person
-themselves if they're old enough to install their own tool.
+mentor setting up the profile for a young person, the young person
+themselves if they're old enough to install their own tool, or an
+adult setting up their own walk.
 
 The workflow is conversational and consent-gated: learn the
 identity, the student's language, the morning voice and delivery
@@ -162,6 +163,25 @@ library.
 Use this order, adapting to answers already given. Keep questions
 plain-language.
 
+### Who's walking (ask first)
+
+Ask this before anything else - it sets the register for every
+message that follows:
+
+> "Before we set up - who will be walking with me: a young person,
+> or you as an adult?"
+
+If the walker is an **adult** (walking for themselves): record
+`adult_mode: true` in profile memory, and say in one line what
+changes: the agent speaks adult to adult, and the parental gates
+and the family briefing are skipped - the walker is the responsible
+party. The age questions can be skipped; ask about their week and
+their goal as usual.
+
+If a **young person**: record `adult_mode: false` (or leave it
+unset) - the standard setup continues, with the parent, mentor or
+leader in the loop.
+
 ### Identity
 
 Ask:
@@ -283,15 +303,15 @@ once.
   Scripture quote, any conversation starter, any community
   suggestion. Off-limits is honoured silently.
 
-If a question gets skipped, use the neutral default (age → "young person",
+If a question gets skipped, use the neutral default (age → "young person", or "adult" when `adult_mode` is set;
 location → "your area", and so on) and tell the student what was
 assumed. Don't push. The student can fill in missing fields later by
 chatting.
 
-### Solo or accompanied (ask the young person)
+### Solo or accompanied (ask the walker)
 
-Ask the young person directly - a parent must not answer this one for
-them:
+Ask the walker directly - a parent must not answer this one for a
+young person, and an adult answers for themselves:
 
 > "Is someone walking with you in this - a family member, a leader,
 > a church - or are you exploring on your own for now?"
@@ -304,6 +324,9 @@ solo mode" / "there's someone walking with me now").
 
 If someone is walking with them: record `solo_mode: false` (or leave
 it unset) - the standard rhythm runs.
+
+If the walker is an adult, "someone walking with you" can be a
+church, a group, or a friend - all of those count.
 
 No pressure either way, no follow-up questions, and don't raise the
 subject again unless the student does.
@@ -392,7 +415,8 @@ thought partner, build partner, researcher and teacher - and **not**
 a companion, and not an adviser for serious personal matters (mental
 health, health, relationship crises, big decisions). When something
 is bigger than a chat, you will always point the student to a real
-person - a parent, a trusted adult, a leader, a counsellor - and to
+person - a parent, a trusted adult, a leader, a counsellor (in
+adult mode: a trusted person, a pastor, a counsellor) - and to
 helplines. One short moment, not a lecture. This is the first of the
 regular reminders; the `hard-moments` skill carries the cadence.
 
@@ -404,6 +428,8 @@ model, and their controls - pause anything, cap spending via
 `spend-log.md`, edit the helplines for their country. The repo ships
 it at `FAMILY.md`; point them to it and offer to send a copy in the
 chat. Ask if they want a monthly spend cap set while you are there.
+(For an adult walker: skip the family brief, and offer the spend
+cap directly to them.)
 
 ### Capability boundaries
 
@@ -498,7 +524,7 @@ want the Eight Essentials to be delivered:
 
 If the student is unsure, default to **sequential**. Sequential is
 the path the guide was designed for; randomised is a power-user
-choice for young people who already know what they need.
+choice for walkers who already know what they need.
 
 Record the choice in profile memory as `essentials_order` with the
 value `sequential` or `randomised`. The Morning Minute cron prompt
@@ -647,8 +673,8 @@ Apply only the approved items, in this order:
 2. Profile and life fields in the active profile memory (writes
    `student_age`, `location`, `living_situation`, `week_shape`,
    `interests`, `focus_goal`, `friendship_circle`, `blocker`,
-   `off_limits`, `language`, and (when solo was chosen) `solo_mode`
-   keys in Mnemosyne).
+   `off_limits`, `language`, `adult_mode` (from "Who's walking"),
+   and (when solo was chosen) `solo_mode` keys in Mnemosyne).
 3. Piper paths in the active profile memory (`piper_path` and
    `piper_voice_path`, both from the verified setup-walkthrough
    probe — or the explicit `tts_fallback: edge` decision).
@@ -918,7 +944,9 @@ the readback is the proof.
       landed in Mnemosyne with the student's approval.
 - [ ] Language was captured, stored as `language`, and the student's
       guide edition link was shared.
-- [ ] The solo-or-accompanied question was asked to the young person
+- [ ] The who's-walking question was asked first, and `adult_mode`
+      recorded when the walker is an adult.
+- [ ] The solo-or-accompanied question was asked to the walker
       directly, and `solo_mode` recorded when solo was chosen.
 - [ ] Piper was verified with a test synthesis (or the explicit
       Edge fallback was chosen and recorded).

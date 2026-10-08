@@ -127,7 +127,7 @@ read.
 
 ## The twenty daily prompts
 
-A short library of questions a young person can ask at any time. Lives at
+A short library of questions a walker can ask at any time. Lives at
 `essentials/00-introduction/lessons/prompts.md`. Read it once when this
 skill first loads, then use it as a go-to resource whenever the
 student asks for a prompt, a question to sit with, or "something to
@@ -230,7 +230,7 @@ experience, not yours.
 The student is probably under-sleeping and under-eating and
 under-moving. Don't shame them. Show them the gap between what
 they need and what they get. The single most leveraged change for
-a young person is sleep.
+a walker is sleep.
 
 ### Skills
 
@@ -248,7 +248,7 @@ make the trade consciously. Don't moralise. Name the mechanism.
 ### Real Community
 
 The student needs at least three people they could call at 2am.
-Most young people have none. This is the hardest essential to fake
+Most walkers have none. This is the hardest essential to fake
 and the one with the highest payoff. Start small — one friend,
 one real conversation a week. Build from there.
 

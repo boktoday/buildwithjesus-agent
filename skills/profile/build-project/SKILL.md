@@ -1,6 +1,6 @@
 ---
 name: build-project
-description: Use when a young person takes on a project build - a workshop project, or a short or long-term project, including an app, a local-first website or a dashboard for a real need in their life, their church or their community. Runs the Build Round question (starting / keeping going / finishing), guides the making, and keeps the record of every build.
+description: Use when the walker takes on a project build - a workshop project, or a short or long-term project, including an app, a local-first website or a dashboard for a real need in their life, their church or their community. Runs the Build Round question (starting / keeping going / finishing), guides the making, and keeps the record of every build.
 version: 1.0.0
 author: Build with Jesus Agent contributors
 license: MIT
@@ -32,7 +32,7 @@ metadata:
 The **project track** of Learn. Build. Give. Where `build-coach`
 holds the small one-activity builds (a shelf, a repair, a meal), this
 skill runs the **projects**: a workshop day, a short project, or a
-long one - most often a young person using the agent to design and
+long one - most often the walker using the agent to design and
 vibe-code something real. An app. A local-first website. A dashboard.
 Or a real-world build from the guide's activities. Made for a named
 person, a church, or a community that needs it - and given away when

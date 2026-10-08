@@ -2,17 +2,18 @@
 
 The **Build with Jesus Agent** is a personalised AI assistant built on
 [Hermes Agent](https://hermes-agent.nousresearch.com/docs) for
-young people learning to put the **Eight Essentials** into daily
-it is a gentle mentor that runs a daily rhythm of audio
-plans, reflection check-ins, and small actions, taught from the
-Eight Essentials guide that ships with the repo.
+young people — and adults walking the same road — learning to put
+the **Eight Essentials** into daily practice. It is a gentle mentor
+that runs a daily rhythm of audio plans, reflection check-ins, and
+small actions, taught from the Eight Essentials guide that ships
+with the repo.
 
 This edition is built for the **Build with Jesus** project. It lives
 comfortably in the **Christian faith**: the agent helps teach
 Bible passages, can help shape prayers, and always points the student
 back to their church and its leaders - or, in Solo mode, to a trusted
-adult. Young people build real
-things for their church and community, and give them away.
+adult. The walker builds real
+things for their church and community, and gives them away.
 
 This README is the overview and the workflow for getting the agent
 working end to end. Read it once, then run through the steps.
@@ -25,7 +26,7 @@ working end to end. Read it once, then run through the steps.
 
 ## What this product is
 
-A young person learns the Eight Essentials best by **doing one small thing a
+The Eight Essentials are learned best by **doing one small thing a
 day** over weeks and months — not by reading a book. The Build with Jesus
 Agent exists to make that daily rhythm stick:
 
@@ -51,6 +52,14 @@ Agent exists to make that daily rhythm stick:
   and what they are reading) and a **Night Passage** at 8:30 pm — a
   Bible passage read aloud, chosen to speak to their week. Both quote
   every verse from the profile's own Bible files (`bible/`).
+
+**Who walks with it.** The walk is designed around young people and
+works unchanged for adults — including adults walking without a
+church or group (Solo mode; no pressure either way). Setup asks one
+question, "Who's walking?", and records `adult_mode`: an adult gets
+adult-to-adult register, no parental gates, and no family briefing;
+everything else — the essentials, the rhythm, the Scripture rules —
+is the same road.
 
 The agent does not lecture. It draws the wisdom out of the student
 with questions, holds the rhythm gently, and restarts them when they
@@ -79,7 +88,7 @@ key — no re-onboarding required.
 
 ### Solo mode
 
-For a young person learning without a church — or without one they
+For a walker learning without a church — or without one they
 want to attend. If they say so during orientation, the agent switches
 on **Solo mode**: alongside the Eight Essentials, it walks them
 through the Bible at their own pace (John, Genesis, Psalms, Proverbs,
@@ -205,7 +214,7 @@ explicit approval.
 
 ### The twenty daily prompts
 
-A small library of go-to questions a young person can put to the
+A small library of go-to questions a walker can put to the
 Build with Jesus Agent at any time. The agent reads the relevant guide
 chapter, draws on what it already knows about the student, and
 answers in their voice, Bible-anchored.
@@ -324,7 +333,7 @@ detail.
 **The day.** The Morning Minute opens the day, the Check-In closes
 it, and the Planning Session maps tomorrow before sleep. The three
 on-demand formats (Summary / Lesson / Poem) are there whenever a
-young person wants to learn an essential more deeply than the
+walker wants to learn an essential more deeply than the
 Morning Minute can cover in one minute.
 
 **Where the code lives.** Each row links to a skill in the repo:
@@ -427,7 +436,7 @@ Two sizes of making, one loop: Learn. Build. Give.
 - **Small builds** (`build-coach`) — one-activity things: a shelf,
   a repair, welcome cards. Done in a sitting or a weekend.
 - **Projects** (`build-project`) — a workshop day, or a short or
-  long project. Most often a young person using the agent to design
+  long project. Most often the walker using the agent to design
   and vibe-code something real: an **app**, a **local-first
   website**, a **dashboard** — for a need in their own life, their
   church, or their community. Or a real-world build from the
@@ -575,7 +584,7 @@ You need:
   `hermes setup`. OpenCode Go is the fallback.
 - **A Jina AI free API key** for web search. Sign up free at
   <https://jina.ai/> — no credit card. The free tier is enough for a
-  young person's daily use.
+  walker's daily use.
 - **A Telegram bot** (recommended) or a WhatsApp bridge. Telegram is
   much easier — see Step 4.
 

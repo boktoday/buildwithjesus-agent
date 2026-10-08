@@ -2,6 +2,11 @@
 
 One page. What this is, what it isn't, and how to see everything.
 
+> An adult walking for themselves can skip this page: the setup for
+> an adult skips the family briefing, and the assistant speaks adult
+> to adult. Everything below still shows how it holds itself around
+> anyone it walks with.
+
 ## What this is
 
 An **assistant** for a young person. It runs a gentle daily rhythm

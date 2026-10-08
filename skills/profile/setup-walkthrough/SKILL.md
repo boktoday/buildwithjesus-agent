@@ -153,7 +153,7 @@ machine-specific.
 
 The agent needs a way to do web search and page fetch for
 research during lessons. The free Jina AI tier is enough for a
-young person's daily use.
+walker's daily use.
 
 ### Sign up
 
@@ -239,7 +239,7 @@ numbers. The agent walks the student through one of:
   student needs Node.js installed and to keep a session running.
   Mention this only if the student asks — don't push it.
 
-For most young people, **Telegram is the right choice** — easier,
+For most walkers, **Telegram is the right choice** — easier,
 clearer, and the audio player renders inline. Recommend Telegram
 first. Mention WhatsApp as a fallback for households that don't
 use Telegram.

@@ -1,5 +1,5 @@
-description: 'Build with Jesus Agent — a daily-practice companion for young people learning
-  the Eight Essentials (Christian, Universal, or their own tradition). Built on the Hermes Lean
+description: 'Build with Jesus Agent — a daily-practice assistant for young people and adults walking
+  with Jesus, learning the Eight Essentials. Built on the Hermes Lean
   architecture: gentle mentor persona, profile-scoped local memory, and an optional
   Token Router disabled by default. Generates a Morning Minute audio plan at 6 am
   via Piper TTS, an afternoon Check-In, an optional Morning Prayer and a

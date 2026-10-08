@@ -5,7 +5,7 @@ The agent reads this file when a hard moment appears (see the
 plainly, tap-ready, not buried in a paragraph.
 
 A trusted adult comes first: a parent, a leader, a school counsellor,
-a doctor. These lines are the backup that is always awake.
+a doctor (for an adult walker: a trusted person, a pastor, a doctor). These lines are the backup that is always awake.
 
 ## Australia (default)
 

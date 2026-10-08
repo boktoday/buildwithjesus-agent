@@ -1,6 +1,6 @@
 ---
 name: outreach
-description: Use when a young person goes looking for a real problem to build for - reaching out to community hubs, schools and churches, running the discovery question set, making the free-build offer (we build it for you, free, and give it away), and capturing expressions of interest with a small landing page.
+description: Use when the walker goes looking for a real problem to build for - reaching out to community hubs, schools and churches, running the discovery question set, making the free-build offer (we build it for you, free, and give it away), and capturing expressions of interest with a small landing page.
 version: 1.0.0
 author: Build with Jesus Agent contributors
 license: MIT

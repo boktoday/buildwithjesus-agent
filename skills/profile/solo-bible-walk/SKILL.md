@@ -25,12 +25,12 @@ metadata:
 ---
 # Solo Bible Walk
 
-For a young person learning the Bible without a church or leader
+For a walker learning the Bible without a church or leader
 alongside. This skill holds the Bible Walk route and the strict
 contract that governs every Bible answer in solo mode.
 
 Active when profile memory shows `solo_mode` (set during orientation
-by the young person themselves). Load this skill before any Bible
+by the walker themselves). Load this skill before any Bible
 reading, Bible question, or lesson in solo mode. The `/walk` and
 `/verse` commands run its flows on demand.
 
