@@ -134,6 +134,10 @@ natural-speech references, no Markdown, full stops). Save the
 canonical text to
 `~/.hermes/profiles/buildwithjesus-agent/night-passage-today.txt`.
 
+**Overwrite safety:** if the file already exists, read it first
+with `read_file`, then save. A blind overwrite is refused by the
+write guard and silently leaves yesterday's text in place.
+
 ## Step 4 - Piper TTS
 
 The same verified pattern as `morning-minute`, Step 4. Write

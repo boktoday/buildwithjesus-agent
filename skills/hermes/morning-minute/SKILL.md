@@ -245,6 +245,10 @@ audio and archive live:
 `~/.hermes/profiles/buildwithjesus-agent/morning-minute-today.txt`
 (Windows: `C:\Users\<you>\AppData\Local\hermes\profiles\buildwithjesus-agent\`).
 
+**Overwrite safety:** if the file already exists, read it first
+with `read_file`, then save. A blind overwrite is refused by the
+write guard and silently leaves yesterday's text in place.
+
 ## Step 4 — Piper TTS (offline, native exe on Windows)
 
 The pattern, verified on Windows in the field. Use the student's

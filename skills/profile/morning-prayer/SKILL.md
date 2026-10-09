@@ -148,6 +148,10 @@ six and seven"), spell out abbreviations, sentence-end every
 line, drop any Markdown. Save the canonical text to
 `~/.hermes/profiles/buildwithjesus-agent/morning-prayer-today.txt`.
 
+**Overwrite safety:** if the file already exists, read it first
+with `read_file`, then save. A blind overwrite is refused by the
+write guard and silently leaves yesterday's text in place.
+
 ## Step 4 - Piper TTS
 
 Use the exact verified Piper pattern from `morning-minute`,
